@@ -63,6 +63,8 @@ for i in range(0, len(table), 2):
 for i in range(len(allImageURLs)):
     if len(str(i + 1)) < 3:
         num = '0' * (3 - len(str(i + 1))) + str(i + 1)
+    else:
+        num = str(i + 1)
     num = str(num)
 
     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
