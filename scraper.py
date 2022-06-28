@@ -20,6 +20,7 @@ table = table.find_all('tr')
 # creates a list of all image and subpage links
 allImageURLs = []
 allSubpageURLs = []
+allPokemonNames = []
 
 # loops through the table and skips every other row
 for i in range(0, len(table), 2):
@@ -33,6 +34,7 @@ for i in range(0, len(table), 2):
     # gets the attributes of the pokemon
     number = allInfo[0].text.strip()
     name = allInfo[2].text.strip()
+    allPokemonNames.append(name.lower())
 
     # appends the typings as a list
     typings = allInfo[3].find_all('a')
@@ -72,9 +74,9 @@ for i in range(0, len(table), 2):
     height = list(allSubinfo[-2].stripped_strings)
     weight = list(allSubinfo[-1].stripped_strings)
 
+    print(name)
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
     csvWriter.writerow([number, name, classification, height, weight, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
-    print(name)
 
 csvFile.close()
 
@@ -87,3 +89,15 @@ csvFile.close()
 #     num = str(num)
 
 #     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
+
+# # downloads all the pokemon models
+for pokemon in allPokemonNames:
+    modelURL = 'https://www.serebii.net/pokedex-swsh/' + pokemon + '/'
+    modelSource = requests.get(modelURL).text
+    modelSoup = BeautifulSoup(modelSource, 'lxml')
+
+    modelTable = modelSoup.find('table', class_='dextable')
+    modelImages = modelTable.find_all('td', {'class': 'pkmn'})
+    modelURLfragment = modelImages[0].find('img')['src']
+    modelURL = 'https://www.serebii.net' + modelURLfragment
+    urllib.request.urlretrieve(modelURL, "images/{}.png".format(pokemon))
