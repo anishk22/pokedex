@@ -80,7 +80,7 @@ for i in range(0, len(table), 2):
 
 csvFile.close()
 
-# downloads all the pokemon sprites
+# # downloads all the pokemon sprites
 # for i in range(len(allImageURLs)):
 #     if len(str(i + 1)) < 3:
 #         num = '0' * (3 - len(str(i + 1))) + str(i + 1)
@@ -90,14 +90,14 @@ csvFile.close()
 
 #     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
 
-# # downloads all the pokemon models
-for pokemon in allPokemonNames:
-    modelURL = 'https://www.serebii.net/pokedex-swsh/' + pokemon + '/'
-    modelSource = requests.get(modelURL).text
-    modelSoup = BeautifulSoup(modelSource, 'lxml')
+# downloads all the pokemon models
+for i in range(len(allPokemonNames)):
+    if len(str(i + 1)) < 3:
+        num = '0' * (3 - len(str(i + 1))) + str(i + 1)
+    else:
+        num = str(i + 1)
+    num = str(num)
 
-    modelTable = modelSoup.find('table', class_='dextable')
-    modelImages = modelTable.find_all('td', {'class': 'pkmn'})
-    modelURLfragment = modelImages[0].find('img')['src']
-    modelURL = 'https://www.serebii.net' + modelURLfragment
-    urllib.request.urlretrieve(modelURL, "images/{}.png".format(pokemon))
+    modelUrl = 'https://www.serebii.net/swordshield/pokemon/' + num + '.png'
+    urllib.request.urlretrieve(modelUrl, "images/{}.png".format(allPokemonNames[i]))
+    print(allPokemonNames[i])
