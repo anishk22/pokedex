@@ -1,3 +1,4 @@
+from pydoc import describe
 from bs4 import BeautifulSoup
 import requests
 import csv
@@ -16,8 +17,9 @@ csvWriter.writerow(['Number', 'Name', 'Typings', 'Abilities', 'Base Stat Total',
 table = soup.find('table', class_='dextable')
 table = table.find_all('tr')
 
-# creates a list of all image links
+# creates a list of all image and subpage links
 allImageURLs = []
+allSubpageURLs = []
 
 # loops through the table and skips every other row
 for i in range(0, len(table), 2):
@@ -55,7 +57,11 @@ for i in range(0, len(table), 2):
     partialURL = allInfo[1].find('img')['src']
     imageURL = 'https://www.serebii.net' + partialURL
     allImageURLs.append(imageURL)
-    
+
+    # gets the subpage link
+    subpageURL = 'https://www.serebii.net' + allInfo[2].find('a').get('href')
+    allSubpageURLs.append(subpageURL)
+
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
     csvWriter.writerow([number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
@@ -68,5 +74,17 @@ for i in range(0, len(table), 2):
 #     num = str(num)
 
 #     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
+
+for sublink in allSubpageURLs:
+    subsource = requests.get(sublink).text
+    subsoup = BeautifulSoup(subsource, 'lxml')
+    subtable = subsoup.find('table', class_='dextable')
+    allSubinfo = subtable.find_all('td', {'class': 'fooinfo'})
+
+    classification = allSubinfo[-3].text.strip()
+    height = list(allSubinfo[-2].stripped_strings)
+    weight = list(allSubinfo[-1].stripped_strings)
+
+    print(classification, height, weight)
 
 csvFile.close()
