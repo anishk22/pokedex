@@ -11,7 +11,7 @@ soup = BeautifulSoup(source, 'lxml')
 # initiliaze the csv file
 csvFile = open('pokemonInfo.csv', 'w')
 csvWriter = csv.writer(csvFile)
-csvWriter.writerow(['Number', 'Name', 'Typings', 'Abilities', 'Base Stat Total', 'HP', 'Attack', 'Defense', 'Sp.Attack', 'Sp.Defense', 'Speed'])
+csvWriter.writerow(['Number', 'Name', 'Classification', 'Height', 'Weight', 'Typings', 'Abilities', 'Base Stat Total', 'HP', 'Attack', 'Defense', 'Sp.Attack', 'Sp.Defense', 'Speed'])
 
 # get the table
 table = soup.find('table', class_='dextable')
@@ -60,10 +60,23 @@ for i in range(0, len(table), 2):
 
     # gets the subpage link
     subpageURL = 'https://www.serebii.net' + allInfo[2].find('a').get('href')
-    allSubpageURLs.append(subpageURL)
+
+    # pulls data from each pokemon's subpage
+    subsource = requests.get(subpageURL).text
+    subsoup = BeautifulSoup(subsource, 'lxml')
+    subtable = subsoup.find('table', class_='dextable')
+    allSubinfo = subtable.find_all('td', {'class': 'fooinfo'})
+
+    # gets their physical attributes
+    classification = allSubinfo[-3].text.strip()
+    height = list(allSubinfo[-2].stripped_strings)
+    weight = list(allSubinfo[-1].stripped_strings)
 
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
-    csvWriter.writerow([number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
+    csvWriter.writerow([number, name, classification, height, weight, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
+    print(name)
+
+csvFile.close()
 
 # downloads all the pokemon sprites
 # for i in range(len(allImageURLs)):
@@ -74,17 +87,3 @@ for i in range(0, len(table), 2):
 #     num = str(num)
 
 #     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
-
-for sublink in allSubpageURLs:
-    subsource = requests.get(sublink).text
-    subsoup = BeautifulSoup(subsource, 'lxml')
-    subtable = subsoup.find('table', class_='dextable')
-    allSubinfo = subtable.find_all('td', {'class': 'fooinfo'})
-
-    classification = allSubinfo[-3].text.strip()
-    height = list(allSubinfo[-2].stripped_strings)
-    weight = list(allSubinfo[-1].stripped_strings)
-
-    print(classification, height, weight)
-
-csvFile.close()
