@@ -1,6 +1,6 @@
-import numbers
 from bs4 import BeautifulSoup
 import requests
+import csv
 
 # source = requests.get('https://pokemondb.net/pokedex/all').text
 # soup = BeautifulSoup(source, 'lxml')
@@ -39,33 +39,34 @@ import requests
 
 source = requests.get('https://www.serebii.net/pokemon/nationalpokedex.shtml').text
 soup = BeautifulSoup(source, 'lxml')
+csvFile = open('pokemonInfo.csv', 'w')
+csvWriter = csv.writer(csvFile)
+csvWriter.writerow(['Number', 'Image URL', 'Name', 'Typings', 'Abilities', 'Base Stat Total', 'HP', 'Attack', 'Defense', 'Sp.Attack', 'Sp.Defense', 'Speed'])
 
 table = soup.find('table', class_='dextable')
+table = table.find_all('tr')
 
-for entry in table.find_all('tr'):
-    allInfo = entry.find_all('td', {'class': 'fooinfo'})
+for i in range(0, len(table), 2):
+    if i == 0:
+        continue
+
+    allInfo = table[i].find_all('td', {'class': 'fooinfo'})
     try:
         number = allInfo[0].text.strip()
-        image = allInfo[1].find('img')['src']
+        imageURL = allInfo[1].find('img')['src']
         name = allInfo[2].text.strip()
 
-        typing = allInfo[3].find_all('a')
-        try:
-            type1link = typing[0].get('href')
-            type1 = type1link[14:].capitalize()
-            type2link = typing[1].get('href')
-            type2 = type2link[14:].capitalize()
-        except:
-            type2link = 'N/A'
-            type2 = 'N/A'
+        typingLinks = allInfo[3].find_all('a')
+        for i in range (len(typingLinks)):
+            typingLinks[i] = typingLinks[i].get('href')
+
+        typings = typingLinks
+        for i in range (len(typings)):
+            typings[i] = typings[i][14:].capitalize()
 
         abilities = allInfo[4].find_all('a')
-        try:
-            ability1 = abilities[0].text.strip()
-            ability2 = abilities[1].text.strip()
-            ability3 = abilities[2].text.strip()
-        except:
-            ability3 = 'N/A'
+        for i in range (len(abilities)):
+            abilities[i] = abilities[i].text.strip()
         
         hp = allInfo[5].text.strip()
         attack = allInfo[6].text.strip()
@@ -76,15 +77,10 @@ for entry in table.find_all('tr'):
 
     except:
         number = 'N/A'
-        image = 'N/A'
+        imageURL = 'N/A'
         name = 'N/A'
-        type1link = 'N/A'
-        type1 = 'N/A'
-        type2link = 'N/A'
-        type2 = 'N/A'
-        ability1 = 'N/A'
-        ability2 = 'N/A'
-        ability3 = 'N/A'
+        typings = 'N/A'
+        abilities = 'N/A'
         hp = 'N/A'
         attack = 'N/A'
         defense = 'N/A'
@@ -92,14 +88,13 @@ for entry in table.find_all('tr'):
         sp_defense = 'N/A'
         speed = 'N/A'
         
-    print(number, image, name, type1, type2, ability1, ability2, ability3, hp, attack, defense, sp_attack, sp_defense, speed)
 
+    bst = int(hp) + int(attack) + int(defense) + int(sp_attack) + int(sp_defense) + int(speed)
 
+    print(number, imageURL, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
+    csvWriter.writerow([number, imageURL, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
-
-
-
-
+csvFile.close()
 
 
 
