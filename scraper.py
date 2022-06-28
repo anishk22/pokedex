@@ -80,15 +80,15 @@ for i in range(0, len(table), 2):
 
 csvFile.close()
 
-# # downloads all the pokemon sprites
-# for i in range(len(allImageURLs)):
-#     if len(str(i + 1)) < 3:
-#         num = '0' * (3 - len(str(i + 1))) + str(i + 1)
-#     else:
-#         num = str(i + 1)
-#     num = str(num)
+# downloads all the pokemon sprites
+for i in range(len(allImageURLs)):
+    if len(str(i + 1)) < 3:
+        num = '0' * (3 - len(str(i + 1))) + str(i + 1)
+    else:
+        num = str(i + 1)
+    num = str(num)
 
-#     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
+    urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
 
 # downloads all the pokemon models
 for i in range(len(allPokemonNames)):
