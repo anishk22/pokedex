@@ -60,13 +60,13 @@ for i in range(0, len(table), 2):
     csvWriter.writerow([number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
 # downloads all the pokemon sprites
-for i in range(len(allImageURLs)):
-    if len(str(i + 1)) < 3:
-        num = '0' * (3 - len(str(i + 1))) + str(i + 1)
-    else:
-        num = str(i + 1)
-    num = str(num)
+# for i in range(len(allImageURLs)):
+#     if len(str(i + 1)) < 3:
+#         num = '0' * (3 - len(str(i + 1))) + str(i + 1)
+#     else:
+#         num = str(i + 1)
+#     num = str(num)
 
-    urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
+#     urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
 
 csvFile.close()
