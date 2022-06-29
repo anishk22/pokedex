@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
-const PokemonTabs = ({ pokemon }) => {
+const PokemonTabs = ({ pokemon, navigation }) => {
   const [typingColor, setTypingColor] = useState('');
   const [typingText, setTypingText] = useState('');
   const [typingBorder, setTypingBorder] = useState('');
@@ -54,7 +54,12 @@ const PokemonTabs = ({ pokemon }) => {
   }, [pokemon]);
 
   return (
-    <TouchableOpacity style={[styles.container, { backgroundColor: typingColor, borderColor: typingBorder }]} >
+    <TouchableOpacity style={[styles.container, { backgroundColor: typingColor, borderColor: typingBorder }]}
+      onPress={() => navigation.navigate("Bio",
+        {
+          pokemon: pokemon,
+        }
+    )}>
       <Text style={styles.id}>{pokemon.number}</Text>
       <Text style={styles.name}>{pokemon.name}</Text>
       <Text style={styles.typing}>{typingText}</Text>

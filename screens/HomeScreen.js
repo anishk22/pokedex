@@ -6,14 +6,14 @@ import PokemonTabs from "../components/home/PokemonTabs";
 
 import { POKEMON } from "../data/pokemonInfo";
   
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Header/>
         
         {POKEMON.map((pokemon, index) => (
-          <PokemonTabs pokemon={pokemon} key={index} />
+          <PokemonTabs pokemon={pokemon} key={index} navigation={navigation}/>
         ))}
       </ScrollView>
     </SafeAreaView>

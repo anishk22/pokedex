@@ -2,7 +2,8 @@ import { React, useState, useEffect } from "react";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
-import HomeScreen from "./screens/HomeScreen";
+
+import { MainStack } from "./Navigation";
 
 import {
   Ubuntu_300Light,
@@ -52,7 +53,7 @@ export default function App() {
     SplashScreen.hideAsync(); 
     return (
       <SafeAreaProvider>
-        <HomeScreen />
+        <MainStack/>
       </SafeAreaProvider>
     );
   }
