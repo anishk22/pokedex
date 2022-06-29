@@ -1,5 +1,6 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, ScrollView } from "react-native";
+import { StyleSheet, ScrollView } from "react-native";
+import SafeAreaView from 'react-native-safe-area-view';
 import Header from "../components/home/Header";
 
 const HomeScreen = () => {

@@ -1,13 +1,18 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
+import { Divider } from "react-native-elements";
 
 const Header = () => {
   return (
-    <View style={styles.container}>
-      <Image style={styles.pokeball} source={require("../../assets/pokeball.png")}/>
-      <Text style={styles.headerText}>POKEDEX</Text>
-      <Image style={styles.pokeball} source={require("../../assets/pokeball.png")}/>
-    </View>
+    <>
+      <View style={styles.container}>
+        <Image style={styles.pokeball} source={require("../../assets/pokeball.png")}/>
+        <Text style={styles.headerText}>POKEDEX</Text>
+        <Image style={styles.pokeball} source={require("../../assets/pokeball.png")} />
+      </View>
+
+      <Divider width={1} style={styles.divider} />
+      </>
   );
 };
 
@@ -17,6 +22,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flexDirection: 'row',
     marginVertical: 15,
+  },
+
+  divider: {
+    marginTop: '2%',
+    marginHorizontal: '12%',
   },
 
   headerText: {
