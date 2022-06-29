@@ -1,6 +1,7 @@
 import { React } from "react";
 import { SafeAreaView, StyleSheet, ScrollView } from "react-native";
-import PokemonBio from "../components/bio/pokemonBio";
+import PokemonBio from "../components/bio/PokemonBio";
+import PokemonInfo, { bioIcons } from "../components/bio/PokemonInfo";
 
 const PokemonBioScreen = ({ route }) => {
   const { pokemon } = route.params;
@@ -8,7 +9,8 @@ const PokemonBioScreen = ({ route }) => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <PokemonBio pokemon={pokemon}/>
+        <PokemonBio pokemon={pokemon} />
+        <PokemonInfo icons={bioIcons}/>
       </ScrollView>
     </SafeAreaView>
   );
