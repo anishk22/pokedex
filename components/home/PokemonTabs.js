@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginHorizontal: 8,
     alignItems: "center",
-    paddingVertical: 8,
+    paddingVertical: 30,
     marginBottom: 20,
     borderRadius: 10,
   },
@@ -88,29 +88,32 @@ const styles = StyleSheet.create({
   id: {
     color: "white",
     fontFamily: 'Ubuntu_500Medium',
-    fontSize: 20,
-    // marginRight: 'auto',
-    marginLeft: "5%",
+    fontSize: 18,
+    position: 'absolute', 
+    left: '6%',
   },
 
   name: {
     color: "white",
     fontFamily: 'Ubuntu_500Medium',
     fontSize: 20,
+    position: 'absolute', 
+    left: '18%',
   },
 
   typing: {
     color: "white",
     fontFamily: 'Ubuntu_300Light_Italic',
-    fontSize: 15,
-    // marginLeft: "5%",
+    fontSize: 14,
+    position: 'absolute', 
+    right: '24%',
   },
 
   sprite: {
     width: 50,
     height: 45,
-    // marginLeft: 'auto',
-    marginRight: "5%",
+    position: 'absolute',
+    right: '6%',
   },
 });
 
