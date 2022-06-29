@@ -4,7 +4,7 @@ import { Divider } from "react-native-elements";
 
 const Header = () => {
   return (
-    <>
+    <View style={styles.header}>
       <View style={styles.container}>
         <Image style={styles.pokeball} source={require("../../assets/pokeball.png")}/>
         <Text style={styles.headerText}>POKEDEX</Text>
@@ -12,11 +12,15 @@ const Header = () => {
       </View>
 
       <Divider width={1} style={styles.divider} />
-      </>
+      </View>
   );
 };
 
 const styles = StyleSheet.create({
+  header: {
+    marginBottom: 20, 
+  },
+
   container: {
     alignItems: "center",
     justifyContent: "center",
