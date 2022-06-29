@@ -64,4 +64,4 @@ buck-out/
 web-build/
 
 # Custom
-images
+models

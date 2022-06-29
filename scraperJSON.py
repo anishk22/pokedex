@@ -9,16 +9,11 @@ soup = BeautifulSoup(source, 'lxml')
 # initiliaze the csv file
 csvFile = open('pokemonInfoJSON.csv', 'w')
 csvWriter = csv.writer(csvFile)
-csvWriter.writerow(['number', 'name', 'sprite', 'class', 'height', 'weight', 'type1', 'type2', 'ability1', 'ability2', 'ability3', 'bst', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'])
+csvWriter.writerow(['number', 'name', 'sprite', 'model', 'class', 'height', 'weight', 'type1', 'type2', 'ability1', 'ability2', 'ability3', 'bst', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'])
 
 # get the table
 table = soup.find('table', class_='dextable')
 table = table.find_all('tr')
-
-# creates a list of all image and subpage links
-allImageURLs = []
-allSubpageURLs = []
-allPokemonNames = []
 
 # loops through the table and skips every other row
 for i in range(0, len(table), 2):
@@ -32,8 +27,10 @@ for i in range(0, len(table), 2):
     # gets the attributes of the pokemon
     number = allInfo[0].text.strip()[1:]
     name = allInfo[2].text.strip()
+
+    # sets the sprite and model paths
     sprite = "require('../sprites/" + number + ".png')"
-    allPokemonNames.append(name.lower())
+    model = "require('../models/" + name.lower() + ".png')"
 
     # appends the typings as a list
     typings = allInfo[3].find_all('a')
@@ -82,7 +79,6 @@ for i in range(0, len(table), 2):
     # gets the image link
     partialURL = allInfo[1].find('img')['src']
     imageURL = 'https://www.serebii.net' + partialURL
-    allImageURLs.append(imageURL)
 
     # gets the subpage link
     subpageURL = 'https://www.serebii.net' + allInfo[2].find('a').get('href')
@@ -100,6 +96,6 @@ for i in range(0, len(table), 2):
 
     print(name)
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
-    csvWriter.writerow([number, name, sprite, classification, height, weight, type1, type2, ability1, ability2, ability3, bst, hp, attack, defense, sp_attack, sp_defense, speed])
+    csvWriter.writerow([number, name, sprite, model, classification, height, weight, type1, type2, ability1, ability2, ability3, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
 csvFile.close()

@@ -16,9 +16,8 @@ csvWriter.writerow(['Number', 'Name', 'Classification', 'Height', 'Weight', 'Typ
 table = soup.find('table', class_='dextable')
 table = table.find_all('tr')
 
-# creates a list of all image and subpage links
+# creates a list of all image links and lowercase names
 allImageURLs = []
-allSubpageURLs = []
 allPokemonNames = []
 
 # loops through the table and skips every other row
@@ -98,5 +97,5 @@ for i in range(len(allPokemonNames)):
     num = str(num)
 
     modelUrl = 'https://www.serebii.net/swordshield/pokemon/' + num + '.png'
-    urllib.request.urlretrieve(modelUrl, "images/{}.png".format(allPokemonNames[i]))
+    urllib.request.urlretrieve(modelUrl, "models/{}.png".format(allPokemonNames[i]))
     print(allPokemonNames[i])
