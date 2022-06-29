@@ -1,16 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
-import urllib.request
 
 # get the HTML from the URL
 source = requests.get('https://www.serebii.net/pokemon/nationalpokedex.shtml').text
 soup = BeautifulSoup(source, 'lxml')
 
 # initiliaze the csv file
-csvFile = open('pokemonInfo.csv', 'w')
+csvFile = open('jsonConvert.csv', 'w')
 csvWriter = csv.writer(csvFile)
-csvWriter.writerow(['Number', 'Name', 'Classification', 'Height', 'Weight', 'Typings', 'Abilities', 'Base Stat Total', 'HP', 'Attack', 'Defense', 'Sp.Attack', 'Sp.Defense', 'Speed'])
+csvWriter.writerow(['number', 'name', 'class', 'height', 'weight', 'type1', 'type2', 'ability1', 'ability2', 'ability3', 'bst', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'])
 
 # get the table
 table = soup.find('table', class_='dextable')
@@ -31,7 +30,7 @@ for i in range(0, len(table), 2):
     allInfo = table[i].find_all('td', {'class': 'fooinfo'})
 
     # gets the attributes of the pokemon
-    number = allInfo[0].text.strip()
+    number = allInfo[0].text.strip()[1:]
     name = allInfo[2].text.strip()
     allPokemonNames.append(name.lower())
 
@@ -40,10 +39,35 @@ for i in range(0, len(table), 2):
     for i in range (len(typings)):
         typings[i] = typings[i].get('href')[14:].capitalize()
 
+    try:
+        type1 = typings[0]
+    except:
+        type1 = None
+
+    try:
+        type2 = typings[1]
+    except:
+        type2 = None
+
     # appends the abilities as a list
     abilities = allInfo[4].find_all('a')
     for i in range (len(abilities)):
         abilities[i] = abilities[i].text.strip()
+
+    try:
+        ability1 = abilities[0]
+    except:
+        ability1 = None
+    
+    try:
+        ability2 = abilities[1]
+    except:
+        ability2 = None
+
+    try:
+        ability3 = abilities[2]
+    except:
+        ability3 = None
     
     # gets the base stats
     hp = allInfo[5].text.strip()
@@ -70,33 +94,11 @@ for i in range(0, len(table), 2):
 
     # gets their physical attributes
     classification = allSubinfo[-3].text.strip()
-    height = list(allSubinfo[-2].stripped_strings)
-    weight = list(allSubinfo[-1].stripped_strings)
+    height = list(allSubinfo[-2].stripped_strings)[1]
+    weight = list(allSubinfo[-1].stripped_strings)[1]
 
     print(name)
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
-    csvWriter.writerow([number, name, classification, height, weight, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed])
+    csvWriter.writerow([number, name, classification, height, weight, type1, type2, ability1, ability2, ability3, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
 csvFile.close()
-
-# downloads all the pokemon sprites
-for i in range(len(allImageURLs)):
-    if len(str(i + 1)) < 3:
-        num = '0' * (3 - len(str(i + 1))) + str(i + 1)
-    else:
-        num = str(i + 1)
-    num = str(num)
-
-    urllib.request.urlretrieve(allImageURLs[i], "sprites/{}.png".format(num)) 
-
-# downloads all the pokemon models
-for i in range(len(allPokemonNames)):
-    if len(str(i + 1)) < 3:
-        num = '0' * (3 - len(str(i + 1))) + str(i + 1)
-    else:
-        num = str(i + 1)
-    num = str(num)
-
-    modelUrl = 'https://www.serebii.net/swordshield/pokemon/' + num + '.png'
-    urllib.request.urlretrieve(modelUrl, "images/{}.png".format(allPokemonNames[i]))
-    print(allPokemonNames[i])
