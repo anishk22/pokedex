@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Divider } from "react-native-elements";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
-const BioTabs = ({ icons }) => {
+const BioTabs = ({ pokemon, icons }) => {
   const [activeTab, setActiveTab] = useState("About");
 
   const Icon = ({ icon }) => (
@@ -23,7 +22,24 @@ const BioTabs = ({ icons }) => {
   };
 
   const renderAbout = () => {
-    return <Text style={{ color: "white" }}>yo</Text>;
+    return (
+      <View style={styles.infoContainer}>
+        <View style = {styles.attributeContainer}>
+          <Text style={styles.header}>Class:  </Text>
+          <Text style={styles.content}>{pokemon.class}</Text>
+        </View>
+
+        <View style = {styles.attributeContainer}>
+          <Text style={styles.header}>Height:  </Text>
+          <Text style={styles.content}>{pokemon.height}</Text>
+        </View>
+
+        <View style = {styles.attributeContainer}>
+          <Text style={styles.header}>Weight:  </Text>
+          <Text style={styles.content}>{pokemon.weight}</Text>
+        </View>
+      </View>
+    );
   };
 
   const renderStats = () => {
@@ -32,7 +48,7 @@ const BioTabs = ({ icons }) => {
 
   return (
     <View style={styles.dividerContainer}>
-      <View style={styles.container}>
+      <View style={styles.iconContainer}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
         ))}
@@ -43,9 +59,9 @@ const BioTabs = ({ icons }) => {
 };
 
 const styles = StyleSheet.create({
-  container: {
+  iconContainer: {
     marginTop: "4%",
-    marginBottom: "4%",
+    marginBottom: "2%",
     width: "90%",
     alignSelf: "center",
     flexDirection: "row",
@@ -56,6 +72,28 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
   },
+
+  infoContainer: {
+    marginTop: "4%",
+    alignItems: 'center',
+  },
+
+  attributeContainer: {
+    flexDirection: "row",
+    marginBottom: '3%',
+  },
+
+  header: {
+    color: "#ffffff",
+    fontFamily: "Ubuntu_500Medium",
+    fontSize: "20",
+  },
+
+  content: {
+    color: "#ffffff",
+    fontFamily: "Ubuntu_400Regular",
+    fontSize: "20",
+  }
 });
 
 export const bioIcons = [
