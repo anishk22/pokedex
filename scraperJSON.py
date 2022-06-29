@@ -7,9 +7,9 @@ source = requests.get('https://www.serebii.net/pokemon/nationalpokedex.shtml').t
 soup = BeautifulSoup(source, 'lxml')
 
 # initiliaze the csv file
-csvFile = open('jsonConvert.csv', 'w')
+csvFile = open('pokemonInfoJSON.csv', 'w')
 csvWriter = csv.writer(csvFile)
-csvWriter.writerow(['number', 'name', 'class', 'height', 'weight', 'type1', 'type2', 'ability1', 'ability2', 'ability3', 'bst', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'])
+csvWriter.writerow(['number', 'name', 'sprite', 'class', 'height', 'weight', 'type1', 'type2', 'ability1', 'ability2', 'ability3', 'bst', 'hp', 'attack', 'defense', 'sp_attack', 'sp_defense', 'speed'])
 
 # get the table
 table = soup.find('table', class_='dextable')
@@ -32,6 +32,7 @@ for i in range(0, len(table), 2):
     # gets the attributes of the pokemon
     number = allInfo[0].text.strip()[1:]
     name = allInfo[2].text.strip()
+    sprite = "require('../sprites/" + number + ".png')"
     allPokemonNames.append(name.lower())
 
     # appends the typings as a list
@@ -99,6 +100,6 @@ for i in range(0, len(table), 2):
 
     print(name)
     # print(number, name, typings, abilities, bst, hp, attack, defense, sp_attack, sp_defense, speed)
-    csvWriter.writerow([number, name, classification, height, weight, type1, type2, ability1, ability2, ability3, bst, hp, attack, defense, sp_attack, sp_defense, speed])
+    csvWriter.writerow([number, name, sprite, classification, height, weight, type1, type2, ability1, ability2, ability3, bst, hp, attack, defense, sp_attack, sp_defense, speed])
 
 csvFile.close()

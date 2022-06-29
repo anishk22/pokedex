@@ -1,12 +1,12 @@
 import React from "react";
-import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, Image, StyleSheet } from "react-native";
 
 const PokemonTabs = ({ pokemon }) => {
   return (
     <View style={styles.container} >
-      <Text style={styles.id}>{pokemon.id}</Text>
-      <Text style={styles.name}>{pokemon.user}</Text>
-      <Image source={pokemon.profile_picture} style={styles.sprite} />
+      <Text style={styles.id}>{pokemon.number}</Text>
+      <Text style={styles.name}>{pokemon.name}</Text>
+      <Image source={pokemon.sprite} style={styles.sprite} />
     </View>
   );
 };
