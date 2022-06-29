@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import { Divider } from "react-native-elements";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  Image,
-  StyleSheet,
-} from "react-native";
-
+import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
 const BioTabs = ({ icons }) => {
   const [activeTab, setActiveTab] = useState("About");
@@ -22,51 +15,48 @@ const BioTabs = ({ icons }) => {
   );
 
   const renderSection = () => {
-      if (activeTab == "About") {
-        return <View>{renderAbout()}</View>;
-      } else {
-        return <View>{renderStats()}</View>;
-      }
+    if (activeTab == "About") {
+      return <View>{renderAbout()}</View>;
+    } else {
+      return <View>{renderStats()}</View>;
+    }
   };
 
   const renderAbout = () => {
-      return (
-        <Text style={{color: 'white'}}>yo</Text>
-      );
+    return <Text style={{ color: "white" }}>yo</Text>;
   };
 
   const renderStats = () => {
-      return (
-        <Text style={{color: 'white'}}>lets GOOO</Text>
-      );
+    return <Text style={{ color: "white" }}>lets GOOO</Text>;
   };
 
   return (
     <View style={styles.dividerContainer}>
-      <Divider width={0.5} color={'white'} ></Divider>
+      <Divider width={0.5} color={"white"}></Divider>
       <View style={styles.container}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
         ))}
-        </View>
+      </View>
       {renderSection()}
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-    dividerContainer: {
-        marginTop: 50,
-    },
-    
+  dividerContainer: {
+    marginTop: 50,
+  },
+
   container: {
     marginTop: 15,
     marginBottom: 15,
-    width: 302,
+    width: "90%",
     alignSelf: "center",
     flexDirection: "row",
     justifyContent: "space-around",
   },
+
   tabButton: {
     width: 30,
     height: 30,
@@ -76,13 +66,15 @@ const styles = StyleSheet.create({
 export const bioIcons = [
   {
     name: "About",
-    active: "https://img.icons8.com/fluency-systems-filled/344/ffffff/wardrobe.png",
-    inactive: "https://img.icons8.com/fluency-systems-regular/344/ffffff/wardrobe.png",
+    active: "https://img.icons8.com/ios-filled/72/ffffff/info.png",
+    inactive: "https://img.icons8.com/ios/72/ffffff/info.png",
   },
   {
     name: "Stats",
-    active: "https://img.icons8.com/ios-filled/72/ffffff/squared-menu.png",
-    inactive: "https://img.icons8.com/ios/72/ffffff/squared-menu.png",
+    active:
+      "https://img.icons8.com/external-prettycons-solid-prettycons/344/ffffff/external-stats-business-and-finance-prettycons-solid-prettycons.png",
+    inactive:
+      "https://img.icons8.com/external-prettycons-lineal-prettycons/344/ffffff/external-stats-business-and-finance-prettycons-lineal-prettycons.png",
   },
 ];
 

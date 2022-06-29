@@ -4,6 +4,7 @@ import { View, Text, Image, StyleSheet } from "react-native";
 const PokemonBio = ({ pokemon }) => {
   return (
     <View style={styles.titleContainer}>
+      <Text style={styles.titleNumber}>{pokemon.number}</Text>
       <Text style={styles.titleText}>{pokemon.name}</Text>
 
       <View style={styles.modelContainer}>
@@ -20,10 +21,17 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
 
+  titleNumber: {
+    color: '#ffffff',
+    fontFamily: 'Ubuntu_400Regular',
+    fontSize: '20',
+  },
+
   titleText: {
     color: '#ffffff',
     fontFamily: 'Ubuntu_700Bold',
     fontSize: '30',
+    marginTop: '2%',
   },
 
   modelContainer: {
