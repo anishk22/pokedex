@@ -30,8 +30,6 @@ for i in range(0, len(table), 2):
 
     # sets the sprite and model paths
     sprite = "require('../sprites/" + number + ".png')"
-    
-    # not sure if this works to remove spaces + colons
     model = "require('../models/" + ''.join(filter(str.isalnum, name.lower())) + ".png')"
 
     # appends the typings as a list
