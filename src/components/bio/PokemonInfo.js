@@ -32,7 +32,6 @@ const BioTabs = ({ icons }) => {
 
   return (
     <View style={styles.dividerContainer}>
-      <Divider width={0.5} color={"white"}></Divider>
       <View style={styles.container}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
@@ -44,10 +43,6 @@ const BioTabs = ({ icons }) => {
 };
 
 const styles = StyleSheet.create({
-  dividerContainer: {
-    marginTop: "15%",
-  },
-
   container: {
     marginTop: "4%",
     marginBottom: "4%",
