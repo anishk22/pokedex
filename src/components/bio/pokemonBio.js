@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 
-const PokemonBio = ({ pokemon }) => {
+const PokemonBio = ({ pokemon, type1Color, type2Color }) => {
   return (
     <View style={styles.titleContainer}>
       <Text style={styles.titleNumber}>{pokemon.number}</Text>
       <Text style={styles.titleText}>{pokemon.name}</Text>
 
-      <View style={styles.modelContainer}>
+      <View style={[styles.modelContainer, { backgroundColor: type1Color, borderColor: type2Color }]}> 
         <Image style={styles.model} source={pokemon.model} />
       </View>
     </View>
@@ -36,8 +36,7 @@ const styles = StyleSheet.create({
 
   modelContainer: {
     marginTop: "8%",
-    borderWidth: 1,
-    borderColor: "#ffffff",
+    borderWidth: 4,
     borderRadius: 40,
     padding: 20,
   },

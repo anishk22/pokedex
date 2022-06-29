@@ -64,6 +64,8 @@ const PokemonTabs = ({ pokemon, navigation }) => {
       onPress={() =>
         navigation.navigate("Bio", {
           pokemon: pokemon,
+          type1Color: typingColor,
+          type2Color: typingBorder,
         })
       }
     >

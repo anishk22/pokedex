@@ -45,12 +45,12 @@ const BioTabs = ({ icons }) => {
 
 const styles = StyleSheet.create({
   dividerContainer: {
-    marginTop: 50,
+    marginTop: "15%",
   },
 
   container: {
-    marginTop: 15,
-    marginBottom: 15,
+    marginTop: "4%",
+    marginBottom: "4%",
     width: "90%",
     alignSelf: "center",
     flexDirection: "row",
