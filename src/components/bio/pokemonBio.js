@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 
 const PokemonBio = ({ pokemon }) => {
@@ -11,8 +11,8 @@ const PokemonBio = ({ pokemon }) => {
         <Image style={styles.model} source={pokemon.model} />
       </View>
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   titleContainer: {
@@ -22,22 +22,22 @@ const styles = StyleSheet.create({
   },
 
   titleNumber: {
-    color: '#ffffff',
-    fontFamily: 'Ubuntu_400Regular',
-    fontSize: '20',
+    color: "#ffffff",
+    fontFamily: "Ubuntu_400Regular",
+    fontSize: "20",
   },
 
   titleText: {
-    color: '#ffffff',
-    fontFamily: 'Ubuntu_700Bold',
-    fontSize: '30',
-    marginTop: '2%',
+    color: "#ffffff",
+    fontFamily: "Ubuntu_700Bold",
+    fontSize: "30",
+    marginTop: "2%",
   },
 
   modelContainer: {
-    marginTop: '8%',
+    marginTop: "8%",
     borderWidth: 1,
-    borderColor: '#ffffff',
+    borderColor: "#ffffff",
     borderRadius: 40,
     padding: 20,
   },
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   model: {
     width: 160,
     height: 160,
-  }
+  },
 });
 
-export default PokemonBio
+export default PokemonBio;
