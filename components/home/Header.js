@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
 
   headerText: {
-    color: 'white',
+    color: '#ffffff',
     fontFamily: 'Ubuntu_700Bold',
     fontSize: '30',
   },
