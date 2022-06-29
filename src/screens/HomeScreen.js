@@ -36,7 +36,7 @@ const HomeScreen = ({ navigation }) => {
       <ScrollView>
         <Header/>
         
-        {TYPING_ORDER_NUM.map((pokemon, index) => (
+        {ASCENDING_ORDER_NUMBER.map((pokemon, index) => (
           <PokemonTabs pokemon={pokemon} key={index} navigation={navigation}/>
         ))}
       </ScrollView>
