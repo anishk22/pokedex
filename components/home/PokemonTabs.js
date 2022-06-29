@@ -6,61 +6,64 @@ const PokemonTabs = ({ pokemon }) => {
   const [typingText, setTypingText] = useState('');
 
   useEffect(() => {
+    var typingHex;
+
     if (pokemon.type1 === 'Normal') {
-      setTypingColor('#A8A77A')
+      typingHex = '#A8A77A';
     }
-    if (pokemon.type1 === 'Fire') {
-      setTypingColor('#EE8130')
+    else if (pokemon.type1 === 'Fire') {
+      typingHex = '#EE8130';
     }
-    if (pokemon.type1 === 'Water') {
-      setTypingColor('#6390F0') 
+    else if (pokemon.type1 === 'Water') {
+      typingHex = '#6390F0';
     }
-    if (pokemon.type1 === 'Electric') {
-      setTypingColor('#F7D02C')
+    else if (pokemon.type1 === 'Electric') {
+      typingHex = '#F7D02C';
     }
-    if (pokemon.type1 === 'Grass') {
-      setTypingColor('#7AC74C')
+    else if (pokemon.type1 === 'Grass') {
+      typingHex = '#7AC74C';
     }
-    if (pokemon.type1 === 'Ice') {
-      setTypingColor('#96D9D6')
+    else if (pokemon.type1 === 'Ice') { 
+      typingHex = '#96D9D6';
     }
-    if (pokemon.type1 === 'Fighting') {
-      setTypingColor('#C22E28')
+    else if (pokemon.type1 === 'Fighting') {
+      typingHex = '#C22E2A';
     }
-    if (pokemon.type1 === 'Poison') {
-      setTypingColor('#A33EA1')
+    else if (pokemon.type1 === 'Poison') {
+      typingHex = '#A33EA1';
     }
-    if (pokemon.type1 === 'Ground') {
-      setTypingColor('#E2BF65')
+    else if (pokemon.type1 === 'Ground') {
+      typingHex = '#E2BF65';
     }
-    if (pokemon.type1 === 'Flying') {
-      setTypingColor('#A98FF3')
+    else if (pokemon.type1 === 'Flying') {
+      typingHex = '#A98FF3';
     }
-    if (pokemon.type1 === 'Psychic') {
-      setTypingColor('#F95587')
+    else if (pokemon.type1 === 'Psychic') {
+      typingHex = '#F95587';
     }
-    if (pokemon.type1 === 'Bug') {
-      setTypingColor('#A6B91A')
+    else if (pokemon.type1 === 'Bug') {
+      typingHex = '#A6B91A';
     }
-    if (pokemon.type1 === 'Rock') {
-      setTypingColor('#B6A136')
+    else if (pokemon.type1 === 'Rock') {
+      typingHex = '#B6A136';
     }
-    if (pokemon.type1 === 'Ghost') {
-      setTypingColor('#735797')
+    else if (pokemon.type1 === 'Ghost') {
+      typingHex = '#735797';
     }
-    if (pokemon.type1 === 'Dragon') {
-      setTypingColor('#6F35FC')
+    else if (pokemon.type1 === 'Dragon') {
+      typingHex = '#6F35FC';
     }
-    if (pokemon.type1 === 'Dark') {
-      setTypingColor('#705746')
+    else if (pokemon.type1 === 'Dark') {
+      typingHex = '#705746';
     }
-    if (pokemon.type1 === 'Steel') {
-      setTypingColor('#B7B7CE')
+    else if (pokemon.type1 === 'Steel') {
+      typingHex = '#B7B7CE';
     }
-    if (pokemon.type1 === 'Fairy') {
-      setTypingColor('#D685AD')
+    else if (pokemon.type1 === 'Fairy') {
+      typingHex = '#DDA0DD';
     }
 
+    setTypingColor(typingHex);
     pokemon.type2 === '' ? setTypingText(pokemon.type1) : setTypingText(pokemon.type1 + '/' + pokemon.type2)
   }, [pokemon]);
 
