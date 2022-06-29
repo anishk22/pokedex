@@ -2,7 +2,8 @@ export const POKEMON = [
   {
     number: "001",
     name: "Bulbasaur",
-    sprite: require('../sprites/001.png'),
+    sprite: require("../sprites/001.png"),
+    model: require("../models/bulbasaur.png"),
     class: "Seed Pokémon",
     height: "0.7m",
     weight: "6.9kg",
@@ -22,7 +23,8 @@ export const POKEMON = [
   {
     number: "002",
     name: "Ivysaur",
-    sprite: require('../sprites/002.png'),
+    sprite: require("../sprites/002.png"),
+    model: require("../models/ivysaur.png"),
     class: "Seed Pokémon",
     height: "1.0m",
     weight: "13.0kg",
@@ -42,7 +44,8 @@ export const POKEMON = [
   {
     number: "003",
     name: "Venusaur",
-    sprite: require('../sprites/003.png'),
+    sprite: require("../sprites/003.png"),
+    model: require("../models/venusaur.png"),
     class: "Seed Pokémon",
     height: "2.0m",
     weight: "100.0kg",
@@ -62,7 +65,8 @@ export const POKEMON = [
   {
     number: "004",
     name: "Charmander",
-    sprite: require('../sprites/004.png'),
+    sprite: require("../sprites/004.png"),
+    model: require("../models/charmander.png"),
     class: "Lizard Pokémon",
     height: "0.6m",
     weight: "8.5kg",
@@ -82,7 +86,8 @@ export const POKEMON = [
   {
     number: "005",
     name: "Charmeleon",
-    sprite: require('../sprites/005.png'),
+    sprite: require("../sprites/005.png"),
+    model: require("../models/charmeleon.png"),
     class: "Flame Pokémon",
     height: "1.1m",
     weight: "19.0kg",
@@ -102,7 +107,8 @@ export const POKEMON = [
   {
     number: "006",
     name: "Charizard",
-    sprite: require('../sprites/006.png'),
+    sprite: require("../sprites/006.png"),
+    model: require("../models/charizard.png"),
     class: "Flame Pokémon",
     height: "1.7m",
     weight: "90.5kg",
@@ -122,7 +128,8 @@ export const POKEMON = [
   {
     number: "007",
     name: "Squirtle",
-    sprite: require('../sprites/007.png'),
+    sprite: require("../sprites/007.png"),
+    model: require("../models/squirtle.png"),
     class: "Tiny Turtle Pokémon",
     height: "0.5m",
     weight: "9.0kg",
@@ -142,7 +149,8 @@ export const POKEMON = [
   {
     number: "008",
     name: "Wartortle",
-    sprite: require('../sprites/008.png'),
+    sprite: require("../sprites/008.png"),
+    model: require("../models/wartortle.png"),
     class: "Turtle Pokémon",
     height: "1.0m",
     weight: "22.5kg",
@@ -162,7 +170,8 @@ export const POKEMON = [
   {
     number: "009",
     name: "Blastoise",
-    sprite: require('../sprites/009.png'),
+    sprite: require("../sprites/009.png"),
+    model: require("../models/blastoise.png"),
     class: "Shellfish Pokémon",
     height: "1.6m",
     weight: "85.5kg",
@@ -182,7 +191,8 @@ export const POKEMON = [
   {
     number: "010",
     name: "Caterpie",
-    sprite: require('../sprites/010.png'),
+    sprite: require("../sprites/010.png"),
+    model: require("../models/caterpie.png"),
     class: "Worm Pokémon",
     height: "0.3m",
     weight: "2.9kg",
@@ -202,7 +212,8 @@ export const POKEMON = [
   {
     number: "011",
     name: "Metapod",
-    sprite: require('../sprites/011.png'),
+    sprite: require("../sprites/011.png"),
+    model: require("../models/metapod.png"),
     class: "Cocoon Pokémon",
     height: "0.7m",
     weight: "9.9kg",
@@ -222,7 +233,8 @@ export const POKEMON = [
   {
     number: "012",
     name: "Butterfree",
-    sprite: require('../sprites/012.png'),
+    sprite: require("../sprites/012.png"),
+    model: require("../models/butterfree.png"),
     class: "Butterfly Pokémon",
     height: "1.1m",
     weight: "32.0kg",
@@ -242,7 +254,8 @@ export const POKEMON = [
   {
     number: "013",
     name: "Weedle",
-    sprite: require('../sprites/013.png'),
+    sprite: require("../sprites/013.png"),
+    model: require("../models/weedle.png"),
     class: "Hairy Bug Pokémon",
     height: "0.3m",
     weight: "3.2kg",
@@ -262,7 +275,8 @@ export const POKEMON = [
   {
     number: "014",
     name: "Kakuna",
-    sprite: require('../sprites/014.png'),
+    sprite: require("../sprites/014.png"),
+    model: require("../models/kakuna.png"),
     class: "Cocoon Pokémon",
     height: "0.6m",
     weight: "10kg",
@@ -282,7 +296,8 @@ export const POKEMON = [
   {
     number: "015",
     name: "Beedrill",
-    sprite: require('../sprites/015.png'),
+    sprite: require("../sprites/015.png"),
+    model: require("../models/beedrill.png"),
     class: "Poison Bee Pokémon",
     height: "1m",
     weight: "29.5kg",
@@ -302,7 +317,8 @@ export const POKEMON = [
   {
     number: "016",
     name: "Pidgey",
-    sprite: require('../sprites/016.png'),
+    sprite: require("../sprites/016.png"),
+    model: require("../models/pidgey.png"),
     class: "Tiny Bird Pokémon",
     height: "0.3m",
     weight: "1.8kg",
@@ -322,7 +338,8 @@ export const POKEMON = [
   {
     number: "017",
     name: "Pidgeotto",
-    sprite: require('../sprites/017.png'),
+    sprite: require("../sprites/017.png"),
+    model: require("../models/pidgeotto.png"),
     class: "Bird Pokémon",
     height: "1.1m",
     weight: "30kg",
@@ -342,7 +359,8 @@ export const POKEMON = [
   {
     number: "018",
     name: "Pidgeot",
-    sprite: require('../sprites/018.png'),
+    sprite: require("../sprites/018.png"),
+    model: require("../models/pidgeot.png"),
     class: "Bird Pokémon",
     height: "1.5m",
     weight: "39.5kg",
@@ -362,7 +380,8 @@ export const POKEMON = [
   {
     number: "019",
     name: "Rattata",
-    sprite: require('../sprites/019.png'),
+    sprite: require("../sprites/019.png"),
+    model: require("../models/rattata.png"),
     class: "Mouse Pokémon",
     height: "0.3m / m",
     weight: "3.5kg / kg",
@@ -382,7 +401,8 @@ export const POKEMON = [
   {
     number: "020",
     name: "Raticate",
-    sprite: require('../sprites/020.png'),
+    sprite: require("../sprites/020.png"),
+    model: require("../models/raticate.png"),
     class: "Mouse Pokémon",
     height: "0.7m / 0.8m",
     weight: "18.5kg / 24kg",
@@ -402,7 +422,8 @@ export const POKEMON = [
   {
     number: "021",
     name: "Spearow",
-    sprite: require('../sprites/021.png'),
+    sprite: require("../sprites/021.png"),
+    model: require("../models/spearow.png"),
     class: "Tiny Bird Pokémon",
     height: "0.3m",
     weight: "2kg",
@@ -422,7 +443,8 @@ export const POKEMON = [
   {
     number: "022",
     name: "Fearow",
-    sprite: require('../sprites/022.png'),
+    sprite: require("../sprites/022.png"),
+    model: require("../models/fearow.png"),
     class: "Beak Pokémon",
     height: "1.2m",
     weight: "38kg",
@@ -442,7 +464,8 @@ export const POKEMON = [
   {
     number: "023",
     name: "Ekans",
-    sprite: require('../sprites/023.png'),
+    sprite: require("../sprites/023.png"),
+    model: require("../models/ekans.png"),
     class: "Snake Pokémon",
     height: "2m",
     weight: "6.9kg",
@@ -462,7 +485,8 @@ export const POKEMON = [
   {
     number: "024",
     name: "Arbok",
-    sprite: require('../sprites/024.png'),
+    sprite: require("../sprites/024.png"),
+    model: require("../models/arbok.png"),
     class: "Cobra Pokémon",
     height: "3.5m",
     weight: "65kg",
@@ -482,7 +506,8 @@ export const POKEMON = [
   {
     number: "025",
     name: "Pikachu",
-    sprite: require('../sprites/025.png'),
+    sprite: require("../sprites/025.png"),
+    model: require("../models/pikachu.png"),
     class: "Mouse Pokémon",
     height: "0.4m",
     weight: "6.0kg",
@@ -502,7 +527,8 @@ export const POKEMON = [
   {
     number: "026",
     name: "Raichu",
-    sprite: require('../sprites/026.png'),
+    sprite: require("../sprites/026.png"),
+    model: require("../models/raichu.png"),
     class: "Mouse Pokémon",
     height: "0.8m / 0.7m",
     weight: "30.0kg / 21.0kg",
@@ -522,7 +548,8 @@ export const POKEMON = [
   {
     number: "027",
     name: "Sandshrew",
-    sprite: require('../sprites/027.png'),
+    sprite: require("../sprites/027.png"),
+    model: require("../models/sandshrew.png"),
     class: "Mouse Pokémon",
     height: "0.6m / 0.7m",
     weight: "12.0kg / 40.0kg",
@@ -542,7 +569,8 @@ export const POKEMON = [
   {
     number: "028",
     name: "Sandslash",
-    sprite: require('../sprites/028.png'),
+    sprite: require("../sprites/028.png"),
+    model: require("../models/sandslash.png"),
     class: "Mouse Pokémon",
     height: "1.0m / 1.2m",
     weight: "29.5kg / 55.0kg",
@@ -562,7 +590,8 @@ export const POKEMON = [
   {
     number: "029",
     name: "Nidoran♀",
-    sprite: require('../sprites/029.png'),
+    sprite: require("../sprites/029.png"),
+    model: require("../models/nidoran♀.png"),
     class: "Poison Pin Pokémon",
     height: "0.4m",
     weight: "7.0kg",
@@ -582,7 +611,8 @@ export const POKEMON = [
   {
     number: "030",
     name: "Nidorina",
-    sprite: require('../sprites/030.png'),
+    sprite: require("../sprites/030.png"),
+    model: require("../models/nidorina.png"),
     class: "Poison Pin Pokémon",
     height: "0.8m",
     weight: "20.0kg",
@@ -602,7 +632,8 @@ export const POKEMON = [
   {
     number: "031",
     name: "Nidoqueen",
-    sprite: require('../sprites/031.png'),
+    sprite: require("../sprites/031.png"),
+    model: require("../models/nidoqueen.png"),
     class: "Drill Pokémon",
     height: "1.3m",
     weight: "60.0kg",
@@ -622,7 +653,8 @@ export const POKEMON = [
   {
     number: "032",
     name: "Nidoran♂",
-    sprite: require('../sprites/032.png'),
+    sprite: require("../sprites/032.png"),
+    model: require("../models/nidoran♂.png"),
     class: "Poison Pin Pokémon",
     height: "0.5m",
     weight: "9.0kg",
@@ -642,7 +674,8 @@ export const POKEMON = [
   {
     number: "033",
     name: "Nidorino",
-    sprite: require('../sprites/033.png'),
+    sprite: require("../sprites/033.png"),
+    model: require("../models/nidorino.png"),
     class: "Poison Pin Pokémon",
     height: "0.9m",
     weight: "19.5kg",
@@ -662,7 +695,8 @@ export const POKEMON = [
   {
     number: "034",
     name: "Nidoking",
-    sprite: require('../sprites/034.png'),
+    sprite: require("../sprites/034.png"),
+    model: require("../models/nidoking.png"),
     class: "Drill Pokémon",
     height: "1.4m",
     weight: "62.0kg",
@@ -682,7 +716,8 @@ export const POKEMON = [
   {
     number: "035",
     name: "Clefairy",
-    sprite: require('../sprites/035.png'),
+    sprite: require("../sprites/035.png"),
+    model: require("../models/clefairy.png"),
     class: "Fairy Pokémon",
     height: "0.6m",
     weight: "7.5kg",
@@ -702,7 +737,8 @@ export const POKEMON = [
   {
     number: "036",
     name: "Clefable",
-    sprite: require('../sprites/036.png'),
+    sprite: require("../sprites/036.png"),
+    model: require("../models/clefable.png"),
     class: "Fairy Pokémon",
     height: "1.3m",
     weight: "40.0kg",
@@ -722,7 +758,8 @@ export const POKEMON = [
   {
     number: "037",
     name: "Vulpix",
-    sprite: require('../sprites/037.png'),
+    sprite: require("../sprites/037.png"),
+    model: require("../models/vulpix.png"),
     class: "Fox Pokémon",
     height: "0.6m / 0.6m",
     weight: "9.9kg / 9.9kg",
@@ -742,7 +779,8 @@ export const POKEMON = [
   {
     number: "038",
     name: "Ninetales",
-    sprite: require('../sprites/038.png'),
+    sprite: require("../sprites/038.png"),
+    model: require("../models/ninetales.png"),
     class: "Fox Pokémon",
     height: "1.1m / 1.1m",
     weight: "19.9kg / 19.9kg",
@@ -762,7 +800,8 @@ export const POKEMON = [
   {
     number: "039",
     name: "Jigglypuff",
-    sprite: require('../sprites/039.png'),
+    sprite: require("../sprites/039.png"),
+    model: require("../models/jigglypuff.png"),
     class: "Balloon Pokémon",
     height: "0.5m",
     weight: "5.5kg",
@@ -782,7 +821,8 @@ export const POKEMON = [
   {
     number: "040",
     name: "Wigglytuff",
-    sprite: require('../sprites/040.png'),
+    sprite: require("../sprites/040.png"),
+    model: require("../models/wigglytuff.png"),
     class: "Balloon Pokémon",
     height: "1.0m",
     weight: "12.0kg",
@@ -802,7 +842,8 @@ export const POKEMON = [
   {
     number: "041",
     name: "Zubat",
-    sprite: require('../sprites/041.png'),
+    sprite: require("../sprites/041.png"),
+    model: require("../models/zubat.png"),
     class: "Bat Pokémon",
     height: "0.8m",
     weight: "7.5kg",
@@ -822,7 +863,8 @@ export const POKEMON = [
   {
     number: "042",
     name: "Golbat",
-    sprite: require('../sprites/042.png'),
+    sprite: require("../sprites/042.png"),
+    model: require("../models/golbat.png"),
     class: "Bat Pokémon",
     height: "1.6m",
     weight: "55.0kg",
@@ -842,7 +884,8 @@ export const POKEMON = [
   {
     number: "043",
     name: "Oddish",
-    sprite: require('../sprites/043.png'),
+    sprite: require("../sprites/043.png"),
+    model: require("../models/oddish.png"),
     class: "Weed Pokémon",
     height: "0.5m",
     weight: "5.4kg",
@@ -862,7 +905,8 @@ export const POKEMON = [
   {
     number: "044",
     name: "Gloom",
-    sprite: require('../sprites/044.png'),
+    sprite: require("../sprites/044.png"),
+    model: require("../models/gloom.png"),
     class: "Weed Pokémon",
     height: "0.8m",
     weight: "8.6kg",
@@ -882,7 +926,8 @@ export const POKEMON = [
   {
     number: "045",
     name: "Vileplume",
-    sprite: require('../sprites/045.png'),
+    sprite: require("../sprites/045.png"),
+    model: require("../models/vileplume.png"),
     class: "Flower Pokémon",
     height: "1.2m",
     weight: "18.6kg",
@@ -902,7 +947,8 @@ export const POKEMON = [
   {
     number: "046",
     name: "Paras",
-    sprite: require('../sprites/046.png'),
+    sprite: require("../sprites/046.png"),
+    model: require("../models/paras.png"),
     class: "Mushroom Pokémon",
     height: "0.3m",
     weight: "5.4kg",
@@ -922,7 +968,8 @@ export const POKEMON = [
   {
     number: "047",
     name: "Parasect",
-    sprite: require('../sprites/047.png'),
+    sprite: require("../sprites/047.png"),
+    model: require("../models/parasect.png"),
     class: "Mushroom Pokémon",
     height: "1m",
     weight: "29.5kg",
@@ -942,7 +989,8 @@ export const POKEMON = [
   {
     number: "048",
     name: "Venonat",
-    sprite: require('../sprites/048.png'),
+    sprite: require("../sprites/048.png"),
+    model: require("../models/venonat.png"),
     class: "Insect Pokémon",
     height: "1m",
     weight: "30kg",
@@ -962,7 +1010,8 @@ export const POKEMON = [
   {
     number: "049",
     name: "Venomoth",
-    sprite: require('../sprites/049.png'),
+    sprite: require("../sprites/049.png"),
+    model: require("../models/venomoth.png"),
     class: "Poison Moth Pokémon",
     height: "1.5m",
     weight: "12.5kg",
@@ -982,7 +1031,8 @@ export const POKEMON = [
   {
     number: "050",
     name: "Diglett",
-    sprite: require('../sprites/050.png'),
+    sprite: require("../sprites/050.png"),
+    model: require("../models/diglett.png"),
     class: "Mole Pokémon",
     height: "0.2m / 0.2m",
     weight: "0.8kg / 1.0kg",
@@ -1002,7 +1052,8 @@ export const POKEMON = [
   {
     number: "051",
     name: "Dugtrio",
-    sprite: require('../sprites/051.png'),
+    sprite: require("../sprites/051.png"),
+    model: require("../models/dugtrio.png"),
     class: "Mole Pokémon",
     height: "0.7m / 0.7m",
     weight: "33.3kg / 66.6kg",
@@ -1022,7 +1073,8 @@ export const POKEMON = [
   {
     number: "052",
     name: "Meowth",
-    sprite: require('../sprites/052.png'),
+    sprite: require("../sprites/052.png"),
+    model: require("../models/meowth.png"),
     class: "Scratch Cat Pokémon",
     height: "0.4m / 0.4m",
     weight: "4.2kg / 4.2kg",
@@ -1042,7 +1094,8 @@ export const POKEMON = [
   {
     number: "053",
     name: "Persian",
-    sprite: require('../sprites/053.png'),
+    sprite: require("../sprites/053.png"),
+    model: require("../models/persian.png"),
     class: "Classy Cat Pokémon",
     height: "1.0m / 1.1m",
     weight: "32.0kg / 33.0kg",
@@ -1062,7 +1115,8 @@ export const POKEMON = [
   {
     number: "054",
     name: "Psyduck",
-    sprite: require('../sprites/054.png'),
+    sprite: require("../sprites/054.png"),
+    model: require("../models/psyduck.png"),
     class: "Duck Pokémon",
     height: "0.8m",
     weight: "19.6kg",
@@ -1082,7 +1136,8 @@ export const POKEMON = [
   {
     number: "055",
     name: "Golduck",
-    sprite: require('../sprites/055.png'),
+    sprite: require("../sprites/055.png"),
+    model: require("../models/golduck.png"),
     class: "Duck Pokémon",
     height: "1.7m",
     weight: "76.6kg",
@@ -1102,7 +1157,8 @@ export const POKEMON = [
   {
     number: "056",
     name: "Mankey",
-    sprite: require('../sprites/056.png'),
+    sprite: require("../sprites/056.png"),
+    model: require("../models/mankey.png"),
     class: "Pig Monkey Pokémon",
     height: "0.5m",
     weight: "28kg",
@@ -1122,7 +1178,8 @@ export const POKEMON = [
   {
     number: "057",
     name: "Primeape",
-    sprite: require('../sprites/057.png'),
+    sprite: require("../sprites/057.png"),
+    model: require("../models/primeape.png"),
     class: "Pig Monkey Pokémon",
     height: "1m",
     weight: "32kg",
@@ -1142,7 +1199,8 @@ export const POKEMON = [
   {
     number: "058",
     name: "Growlithe",
-    sprite: require('../sprites/058.png'),
+    sprite: require("../sprites/058.png"),
+    model: require("../models/growlithe.png"),
     class: "Puppy Pokémon (Kantonian)Scout Pokémon (Hisuian)",
     height: "0.7m",
     weight: "19.0kg",
@@ -1162,7 +1220,8 @@ export const POKEMON = [
   {
     number: "059",
     name: "Arcanine",
-    sprite: require('../sprites/059.png'),
+    sprite: require("../sprites/059.png"),
+    model: require("../models/arcanine.png"),
     class: "Legendary Pokémon",
     height: "1.9m",
     weight: "155.0kg",
@@ -1182,7 +1241,8 @@ export const POKEMON = [
   {
     number: "060",
     name: "Poliwag",
-    sprite: require('../sprites/060.png'),
+    sprite: require("../sprites/060.png"),
+    model: require("../models/poliwag.png"),
     class: "Tadpole Pokémon",
     height: "0.6m",
     weight: "12.4kg",
@@ -1202,7 +1262,8 @@ export const POKEMON = [
   {
     number: "061",
     name: "Poliwhirl",
-    sprite: require('../sprites/061.png'),
+    sprite: require("../sprites/061.png"),
+    model: require("../models/poliwhirl.png"),
     class: "Tadpole Pokémon",
     height: "1.0m",
     weight: "20.0kg",
@@ -1222,7 +1283,8 @@ export const POKEMON = [
   {
     number: "062",
     name: "Poliwrath",
-    sprite: require('../sprites/062.png'),
+    sprite: require("../sprites/062.png"),
+    model: require("../models/poliwrath.png"),
     class: "Tadpole Pokémon",
     height: "1.3m",
     weight: "54.0kg",
@@ -1242,7 +1304,8 @@ export const POKEMON = [
   {
     number: "063",
     name: "Abra",
-    sprite: require('../sprites/063.png'),
+    sprite: require("../sprites/063.png"),
+    model: require("../models/abra.png"),
     class: "Psi Pokémon",
     height: "0.9m",
     weight: "19.5kg",
@@ -1262,7 +1325,8 @@ export const POKEMON = [
   {
     number: "064",
     name: "Kadabra",
-    sprite: require('../sprites/064.png'),
+    sprite: require("../sprites/064.png"),
+    model: require("../models/kadabra.png"),
     class: "Psi Pokémon",
     height: "1.3m",
     weight: "56.5kg",
@@ -1282,7 +1346,8 @@ export const POKEMON = [
   {
     number: "065",
     name: "Alakazam",
-    sprite: require('../sprites/065.png'),
+    sprite: require("../sprites/065.png"),
+    model: require("../models/alakazam.png"),
     class: "Psi Pokémon",
     height: "1.5m",
     weight: "48.0kg",
@@ -1302,7 +1367,8 @@ export const POKEMON = [
   {
     number: "066",
     name: "Machop",
-    sprite: require('../sprites/066.png'),
+    sprite: require("../sprites/066.png"),
+    model: require("../models/machop.png"),
     class: "Superpower Pokémon",
     height: "0.8m",
     weight: "19.5kg",
@@ -1322,7 +1388,8 @@ export const POKEMON = [
   {
     number: "067",
     name: "Machoke",
-    sprite: require('../sprites/067.png'),
+    sprite: require("../sprites/067.png"),
+    model: require("../models/machoke.png"),
     class: "Superpower Pokémon",
     height: "1.5m",
     weight: "70.5kg",
@@ -1342,7 +1409,8 @@ export const POKEMON = [
   {
     number: "068",
     name: "Machamp",
-    sprite: require('../sprites/068.png'),
+    sprite: require("../sprites/068.png"),
+    model: require("../models/machamp.png"),
     class: "Superpower Pokémon",
     height: "1.6m",
     weight: "130.0kg",
@@ -1362,7 +1430,8 @@ export const POKEMON = [
   {
     number: "069",
     name: "Bellsprout",
-    sprite: require('../sprites/069.png'),
+    sprite: require("../sprites/069.png"),
+    model: require("../models/bellsprout.png"),
     class: "Flower Pokémon",
     height: "0.7m",
     weight: "4kg",
@@ -1382,7 +1451,8 @@ export const POKEMON = [
   {
     number: "070",
     name: "Weepinbell",
-    sprite: require('../sprites/070.png'),
+    sprite: require("../sprites/070.png"),
+    model: require("../models/weepinbell.png"),
     class: "Flycatcher Pokémon",
     height: "1m",
     weight: "6.4kg",
@@ -1402,7 +1472,8 @@ export const POKEMON = [
   {
     number: "071",
     name: "Victreebel",
-    sprite: require('../sprites/071.png'),
+    sprite: require("../sprites/071.png"),
+    model: require("../models/victreebel.png"),
     class: "Flycatcher Pokémon",
     height: "1.7m",
     weight: "15.5kg",
@@ -1422,7 +1493,8 @@ export const POKEMON = [
   {
     number: "072",
     name: "Tentacool",
-    sprite: require('../sprites/072.png'),
+    sprite: require("../sprites/072.png"),
+    model: require("../models/tentacool.png"),
     class: "Jellyfish Pokémon",
     height: "0.9m",
     weight: "45.5kg",
@@ -1442,7 +1514,8 @@ export const POKEMON = [
   {
     number: "073",
     name: "Tentacruel",
-    sprite: require('../sprites/073.png'),
+    sprite: require("../sprites/073.png"),
+    model: require("../models/tentacruel.png"),
     class: "Jellyfish Pokémon",
     height: "1.6m",
     weight: "55.0kg",
@@ -1462,7 +1535,8 @@ export const POKEMON = [
   {
     number: "074",
     name: "Geodude",
-    sprite: require('../sprites/074.png'),
+    sprite: require("../sprites/074.png"),
+    model: require("../models/geodude.png"),
     class: "Rock Pokémon",
     height: "0.4m / m",
     weight: "20kg / kg",
@@ -1482,7 +1556,8 @@ export const POKEMON = [
   {
     number: "075",
     name: "Graveler",
-    sprite: require('../sprites/075.png'),
+    sprite: require("../sprites/075.png"),
+    model: require("../models/graveler.png"),
     class: "Rock Pokémon",
     height: "1m / m",
     weight: "105kg / kg",
@@ -1502,7 +1577,8 @@ export const POKEMON = [
   {
     number: "076",
     name: "Golem",
-    sprite: require('../sprites/076.png'),
+    sprite: require("../sprites/076.png"),
+    model: require("../models/golem.png"),
     class: "Megaton Pokémon",
     height: "1.4m / m",
     weight: "300kg / kg",
@@ -1522,7 +1598,8 @@ export const POKEMON = [
   {
     number: "077",
     name: "Ponyta",
-    sprite: require('../sprites/077.png'),
+    sprite: require("../sprites/077.png"),
+    model: require("../models/ponyta.png"),
     class: "Fire Horse Pokémon (Kantonian)Unique Horn Pokémonn (Galarian)",
     height: "1.0m / 0.8m",
     weight: "30.0kg / 24.0kg",
@@ -1542,7 +1619,8 @@ export const POKEMON = [
   {
     number: "078",
     name: "Rapidash",
-    sprite: require('../sprites/078.png'),
+    sprite: require("../sprites/078.png"),
+    model: require("../models/rapidash.png"),
     class: "Fire Horse Pokémon (Kantonian)Unique Horn Pokémonn (Galarian)",
     height: "1.7m / 1.7m",
     weight: "95.0kg / 80.0kg",
@@ -1562,7 +1640,8 @@ export const POKEMON = [
   {
     number: "079",
     name: "Slowpoke",
-    sprite: require('../sprites/079.png'),
+    sprite: require("../sprites/079.png"),
+    model: require("../models/slowpoke.png"),
     class: "Dopey Pokémon",
     height: "1.2m / 1.2m",
     weight: "36.0kg / 36.0kg",
@@ -1582,7 +1661,8 @@ export const POKEMON = [
   {
     number: "080",
     name: "Slowbro",
-    sprite: require('../sprites/080.png'),
+    sprite: require("../sprites/080.png"),
+    model: require("../models/slowbro.png"),
     class: "Hermit Crab Pokémon",
     height: "1.6m / 1.6m",
     weight: "78.5kg / 70.5kg",
@@ -1602,7 +1682,8 @@ export const POKEMON = [
   {
     number: "081",
     name: "Magnemite",
-    sprite: require('../sprites/081.png'),
+    sprite: require("../sprites/081.png"),
+    model: require("../models/magnemite.png"),
     class: "Magnet Pokémon",
     height: "0.3m",
     weight: "6.0kg",
@@ -1622,7 +1703,8 @@ export const POKEMON = [
   {
     number: "082",
     name: "Magneton",
-    sprite: require('../sprites/082.png'),
+    sprite: require("../sprites/082.png"),
+    model: require("../models/magneton.png"),
     class: "Magnet Pokémon",
     height: "1.0m",
     weight: "60.0kg",
@@ -1642,7 +1724,8 @@ export const POKEMON = [
   {
     number: "083",
     name: "Farfetch'd",
-    sprite: require('../sprites/083.png'),
+    sprite: require("../sprites/083.png"),
+    model: require("../models/farfetch'd.png"),
     class: "Wild Duck Pokémon",
     height: "0.8m / 0.8m",
     weight: "15.0kg / 42.0kg",
@@ -1662,7 +1745,8 @@ export const POKEMON = [
   {
     number: "084",
     name: "Doduo",
-    sprite: require('../sprites/084.png'),
+    sprite: require("../sprites/084.png"),
+    model: require("../models/doduo.png"),
     class: "Twin Bird Pokémon",
     height: "1.4m",
     weight: "39.2kg",
@@ -1682,7 +1766,8 @@ export const POKEMON = [
   {
     number: "085",
     name: "Dodrio",
-    sprite: require('../sprites/085.png'),
+    sprite: require("../sprites/085.png"),
+    model: require("../models/dodrio.png"),
     class: "Triple Bird Pokémon",
     height: "1.8m",
     weight: "85.2kg",
@@ -1702,7 +1787,8 @@ export const POKEMON = [
   {
     number: "086",
     name: "Seel",
-    sprite: require('../sprites/086.png'),
+    sprite: require("../sprites/086.png"),
+    model: require("../models/seel.png"),
     class: "Sea Lion Pokémon",
     height: "1.1m",
     weight: "90kg",
@@ -1722,7 +1808,8 @@ export const POKEMON = [
   {
     number: "087",
     name: "Dewgong",
-    sprite: require('../sprites/087.png'),
+    sprite: require("../sprites/087.png"),
+    model: require("../models/dewgong.png"),
     class: "Sea Lion Pokémon",
     height: "1.7m",
     weight: "120kg",
@@ -1742,7 +1829,8 @@ export const POKEMON = [
   {
     number: "088",
     name: "Grimer",
-    sprite: require('../sprites/088.png'),
+    sprite: require("../sprites/088.png"),
+    model: require("../models/grimer.png"),
     class: "Sludge Pokémon",
     height: "0.9m / m",
     weight: "30kg / kg",
@@ -1762,7 +1850,8 @@ export const POKEMON = [
   {
     number: "089",
     name: "Muk",
-    sprite: require('../sprites/089.png'),
+    sprite: require("../sprites/089.png"),
+    model: require("../models/muk.png"),
     class: "Sludge Pokémon",
     height: "1.2m / m",
     weight: "30kg / kg",
@@ -1782,7 +1871,8 @@ export const POKEMON = [
   {
     number: "090",
     name: "Shellder",
-    sprite: require('../sprites/090.png'),
+    sprite: require("../sprites/090.png"),
+    model: require("../models/shellder.png"),
     class: "Bivalve Pokémon",
     height: "0.3m",
     weight: "4.0kg",
@@ -1802,7 +1892,8 @@ export const POKEMON = [
   {
     number: "091",
     name: "Cloyster",
-    sprite: require('../sprites/091.png'),
+    sprite: require("../sprites/091.png"),
+    model: require("../models/cloyster.png"),
     class: "Bivalve Pokémon",
     height: "1.5m",
     weight: "132.5kg",
@@ -1822,7 +1913,8 @@ export const POKEMON = [
   {
     number: "092",
     name: "Gastly",
-    sprite: require('../sprites/092.png'),
+    sprite: require("../sprites/092.png"),
+    model: require("../models/gastly.png"),
     class: "Gas Pokémon",
     height: "1.3m",
     weight: "0.1kg",
@@ -1842,7 +1934,8 @@ export const POKEMON = [
   {
     number: "093",
     name: "Haunter",
-    sprite: require('../sprites/093.png'),
+    sprite: require("../sprites/093.png"),
+    model: require("../models/haunter.png"),
     class: "Gas Pokémon",
     height: "1.6m",
     weight: "0.1kg",
@@ -1862,7 +1955,8 @@ export const POKEMON = [
   {
     number: "094",
     name: "Gengar",
-    sprite: require('../sprites/094.png'),
+    sprite: require("../sprites/094.png"),
+    model: require("../models/gengar.png"),
     class: "Shadow Pokémon",
     height: "1.5m",
     weight: "40.5kg",
@@ -1882,7 +1976,8 @@ export const POKEMON = [
   {
     number: "095",
     name: "Onix",
-    sprite: require('../sprites/095.png'),
+    sprite: require("../sprites/095.png"),
+    model: require("../models/onix.png"),
     class: "Rock Snake Pokémon",
     height: "8.8m",
     weight: "210.0kg",
@@ -1902,7 +1997,8 @@ export const POKEMON = [
   {
     number: "096",
     name: "Drowzee",
-    sprite: require('../sprites/096.png'),
+    sprite: require("../sprites/096.png"),
+    model: require("../models/drowzee.png"),
     class: "Hypnosis Pokémon",
     height: "1m",
     weight: "32.4kg",
@@ -1922,7 +2018,8 @@ export const POKEMON = [
   {
     number: "097",
     name: "Hypno",
-    sprite: require('../sprites/097.png'),
+    sprite: require("../sprites/097.png"),
+    model: require("../models/hypno.png"),
     class: "Hypnosis Pokémon",
     height: "1.6m",
     weight: "75.6kg",
@@ -1942,7 +2039,8 @@ export const POKEMON = [
   {
     number: "098",
     name: "Krabby",
-    sprite: require('../sprites/098.png'),
+    sprite: require("../sprites/098.png"),
+    model: require("../models/krabby.png"),
     class: "River Crab Pokémon",
     height: "0.4m",
     weight: "6.5kg",
@@ -1962,7 +2060,8 @@ export const POKEMON = [
   {
     number: "099",
     name: "Kingler",
-    sprite: require('../sprites/099.png'),
+    sprite: require("../sprites/099.png"),
+    model: require("../models/kingler.png"),
     class: "Pincer Pokémon",
     height: "1.3m",
     weight: "60.0kg",
@@ -1982,7 +2081,8 @@ export const POKEMON = [
   {
     number: "100",
     name: "Voltorb",
-    sprite: require('../sprites/100.png'),
+    sprite: require("../sprites/100.png"),
+    model: require("../models/voltorb.png"),
     class: "Ball Pokémon (Kantonian)Sphere Pokémon (Hisuian)",
     height: "0.5m",
     weight: "10.4kg",
@@ -2002,7 +2102,8 @@ export const POKEMON = [
   {
     number: "101",
     name: "Electrode",
-    sprite: require('../sprites/101.png'),
+    sprite: require("../sprites/101.png"),
+    model: require("../models/electrode.png"),
     class: "Ball Pokémon",
     height: "1.2m",
     weight: "66.6kg",
@@ -2022,7 +2123,8 @@ export const POKEMON = [
   {
     number: "102",
     name: "Exeggcute",
-    sprite: require('../sprites/102.png'),
+    sprite: require("../sprites/102.png"),
+    model: require("../models/exeggcute.png"),
     class: "Egg Pokémon",
     height: "0.4m",
     weight: "2.5kg",
@@ -2042,7 +2144,8 @@ export const POKEMON = [
   {
     number: "103",
     name: "Exeggutor",
-    sprite: require('../sprites/103.png'),
+    sprite: require("../sprites/103.png"),
+    model: require("../models/exeggutor.png"),
     class: "Coconut Pokémon",
     height: "2.0m / 10.9m",
     weight: "120.0kg / 415.6kg",
@@ -2062,7 +2165,8 @@ export const POKEMON = [
   {
     number: "104",
     name: "Cubone",
-    sprite: require('../sprites/104.png'),
+    sprite: require("../sprites/104.png"),
+    model: require("../models/cubone.png"),
     class: "Lonely Pokémon",
     height: "0.4m",
     weight: "6.5kg",
@@ -2082,7 +2186,8 @@ export const POKEMON = [
   {
     number: "105",
     name: "Marowak",
-    sprite: require('../sprites/105.png'),
+    sprite: require("../sprites/105.png"),
+    model: require("../models/marowak.png"),
     class: "Bone Keeper Pokémon",
     height: "1.0m / 1.0m",
     weight: "45.0kg / 34.0kg",
@@ -2102,7 +2207,8 @@ export const POKEMON = [
   {
     number: "106",
     name: "Hitmonlee",
-    sprite: require('../sprites/106.png'),
+    sprite: require("../sprites/106.png"),
+    model: require("../models/hitmonlee.png"),
     class: "Kicking Pokémon",
     height: "1.5m",
     weight: "49.8kg",
@@ -2122,7 +2228,8 @@ export const POKEMON = [
   {
     number: "107",
     name: "Hitmonchan",
-    sprite: require('../sprites/107.png'),
+    sprite: require("../sprites/107.png"),
+    model: require("../models/hitmonchan.png"),
     class: "Punching Pokémon",
     height: "1.4m",
     weight: "50.2kg",
@@ -2142,7 +2249,8 @@ export const POKEMON = [
   {
     number: "108",
     name: "Lickitung",
-    sprite: require('../sprites/108.png'),
+    sprite: require("../sprites/108.png"),
+    model: require("../models/lickitung.png"),
     class: "Licking Pokémon",
     height: "1.2m",
     weight: "65.5kg",
@@ -2162,7 +2270,8 @@ export const POKEMON = [
   {
     number: "109",
     name: "Koffing",
-    sprite: require('../sprites/109.png'),
+    sprite: require("../sprites/109.png"),
+    model: require("../models/koffing.png"),
     class: "Poison Gas Pokémon",
     height: "0.6m",
     weight: "1.0kg",
@@ -2182,7 +2291,8 @@ export const POKEMON = [
   {
     number: "110",
     name: "Weezing",
-    sprite: require('../sprites/110.png'),
+    sprite: require("../sprites/110.png"),
+    model: require("../models/weezing.png"),
     class: "Poison Gas Pokémon",
     height: "1.2m / 3.0m",
     weight: "9.5kg / 16.0kg",
@@ -2202,7 +2312,8 @@ export const POKEMON = [
   {
     number: "111",
     name: "Rhyhorn",
-    sprite: require('../sprites/111.png'),
+    sprite: require("../sprites/111.png"),
+    model: require("../models/rhyhorn.png"),
     class: "Spikes Pokémon",
     height: "1.0m",
     weight: "115.0kg",
@@ -2222,7 +2333,8 @@ export const POKEMON = [
   {
     number: "112",
     name: "Rhydon",
-    sprite: require('../sprites/112.png'),
+    sprite: require("../sprites/112.png"),
+    model: require("../models/rhydon.png"),
     class: "Drill Pokémon",
     height: "1.9m",
     weight: "120.0kg",
@@ -2242,7 +2354,8 @@ export const POKEMON = [
   {
     number: "113",
     name: "Chansey",
-    sprite: require('../sprites/113.png'),
+    sprite: require("../sprites/113.png"),
+    model: require("../models/chansey.png"),
     class: "Egg Pokémon",
     height: "1.1m",
     weight: "34.6kg",
@@ -2262,7 +2375,8 @@ export const POKEMON = [
   {
     number: "114",
     name: "Tangela",
-    sprite: require('../sprites/114.png'),
+    sprite: require("../sprites/114.png"),
+    model: require("../models/tangela.png"),
     class: "Vine Pokémon",
     height: "1.0m",
     weight: "35.0kg",
@@ -2282,7 +2396,8 @@ export const POKEMON = [
   {
     number: "115",
     name: "Kangaskhan",
-    sprite: require('../sprites/115.png'),
+    sprite: require("../sprites/115.png"),
+    model: require("../models/kangaskhan.png"),
     class: "Parent Pokémon",
     height: "2.2m",
     weight: "80.0kg",
@@ -2302,7 +2417,8 @@ export const POKEMON = [
   {
     number: "116",
     name: "Horsea",
-    sprite: require('../sprites/116.png'),
+    sprite: require("../sprites/116.png"),
+    model: require("../models/horsea.png"),
     class: "Dragon Pokémon",
     height: "0.4m",
     weight: "8.0kg",
@@ -2322,7 +2438,8 @@ export const POKEMON = [
   {
     number: "117",
     name: "Seadra",
-    sprite: require('../sprites/117.png'),
+    sprite: require("../sprites/117.png"),
+    model: require("../models/seadra.png"),
     class: "Dragon Pokémon",
     height: "1.2m",
     weight: "25.0kg",
@@ -2342,7 +2459,8 @@ export const POKEMON = [
   {
     number: "118",
     name: "Goldeen",
-    sprite: require('../sprites/118.png'),
+    sprite: require("../sprites/118.png"),
+    model: require("../models/goldeen.png"),
     class: "Goldfish Pokémon",
     height: "0.6m",
     weight: "15.0kg",
@@ -2362,7 +2480,8 @@ export const POKEMON = [
   {
     number: "119",
     name: "Seaking",
-    sprite: require('../sprites/119.png'),
+    sprite: require("../sprites/119.png"),
+    model: require("../models/seaking.png"),
     class: "Goldfish Pokémon",
     height: "1.3m",
     weight: "39.0kg",
@@ -2382,7 +2501,8 @@ export const POKEMON = [
   {
     number: "120",
     name: "Staryu",
-    sprite: require('../sprites/120.png'),
+    sprite: require("../sprites/120.png"),
+    model: require("../models/staryu.png"),
     class: "Starshape Pokémon",
     height: "0.8m",
     weight: "34.5kg",
@@ -2402,7 +2522,8 @@ export const POKEMON = [
   {
     number: "121",
     name: "Starmie",
-    sprite: require('../sprites/121.png'),
+    sprite: require("../sprites/121.png"),
+    model: require("../models/starmie.png"),
     class: "Mysterious Pokémon",
     height: "1.1m",
     weight: "80.0kg",
@@ -2422,7 +2543,8 @@ export const POKEMON = [
   {
     number: "122",
     name: "Mr. Mime",
-    sprite: require('../sprites/122.png'),
+    sprite: require("../sprites/122.png"),
+    model: require("../models/mr. mime.png"),
     class: "Barrier Pokémon",
     height: "1.3m / 1.4m",
     weight: "54.5kg / 56.8kg",
@@ -2442,7 +2564,8 @@ export const POKEMON = [
   {
     number: "123",
     name: "Scyther",
-    sprite: require('../sprites/123.png'),
+    sprite: require("../sprites/123.png"),
+    model: require("../models/scyther.png"),
     class: "Mantis Pokémon",
     height: "1.5m",
     weight: "56.0kg",
@@ -2462,7 +2585,8 @@ export const POKEMON = [
   {
     number: "124",
     name: "Jynx",
-    sprite: require('../sprites/124.png'),
+    sprite: require("../sprites/124.png"),
+    model: require("../models/jynx.png"),
     class: "Humanshape Pokémon",
     height: "1.4m",
     weight: "40.6kg",
@@ -2482,7 +2606,8 @@ export const POKEMON = [
   {
     number: "125",
     name: "Electabuzz",
-    sprite: require('../sprites/125.png'),
+    sprite: require("../sprites/125.png"),
+    model: require("../models/electabuzz.png"),
     class: "Electric Pokémon",
     height: "1.1m",
     weight: "30.0kg",
@@ -2502,7 +2627,8 @@ export const POKEMON = [
   {
     number: "126",
     name: "Magmar",
-    sprite: require('../sprites/126.png'),
+    sprite: require("../sprites/126.png"),
+    model: require("../models/magmar.png"),
     class: "Spitfire Pokémon",
     height: "1.3m",
     weight: "44.5kg",
@@ -2522,7 +2648,8 @@ export const POKEMON = [
   {
     number: "127",
     name: "Pinsir",
-    sprite: require('../sprites/127.png'),
+    sprite: require("../sprites/127.png"),
+    model: require("../models/pinsir.png"),
     class: "Stagbeetle Pokémon",
     height: "1.5m",
     weight: "55.0kg",
@@ -2542,7 +2669,8 @@ export const POKEMON = [
   {
     number: "128",
     name: "Tauros",
-    sprite: require('../sprites/128.png'),
+    sprite: require("../sprites/128.png"),
+    model: require("../models/tauros.png"),
     class: "Wild Bull Pokémon",
     height: "1.4m",
     weight: "88.4kg",
@@ -2562,7 +2690,8 @@ export const POKEMON = [
   {
     number: "129",
     name: "Magikarp",
-    sprite: require('../sprites/129.png'),
+    sprite: require("../sprites/129.png"),
+    model: require("../models/magikarp.png"),
     class: "Fish Pokémon",
     height: "0.9m",
     weight: "10.0kg",
@@ -2582,7 +2711,8 @@ export const POKEMON = [
   {
     number: "130",
     name: "Gyarados",
-    sprite: require('../sprites/130.png'),
+    sprite: require("../sprites/130.png"),
+    model: require("../models/gyarados.png"),
     class: "Atrocious Pokémon",
     height: "6.5m",
     weight: "235.0kg",
@@ -2602,7 +2732,8 @@ export const POKEMON = [
   {
     number: "131",
     name: "Lapras",
-    sprite: require('../sprites/131.png'),
+    sprite: require("../sprites/131.png"),
+    model: require("../models/lapras.png"),
     class: "Transport Pokémon",
     height: "2.5m",
     weight: "220.0kg",
@@ -2622,7 +2753,8 @@ export const POKEMON = [
   {
     number: "132",
     name: "Ditto",
-    sprite: require('../sprites/132.png'),
+    sprite: require("../sprites/132.png"),
+    model: require("../models/ditto.png"),
     class: "Transform Pokémon",
     height: "0.3m",
     weight: "4.0kg",
@@ -2642,7 +2774,8 @@ export const POKEMON = [
   {
     number: "133",
     name: "Eevee",
-    sprite: require('../sprites/133.png'),
+    sprite: require("../sprites/133.png"),
+    model: require("../models/eevee.png"),
     class: "Evolution Pokémon",
     height: "0.3m",
     weight: "6.5kg",
@@ -2662,7 +2795,8 @@ export const POKEMON = [
   {
     number: "134",
     name: "Vaporeon",
-    sprite: require('../sprites/134.png'),
+    sprite: require("../sprites/134.png"),
+    model: require("../models/vaporeon.png"),
     class: "Bubble Jet Pokémon",
     height: "1.0m",
     weight: "29.0kg",
@@ -2682,7 +2816,8 @@ export const POKEMON = [
   {
     number: "135",
     name: "Jolteon",
-    sprite: require('../sprites/135.png'),
+    sprite: require("../sprites/135.png"),
+    model: require("../models/jolteon.png"),
     class: "Lightning Pokémon",
     height: "0.8m",
     weight: "24.5kg",
@@ -2702,7 +2837,8 @@ export const POKEMON = [
   {
     number: "136",
     name: "Flareon",
-    sprite: require('../sprites/136.png'),
+    sprite: require("../sprites/136.png"),
+    model: require("../models/flareon.png"),
     class: "Flame Pokémon",
     height: "0.9m",
     weight: "25.0kg",
@@ -2722,7 +2858,8 @@ export const POKEMON = [
   {
     number: "137",
     name: "Porygon",
-    sprite: require('../sprites/137.png'),
+    sprite: require("../sprites/137.png"),
+    model: require("../models/porygon.png"),
     class: "Virtual Pokémon",
     height: "0.8m",
     weight: "36.5kg",
@@ -2742,7 +2879,8 @@ export const POKEMON = [
   {
     number: "138",
     name: "Omanyte",
-    sprite: require('../sprites/138.png'),
+    sprite: require("../sprites/138.png"),
+    model: require("../models/omanyte.png"),
     class: "Spiral Pokémon",
     height: "0.4m",
     weight: "7.5kg",
@@ -2762,7 +2900,8 @@ export const POKEMON = [
   {
     number: "139",
     name: "Omastar",
-    sprite: require('../sprites/139.png'),
+    sprite: require("../sprites/139.png"),
+    model: require("../models/omastar.png"),
     class: "Spiral Pokémon",
     height: "1.0m",
     weight: "35.0kg",
@@ -2782,7 +2921,8 @@ export const POKEMON = [
   {
     number: "140",
     name: "Kabuto",
-    sprite: require('../sprites/140.png'),
+    sprite: require("../sprites/140.png"),
+    model: require("../models/kabuto.png"),
     class: "Shellfish Pokémon",
     height: "0.5m",
     weight: "11.5kg",
@@ -2802,7 +2942,8 @@ export const POKEMON = [
   {
     number: "141",
     name: "Kabutops",
-    sprite: require('../sprites/141.png'),
+    sprite: require("../sprites/141.png"),
+    model: require("../models/kabutops.png"),
     class: "Shellfish Pokémon",
     height: "1.3m",
     weight: "40.5kg",
@@ -2822,7 +2963,8 @@ export const POKEMON = [
   {
     number: "142",
     name: "Aerodactyl",
-    sprite: require('../sprites/142.png'),
+    sprite: require("../sprites/142.png"),
+    model: require("../models/aerodactyl.png"),
     class: "Fossil Pokémon",
     height: "1.8m",
     weight: "59.0kg",
@@ -2842,7 +2984,8 @@ export const POKEMON = [
   {
     number: "143",
     name: "Snorlax",
-    sprite: require('../sprites/143.png'),
+    sprite: require("../sprites/143.png"),
+    model: require("../models/snorlax.png"),
     class: "Sleeping Pokémon",
     height: "2.1m",
     weight: "460.0kg",
@@ -2862,7 +3005,8 @@ export const POKEMON = [
   {
     number: "144",
     name: "Articuno",
-    sprite: require('../sprites/144.png'),
+    sprite: require("../sprites/144.png"),
+    model: require("../models/articuno.png"),
     class: "Freeze Pokémon (Kantonian)Cruel Pokémon (Galarian)",
     height: "1.7m / 1.7m",
     weight: "55.4kg / 50.9kg",
@@ -2882,7 +3026,8 @@ export const POKEMON = [
   {
     number: "145",
     name: "Zapdos",
-    sprite: require('../sprites/145.png'),
+    sprite: require("../sprites/145.png"),
+    model: require("../models/zapdos.png"),
     class: "Electric Pokémon (Kantonian)Strong Legs Pokémon (Galarian)",
     height: "1.6m / 1.6m",
     weight: "52.6kg / 58.2kg",
@@ -2902,7 +3047,8 @@ export const POKEMON = [
   {
     number: "146",
     name: "Moltres",
-    sprite: require('../sprites/146.png'),
+    sprite: require("../sprites/146.png"),
+    model: require("../models/moltres.png"),
     class: "Flame Pokémon (Kantonian)Malevolent Pokémon (Galarian)",
     height: "2.0m / 2.0m",
     weight: "60.0kg / 66.0kg",
@@ -2922,7 +3068,8 @@ export const POKEMON = [
   {
     number: "147",
     name: "Dratini",
-    sprite: require('../sprites/147.png'),
+    sprite: require("../sprites/147.png"),
+    model: require("../models/dratini.png"),
     class: "Dragon Pokémon",
     height: "1.8m",
     weight: "3.3kg",
@@ -2942,7 +3089,8 @@ export const POKEMON = [
   {
     number: "148",
     name: "Dragonair",
-    sprite: require('../sprites/148.png'),
+    sprite: require("../sprites/148.png"),
+    model: require("../models/dragonair.png"),
     class: "Dragon Pokémon",
     height: "4.0m",
     weight: "16.5kg",
@@ -2962,7 +3110,8 @@ export const POKEMON = [
   {
     number: "149",
     name: "Dragonite",
-    sprite: require('../sprites/149.png'),
+    sprite: require("../sprites/149.png"),
+    model: require("../models/dragonite.png"),
     class: "Dragon Pokémon",
     height: "2.2m",
     weight: "210.0kg",
@@ -2982,7 +3131,8 @@ export const POKEMON = [
   {
     number: "150",
     name: "Mewtwo",
-    sprite: require('../sprites/150.png'),
+    sprite: require("../sprites/150.png"),
+    model: require("../models/mewtwo.png"),
     class: "Genetic Pokémon",
     height: "2.0m",
     weight: "122.0kg",
@@ -3002,7 +3152,8 @@ export const POKEMON = [
   {
     number: "151",
     name: "Mew",
-    sprite: require('../sprites/151.png'),
+    sprite: require("../sprites/151.png"),
+    model: require("../models/mew.png"),
     class: "New Species Pokémon",
     height: "0.4m",
     weight: "4.0kg",
@@ -3022,7 +3173,8 @@ export const POKEMON = [
   {
     number: "152",
     name: "Chikorita",
-    sprite: require('../sprites/152.png'),
+    sprite: require("../sprites/152.png"),
+    model: require("../models/chikorita.png"),
     class: "Leaf Pokémon",
     height: "0.9m",
     weight: "6.4kg",
@@ -3042,7 +3194,8 @@ export const POKEMON = [
   {
     number: "153",
     name: "Bayleef",
-    sprite: require('../sprites/153.png'),
+    sprite: require("../sprites/153.png"),
+    model: require("../models/bayleef.png"),
     class: "Leaf Pokémon",
     height: "1.2m",
     weight: "15.8kg",
@@ -3062,7 +3215,8 @@ export const POKEMON = [
   {
     number: "154",
     name: "Meganium",
-    sprite: require('../sprites/154.png'),
+    sprite: require("../sprites/154.png"),
+    model: require("../models/meganium.png"),
     class: "Herb Pokémon",
     height: "1.8m",
     weight: "100.5kg",
@@ -3082,7 +3236,8 @@ export const POKEMON = [
   {
     number: "155",
     name: "Cyndaquil",
-    sprite: require('../sprites/155.png'),
+    sprite: require("../sprites/155.png"),
+    model: require("../models/cyndaquil.png"),
     class: "Fire Mouse Pokémon",
     height: "0.5m",
     weight: "7.9kg",
@@ -3102,7 +3257,8 @@ export const POKEMON = [
   {
     number: "156",
     name: "Quilava",
-    sprite: require('../sprites/156.png'),
+    sprite: require("../sprites/156.png"),
+    model: require("../models/quilava.png"),
     class: "Volcano Pokémon",
     height: "0.9m",
     weight: "19kg",
@@ -3122,7 +3278,8 @@ export const POKEMON = [
   {
     number: "157",
     name: "Typhlosion",
-    sprite: require('../sprites/157.png'),
+    sprite: require("../sprites/157.png"),
+    model: require("../models/typhlosion.png"),
     class: "Volcano Pokémon",
     height: "1.7m",
     weight: "79.5kg",
@@ -3142,7 +3299,8 @@ export const POKEMON = [
   {
     number: "158",
     name: "Totodile",
-    sprite: require('../sprites/158.png'),
+    sprite: require("../sprites/158.png"),
+    model: require("../models/totodile.png"),
     class: "Big Jaw Pokémon",
     height: "0.6m",
     weight: "9.5kg",
@@ -3162,7 +3320,8 @@ export const POKEMON = [
   {
     number: "159",
     name: "Croconaw",
-    sprite: require('../sprites/159.png'),
+    sprite: require("../sprites/159.png"),
+    model: require("../models/croconaw.png"),
     class: "Big Jaw Pokémon",
     height: "1.1m",
     weight: "25kg",
@@ -3182,7 +3341,8 @@ export const POKEMON = [
   {
     number: "160",
     name: "Feraligatr",
-    sprite: require('../sprites/160.png'),
+    sprite: require("../sprites/160.png"),
+    model: require("../models/feraligatr.png"),
     class: "Big Jaw Pokémon",
     height: "2.3m",
     weight: "88.8kg",
@@ -3202,7 +3362,8 @@ export const POKEMON = [
   {
     number: "161",
     name: "Sentret",
-    sprite: require('../sprites/161.png'),
+    sprite: require("../sprites/161.png"),
+    model: require("../models/sentret.png"),
     class: "Scout Pokémon",
     height: "0.8m",
     weight: "6kg",
@@ -3222,7 +3383,8 @@ export const POKEMON = [
   {
     number: "162",
     name: "Furret",
-    sprite: require('../sprites/162.png'),
+    sprite: require("../sprites/162.png"),
+    model: require("../models/furret.png"),
     class: "Long Body Pokémon",
     height: "1.8m",
     weight: "32.5kg",
@@ -3242,7 +3404,8 @@ export const POKEMON = [
   {
     number: "163",
     name: "Hoothoot",
-    sprite: require('../sprites/163.png'),
+    sprite: require("../sprites/163.png"),
+    model: require("../models/hoothoot.png"),
     class: "Owl Pokémon",
     height: "0.7m",
     weight: "21.2kg",
@@ -3262,7 +3425,8 @@ export const POKEMON = [
   {
     number: "164",
     name: "Noctowl",
-    sprite: require('../sprites/164.png'),
+    sprite: require("../sprites/164.png"),
+    model: require("../models/noctowl.png"),
     class: "Owl Pokémon",
     height: "1.6m",
     weight: "40.8kg",
@@ -3282,7 +3446,8 @@ export const POKEMON = [
   {
     number: "165",
     name: "Ledyba",
-    sprite: require('../sprites/165.png'),
+    sprite: require("../sprites/165.png"),
+    model: require("../models/ledyba.png"),
     class: "Five Star Pokémon",
     height: "1m",
     weight: "10.8kg",
@@ -3302,7 +3467,8 @@ export const POKEMON = [
   {
     number: "166",
     name: "Ledian",
-    sprite: require('../sprites/166.png'),
+    sprite: require("../sprites/166.png"),
+    model: require("../models/ledian.png"),
     class: "Five Star Pokémon",
     height: "1.4m",
     weight: "35.6kg",
@@ -3322,7 +3488,8 @@ export const POKEMON = [
   {
     number: "167",
     name: "Spinarak",
-    sprite: require('../sprites/167.png'),
+    sprite: require("../sprites/167.png"),
+    model: require("../models/spinarak.png"),
     class: "String Spit Pokémon",
     height: "0.5m",
     weight: "8.5kg",
@@ -3342,7 +3509,8 @@ export const POKEMON = [
   {
     number: "168",
     name: "Ariados",
-    sprite: require('../sprites/168.png'),
+    sprite: require("../sprites/168.png"),
+    model: require("../models/ariados.png"),
     class: "Long Leg Pokémon",
     height: "1.1m",
     weight: "33.5kg",
@@ -3362,7 +3530,8 @@ export const POKEMON = [
   {
     number: "169",
     name: "Crobat",
-    sprite: require('../sprites/169.png'),
+    sprite: require("../sprites/169.png"),
+    model: require("../models/crobat.png"),
     class: "Bat Pokémon",
     height: "1.8m",
     weight: "75.0kg",
@@ -3382,7 +3551,8 @@ export const POKEMON = [
   {
     number: "170",
     name: "Chinchou",
-    sprite: require('../sprites/170.png'),
+    sprite: require("../sprites/170.png"),
+    model: require("../models/chinchou.png"),
     class: "Angler Pokémon",
     height: "0.5m",
     weight: "12.0kg",
@@ -3402,7 +3572,8 @@ export const POKEMON = [
   {
     number: "171",
     name: "Lanturn",
-    sprite: require('../sprites/171.png'),
+    sprite: require("../sprites/171.png"),
+    model: require("../models/lanturn.png"),
     class: "Light Pokémon",
     height: "1.2m",
     weight: "22.5kg",
@@ -3422,7 +3593,8 @@ export const POKEMON = [
   {
     number: "172",
     name: "Pichu",
-    sprite: require('../sprites/172.png'),
+    sprite: require("../sprites/172.png"),
+    model: require("../models/pichu.png"),
     class: "Tiny Mouse Pokémon",
     height: "0.3m",
     weight: "2.0kg",
@@ -3442,7 +3614,8 @@ export const POKEMON = [
   {
     number: "173",
     name: "Cleffa",
-    sprite: require('../sprites/173.png'),
+    sprite: require("../sprites/173.png"),
+    model: require("../models/cleffa.png"),
     class: "Star Shape Pokémon",
     height: "0.3m",
     weight: "3.0kg",
@@ -3462,7 +3635,8 @@ export const POKEMON = [
   {
     number: "174",
     name: "Igglybuff",
-    sprite: require('../sprites/174.png'),
+    sprite: require("../sprites/174.png"),
+    model: require("../models/igglybuff.png"),
     class: "Balloon Pokémon",
     height: "0.3m",
     weight: "1.0kg",
@@ -3482,7 +3656,8 @@ export const POKEMON = [
   {
     number: "175",
     name: "Togepi",
-    sprite: require('../sprites/175.png'),
+    sprite: require("../sprites/175.png"),
+    model: require("../models/togepi.png"),
     class: "Spike Ball Pokémon",
     height: "0.3m",
     weight: "1.5kg",
@@ -3502,7 +3677,8 @@ export const POKEMON = [
   {
     number: "176",
     name: "Togetic",
-    sprite: require('../sprites/176.png'),
+    sprite: require("../sprites/176.png"),
+    model: require("../models/togetic.png"),
     class: "Happiness Pokémon",
     height: "0.6m",
     weight: "3.2kg",
@@ -3522,7 +3698,8 @@ export const POKEMON = [
   {
     number: "177",
     name: "Natu",
-    sprite: require('../sprites/177.png'),
+    sprite: require("../sprites/177.png"),
+    model: require("../models/natu.png"),
     class: "Little Bird Pokémon",
     height: "0.2m",
     weight: "2.0kg",
@@ -3542,7 +3719,8 @@ export const POKEMON = [
   {
     number: "178",
     name: "Xatu",
-    sprite: require('../sprites/178.png'),
+    sprite: require("../sprites/178.png"),
+    model: require("../models/xatu.png"),
     class: "Mystic Pokémon",
     height: "1.5m",
     weight: "15.0kg",
@@ -3562,7 +3740,8 @@ export const POKEMON = [
   {
     number: "179",
     name: "Mareep",
-    sprite: require('../sprites/179.png'),
+    sprite: require("../sprites/179.png"),
+    model: require("../models/mareep.png"),
     class: "Wool Pokémon",
     height: "0.6m",
     weight: "7.8kg",
@@ -3582,7 +3761,8 @@ export const POKEMON = [
   {
     number: "180",
     name: "Flaaffy",
-    sprite: require('../sprites/180.png'),
+    sprite: require("../sprites/180.png"),
+    model: require("../models/flaaffy.png"),
     class: "Wool Pokémon",
     height: "0.8m",
     weight: "13.3kg",
@@ -3602,7 +3782,8 @@ export const POKEMON = [
   {
     number: "181",
     name: "Ampharos",
-    sprite: require('../sprites/181.png'),
+    sprite: require("../sprites/181.png"),
+    model: require("../models/ampharos.png"),
     class: "Light Pokémon",
     height: "1.4m",
     weight: "61.5kg",
@@ -3622,7 +3803,8 @@ export const POKEMON = [
   {
     number: "182",
     name: "Bellossom",
-    sprite: require('../sprites/182.png'),
+    sprite: require("../sprites/182.png"),
+    model: require("../models/bellossom.png"),
     class: "Flower Pokémon",
     height: "0.4m",
     weight: "5.8kg",
@@ -3642,7 +3824,8 @@ export const POKEMON = [
   {
     number: "183",
     name: "Marill",
-    sprite: require('../sprites/183.png'),
+    sprite: require("../sprites/183.png"),
+    model: require("../models/marill.png"),
     class: "Aquamouse Pokémon",
     height: "0.4m",
     weight: "8.5kg",
@@ -3662,7 +3845,8 @@ export const POKEMON = [
   {
     number: "184",
     name: "Azumarill",
-    sprite: require('../sprites/184.png'),
+    sprite: require("../sprites/184.png"),
+    model: require("../models/azumarill.png"),
     class: "Aquarabbit Pokémon",
     height: "0.8m",
     weight: "28.5kg",
@@ -3682,7 +3866,8 @@ export const POKEMON = [
   {
     number: "185",
     name: "Sudowoodo",
-    sprite: require('../sprites/185.png'),
+    sprite: require("../sprites/185.png"),
+    model: require("../models/sudowoodo.png"),
     class: "Imitation Pokémon",
     height: "1.2m",
     weight: "38.0kg",
@@ -3702,7 +3887,8 @@ export const POKEMON = [
   {
     number: "186",
     name: "Politoed",
-    sprite: require('../sprites/186.png'),
+    sprite: require("../sprites/186.png"),
+    model: require("../models/politoed.png"),
     class: "Frog Pokémon",
     height: "1.1m",
     weight: "33.9kg",
@@ -3722,7 +3908,8 @@ export const POKEMON = [
   {
     number: "187",
     name: "Hoppip",
-    sprite: require('../sprites/187.png'),
+    sprite: require("../sprites/187.png"),
+    model: require("../models/hoppip.png"),
     class: "Cottonweed Pokémon",
     height: "0.4m",
     weight: "0.5kg",
@@ -3742,7 +3929,8 @@ export const POKEMON = [
   {
     number: "188",
     name: "Skiploom",
-    sprite: require('../sprites/188.png'),
+    sprite: require("../sprites/188.png"),
+    model: require("../models/skiploom.png"),
     class: "Cottonweed Pokémon",
     height: "0.6m",
     weight: "1kg",
@@ -3762,7 +3950,8 @@ export const POKEMON = [
   {
     number: "189",
     name: "Jumpluff",
-    sprite: require('../sprites/189.png'),
+    sprite: require("../sprites/189.png"),
+    model: require("../models/jumpluff.png"),
     class: "Cottonweed Pokémon",
     height: "0.8m",
     weight: "3kg",
@@ -3782,7 +3971,8 @@ export const POKEMON = [
   {
     number: "190",
     name: "Aipom",
-    sprite: require('../sprites/190.png'),
+    sprite: require("../sprites/190.png"),
+    model: require("../models/aipom.png"),
     class: "Long Tail Pokémon",
     height: "0.8m",
     weight: "11.5kg",
@@ -3802,7 +3992,8 @@ export const POKEMON = [
   {
     number: "191",
     name: "Sunkern",
-    sprite: require('../sprites/191.png'),
+    sprite: require("../sprites/191.png"),
+    model: require("../models/sunkern.png"),
     class: "Seed Pokémon",
     height: "0.3m",
     weight: "1.8kg",
@@ -3822,7 +4013,8 @@ export const POKEMON = [
   {
     number: "192",
     name: "Sunflora",
-    sprite: require('../sprites/192.png'),
+    sprite: require("../sprites/192.png"),
+    model: require("../models/sunflora.png"),
     class: "Sun Pokémon",
     height: "0.8m",
     weight: "8.5kg",
@@ -3842,7 +4034,8 @@ export const POKEMON = [
   {
     number: "193",
     name: "Yanma",
-    sprite: require('../sprites/193.png'),
+    sprite: require("../sprites/193.png"),
+    model: require("../models/yanma.png"),
     class: "Clear Wing Pokémon",
     height: "1.2m",
     weight: "38kg",
@@ -3862,7 +4055,8 @@ export const POKEMON = [
   {
     number: "194",
     name: "Wooper",
-    sprite: require('../sprites/194.png'),
+    sprite: require("../sprites/194.png"),
+    model: require("../models/wooper.png"),
     class: "Water Fish Pokémon",
     height: "0.4m",
     weight: "8.5kg",
@@ -3882,7 +4076,8 @@ export const POKEMON = [
   {
     number: "195",
     name: "Quagsire",
-    sprite: require('../sprites/195.png'),
+    sprite: require("../sprites/195.png"),
+    model: require("../models/quagsire.png"),
     class: "Water Fish Pokémon",
     height: "1.4m",
     weight: "75.0kg",
@@ -3902,7 +4097,8 @@ export const POKEMON = [
   {
     number: "196",
     name: "Espeon",
-    sprite: require('../sprites/196.png'),
+    sprite: require("../sprites/196.png"),
+    model: require("../models/espeon.png"),
     class: "Sun Pokémon",
     height: "0.9m",
     weight: "26.5kg",
@@ -3922,7 +4118,8 @@ export const POKEMON = [
   {
     number: "197",
     name: "Umbreon",
-    sprite: require('../sprites/197.png'),
+    sprite: require("../sprites/197.png"),
+    model: require("../models/umbreon.png"),
     class: "Moonlight Pokémon",
     height: "1.0m",
     weight: "27.0kg",
@@ -3942,7 +4139,8 @@ export const POKEMON = [
   {
     number: "198",
     name: "Murkrow",
-    sprite: require('../sprites/198.png'),
+    sprite: require("../sprites/198.png"),
+    model: require("../models/murkrow.png"),
     class: "Darkness Pokémon",
     height: "0.5m",
     weight: "2.1kg",
@@ -3962,7 +4160,8 @@ export const POKEMON = [
   {
     number: "199",
     name: "Slowking",
-    sprite: require('../sprites/199.png'),
+    sprite: require("../sprites/199.png"),
+    model: require("../models/slowking.png"),
     class: "Royal Pokémon (Johtonian)Hexpert Pokémon (Galarian)",
     height: "2.0m / 1.8m",
     weight: "79.5kg / 79.5kg",
@@ -3982,7 +4181,8 @@ export const POKEMON = [
   {
     number: "200",
     name: "Misdreavus",
-    sprite: require('../sprites/200.png'),
+    sprite: require("../sprites/200.png"),
+    model: require("../models/misdreavus.png"),
     class: "Screech Pokémon",
     height: "0.7m",
     weight: "1kg",
@@ -4002,7 +4202,8 @@ export const POKEMON = [
   {
     number: "201",
     name: "Unown",
-    sprite: require('../sprites/201.png'),
+    sprite: require("../sprites/201.png"),
+    model: require("../models/unown.png"),
     class: "Symbol Pokémon",
     height: "0.5m",
     weight: "5kg",
@@ -4022,7 +4223,8 @@ export const POKEMON = [
   {
     number: "202",
     name: "Wobbuffet",
-    sprite: require('../sprites/202.png'),
+    sprite: require("../sprites/202.png"),
+    model: require("../models/wobbuffet.png"),
     class: "Patient Pokémon",
     height: "1.3m",
     weight: "28.5kg",
@@ -4042,7 +4244,8 @@ export const POKEMON = [
   {
     number: "203",
     name: "Girafarig",
-    sprite: require('../sprites/203.png'),
+    sprite: require("../sprites/203.png"),
+    model: require("../models/girafarig.png"),
     class: "Long Neck Pokémon",
     height: "1.5m",
     weight: "41.5kg",
@@ -4062,7 +4265,8 @@ export const POKEMON = [
   {
     number: "204",
     name: "Pineco",
-    sprite: require('../sprites/204.png'),
+    sprite: require("../sprites/204.png"),
+    model: require("../models/pineco.png"),
     class: "Bagworm Pokémon",
     height: "0.6m",
     weight: "7.2kg",
@@ -4082,7 +4286,8 @@ export const POKEMON = [
   {
     number: "205",
     name: "Forretress",
-    sprite: require('../sprites/205.png'),
+    sprite: require("../sprites/205.png"),
+    model: require("../models/forretress.png"),
     class: "Bagworm Pokémon",
     height: "1.2m",
     weight: "125.8kg",
@@ -4102,7 +4307,8 @@ export const POKEMON = [
   {
     number: "206",
     name: "Dunsparce",
-    sprite: require('../sprites/206.png'),
+    sprite: require("../sprites/206.png"),
+    model: require("../models/dunsparce.png"),
     class: "Land Snake Pokémon",
     height: "1.5m",
     weight: "14.0kg",
@@ -4122,7 +4328,8 @@ export const POKEMON = [
   {
     number: "207",
     name: "Gligar",
-    sprite: require('../sprites/207.png'),
+    sprite: require("../sprites/207.png"),
+    model: require("../models/gligar.png"),
     class: "Flyscorpion Pokémon",
     height: "1.1m",
     weight: "64.8kg",
@@ -4142,7 +4349,8 @@ export const POKEMON = [
   {
     number: "208",
     name: "Steelix",
-    sprite: require('../sprites/208.png'),
+    sprite: require("../sprites/208.png"),
+    model: require("../models/steelix.png"),
     class: "Iron Snake Pokémon",
     height: "9.2m",
     weight: "400.0kg",
@@ -4162,7 +4370,8 @@ export const POKEMON = [
   {
     number: "209",
     name: "Snubbull",
-    sprite: require('../sprites/209.png'),
+    sprite: require("../sprites/209.png"),
+    model: require("../models/snubbull.png"),
     class: "Fairy Pokémon",
     height: "0.6m",
     weight: "7.8kg",
@@ -4182,7 +4391,8 @@ export const POKEMON = [
   {
     number: "210",
     name: "Granbull",
-    sprite: require('../sprites/210.png'),
+    sprite: require("../sprites/210.png"),
+    model: require("../models/granbull.png"),
     class: "Fairy Pokémon",
     height: "1.4m",
     weight: "48.7kg",
@@ -4202,7 +4412,8 @@ export const POKEMON = [
   {
     number: "211",
     name: "Qwilfish",
-    sprite: require('../sprites/211.png'),
+    sprite: require("../sprites/211.png"),
+    model: require("../models/qwilfish.png"),
     class: "Balloon Pokémon",
     height: "0.5m",
     weight: "3.9kg",
@@ -4222,7 +4433,8 @@ export const POKEMON = [
   {
     number: "212",
     name: "Scizor",
-    sprite: require('../sprites/212.png'),
+    sprite: require("../sprites/212.png"),
+    model: require("../models/scizor.png"),
     class: "Pincer Pokémon",
     height: "1.8m",
     weight: "118.0kg",
@@ -4242,7 +4454,8 @@ export const POKEMON = [
   {
     number: "213",
     name: "Shuckle",
-    sprite: require('../sprites/213.png'),
+    sprite: require("../sprites/213.png"),
+    model: require("../models/shuckle.png"),
     class: "Mold Pokémon",
     height: "0.6m",
     weight: "20.5kg",
@@ -4262,7 +4475,8 @@ export const POKEMON = [
   {
     number: "214",
     name: "Heracross",
-    sprite: require('../sprites/214.png'),
+    sprite: require("../sprites/214.png"),
+    model: require("../models/heracross.png"),
     class: "Singlehorn Pokémon",
     height: "1.5m",
     weight: "54.0kg",
@@ -4282,7 +4496,8 @@ export const POKEMON = [
   {
     number: "215",
     name: "Sneasel",
-    sprite: require('../sprites/215.png'),
+    sprite: require("../sprites/215.png"),
+    model: require("../models/sneasel.png"),
     class: "Sharp Claw Pokémon",
     height: "0.9m",
     weight: "28.0kg",
@@ -4302,7 +4517,8 @@ export const POKEMON = [
   {
     number: "216",
     name: "Teddiursa",
-    sprite: require('../sprites/216.png'),
+    sprite: require("../sprites/216.png"),
+    model: require("../models/teddiursa.png"),
     class: "Little Bear Pokémon",
     height: "0.6m",
     weight: "8.8kg",
@@ -4322,7 +4538,8 @@ export const POKEMON = [
   {
     number: "217",
     name: "Ursaring",
-    sprite: require('../sprites/217.png'),
+    sprite: require("../sprites/217.png"),
+    model: require("../models/ursaring.png"),
     class: "Hibernator Pokémon",
     height: "1.8m",
     weight: "125.8kg",
@@ -4342,7 +4559,8 @@ export const POKEMON = [
   {
     number: "218",
     name: "Slugma",
-    sprite: require('../sprites/218.png'),
+    sprite: require("../sprites/218.png"),
+    model: require("../models/slugma.png"),
     class: "Lava Pokémon",
     height: "0.7m",
     weight: "35kg",
@@ -4362,7 +4580,8 @@ export const POKEMON = [
   {
     number: "219",
     name: "Magcargo",
-    sprite: require('../sprites/219.png'),
+    sprite: require("../sprites/219.png"),
+    model: require("../models/magcargo.png"),
     class: "Lava Pokémon",
     height: "0.8m",
     weight: "55kg",
@@ -4382,7 +4601,8 @@ export const POKEMON = [
   {
     number: "220",
     name: "Swinub",
-    sprite: require('../sprites/220.png'),
+    sprite: require("../sprites/220.png"),
+    model: require("../models/swinub.png"),
     class: "Pig Pokémon",
     height: "0.4m",
     weight: "6.5kg",
@@ -4402,7 +4622,8 @@ export const POKEMON = [
   {
     number: "221",
     name: "Piloswine",
-    sprite: require('../sprites/221.png'),
+    sprite: require("../sprites/221.png"),
+    model: require("../models/piloswine.png"),
     class: "Swine Pokémon",
     height: "1.1m",
     weight: "55.8kg",
@@ -4422,7 +4643,8 @@ export const POKEMON = [
   {
     number: "222",
     name: "Corsola",
-    sprite: require('../sprites/222.png'),
+    sprite: require("../sprites/222.png"),
+    model: require("../models/corsola.png"),
     class: "Coral Pokémon",
     height: "0.6m / 0.6m",
     weight: "5.0kg / 0.5kg",
@@ -4442,7 +4664,8 @@ export const POKEMON = [
   {
     number: "223",
     name: "Remoraid",
-    sprite: require('../sprites/223.png'),
+    sprite: require("../sprites/223.png"),
+    model: require("../models/remoraid.png"),
     class: "Jet Pokémon",
     height: "0.6m",
     weight: "12.0kg",
@@ -4462,7 +4685,8 @@ export const POKEMON = [
   {
     number: "224",
     name: "Octillery",
-    sprite: require('../sprites/224.png'),
+    sprite: require("../sprites/224.png"),
+    model: require("../models/octillery.png"),
     class: "Jet Pokémon",
     height: "0.9m",
     weight: "28.5kg",
@@ -4482,7 +4706,8 @@ export const POKEMON = [
   {
     number: "225",
     name: "Delibird",
-    sprite: require('../sprites/225.png'),
+    sprite: require("../sprites/225.png"),
+    model: require("../models/delibird.png"),
     class: "Delivery Pokémon",
     height: "0.9m",
     weight: "16.0kg",
@@ -4502,7 +4727,8 @@ export const POKEMON = [
   {
     number: "226",
     name: "Mantine",
-    sprite: require('../sprites/226.png'),
+    sprite: require("../sprites/226.png"),
+    model: require("../models/mantine.png"),
     class: "Kite Pokémon",
     height: "2.1m",
     weight: "220.0kg",
@@ -4522,7 +4748,8 @@ export const POKEMON = [
   {
     number: "227",
     name: "Skarmory",
-    sprite: require('../sprites/227.png'),
+    sprite: require("../sprites/227.png"),
+    model: require("../models/skarmory.png"),
     class: "Armor Bird Pokémon",
     height: "1.7m",
     weight: "50.5kg",
@@ -4542,7 +4769,8 @@ export const POKEMON = [
   {
     number: "228",
     name: "Houndour",
-    sprite: require('../sprites/228.png'),
+    sprite: require("../sprites/228.png"),
+    model: require("../models/houndour.png"),
     class: "Dark Pokémon",
     height: "0.6m",
     weight: "10.8kg",
@@ -4562,7 +4790,8 @@ export const POKEMON = [
   {
     number: "229",
     name: "Houndoom",
-    sprite: require('../sprites/229.png'),
+    sprite: require("../sprites/229.png"),
+    model: require("../models/houndoom.png"),
     class: "Dark Pokémon",
     height: "1.4m",
     weight: "35kg",
@@ -4582,7 +4811,8 @@ export const POKEMON = [
   {
     number: "230",
     name: "Kingdra",
-    sprite: require('../sprites/230.png'),
+    sprite: require("../sprites/230.png"),
+    model: require("../models/kingdra.png"),
     class: "Dragon Pokémon",
     height: "1.8m",
     weight: "152.0kg",
@@ -4602,7 +4832,8 @@ export const POKEMON = [
   {
     number: "231",
     name: "Phanpy",
-    sprite: require('../sprites/231.png'),
+    sprite: require("../sprites/231.png"),
+    model: require("../models/phanpy.png"),
     class: "Long Nose Pokémon",
     height: "0.5m",
     weight: "33.5kg",
@@ -4622,7 +4853,8 @@ export const POKEMON = [
   {
     number: "232",
     name: "Donphan",
-    sprite: require('../sprites/232.png'),
+    sprite: require("../sprites/232.png"),
+    model: require("../models/donphan.png"),
     class: "Armor Pokémon",
     height: "1.1m",
     weight: "120kg",
@@ -4642,7 +4874,8 @@ export const POKEMON = [
   {
     number: "233",
     name: "Porygon2",
-    sprite: require('../sprites/233.png'),
+    sprite: require("../sprites/233.png"),
+    model: require("../models/porygon2.png"),
     class: "Virtual Pokémon",
     height: "0.6m",
     weight: "32.5kg",
@@ -4662,7 +4895,8 @@ export const POKEMON = [
   {
     number: "234",
     name: "Stantler",
-    sprite: require('../sprites/234.png'),
+    sprite: require("../sprites/234.png"),
+    model: require("../models/stantler.png"),
     class: "Big Horn Pokémon",
     height: "1.4m",
     weight: "71.2kg",
@@ -4682,7 +4916,8 @@ export const POKEMON = [
   {
     number: "235",
     name: "Smeargle",
-    sprite: require('../sprites/235.png'),
+    sprite: require("../sprites/235.png"),
+    model: require("../models/smeargle.png"),
     class: "Painter Pokémon",
     height: "1.2m",
     weight: "58kg",
@@ -4702,7 +4937,8 @@ export const POKEMON = [
   {
     number: "236",
     name: "Tyrogue",
-    sprite: require('../sprites/236.png'),
+    sprite: require("../sprites/236.png"),
+    model: require("../models/tyrogue.png"),
     class: "Scuffle Pokémon",
     height: "0.7m",
     weight: "21.0kg",
@@ -4722,7 +4958,8 @@ export const POKEMON = [
   {
     number: "237",
     name: "Hitmontop",
-    sprite: require('../sprites/237.png'),
+    sprite: require("../sprites/237.png"),
+    model: require("../models/hitmontop.png"),
     class: "Handstand Pokémon",
     height: "1.4m",
     weight: "48.0kg",
@@ -4742,7 +4979,8 @@ export const POKEMON = [
   {
     number: "238",
     name: "Smoochum",
-    sprite: require('../sprites/238.png'),
+    sprite: require("../sprites/238.png"),
+    model: require("../models/smoochum.png"),
     class: "Kiss Pokémon",
     height: "0.4m",
     weight: "6.0kg",
@@ -4762,7 +5000,8 @@ export const POKEMON = [
   {
     number: "239",
     name: "Elekid",
-    sprite: require('../sprites/239.png'),
+    sprite: require("../sprites/239.png"),
+    model: require("../models/elekid.png"),
     class: "Electric Pokémon",
     height: "0.6m",
     weight: "23.5kg",
@@ -4782,7 +5021,8 @@ export const POKEMON = [
   {
     number: "240",
     name: "Magby",
-    sprite: require('../sprites/240.png'),
+    sprite: require("../sprites/240.png"),
+    model: require("../models/magby.png"),
     class: "Live Coal Pokémon",
     height: "0.7m",
     weight: "21.4kg",
@@ -4802,7 +5042,8 @@ export const POKEMON = [
   {
     number: "241",
     name: "Miltank",
-    sprite: require('../sprites/241.png'),
+    sprite: require("../sprites/241.png"),
+    model: require("../models/miltank.png"),
     class: "Milk Cow Pokémon",
     height: "1.2m",
     weight: "75.5kg",
@@ -4822,7 +5063,8 @@ export const POKEMON = [
   {
     number: "242",
     name: "Blissey",
-    sprite: require('../sprites/242.png'),
+    sprite: require("../sprites/242.png"),
+    model: require("../models/blissey.png"),
     class: "Happiness Pokémon",
     height: "1.5m",
     weight: "46.8kg",
@@ -4842,7 +5084,8 @@ export const POKEMON = [
   {
     number: "243",
     name: "Raikou",
-    sprite: require('../sprites/243.png'),
+    sprite: require("../sprites/243.png"),
+    model: require("../models/raikou.png"),
     class: "Thunder Pokémon",
     height: "1.9m",
     weight: "178.0kg",
@@ -4862,7 +5105,8 @@ export const POKEMON = [
   {
     number: "244",
     name: "Entei",
-    sprite: require('../sprites/244.png'),
+    sprite: require("../sprites/244.png"),
+    model: require("../models/entei.png"),
     class: "Volcano Pokémon",
     height: "2.1m",
     weight: "198.0kg",
@@ -4882,7 +5126,8 @@ export const POKEMON = [
   {
     number: "245",
     name: "Suicune",
-    sprite: require('../sprites/245.png'),
+    sprite: require("../sprites/245.png"),
+    model: require("../models/suicune.png"),
     class: "Aurora Pokémon",
     height: "2.0m",
     weight: "187.0kg",
@@ -4902,7 +5147,8 @@ export const POKEMON = [
   {
     number: "246",
     name: "Larvitar",
-    sprite: require('../sprites/246.png'),
+    sprite: require("../sprites/246.png"),
+    model: require("../models/larvitar.png"),
     class: "Rock Skin Pokémon",
     height: "0.6m",
     weight: "72.0kg",
@@ -4922,7 +5168,8 @@ export const POKEMON = [
   {
     number: "247",
     name: "Pupitar",
-    sprite: require('../sprites/247.png'),
+    sprite: require("../sprites/247.png"),
+    model: require("../models/pupitar.png"),
     class: "Hard Shell Pokémon",
     height: "1.2m",
     weight: "152.0kg",
@@ -4942,7 +5189,8 @@ export const POKEMON = [
   {
     number: "248",
     name: "Tyranitar",
-    sprite: require('../sprites/248.png'),
+    sprite: require("../sprites/248.png"),
+    model: require("../models/tyranitar.png"),
     class: "Armor Pokémon",
     height: "2.0m",
     weight: "202.0kg",
@@ -4962,7 +5210,8 @@ export const POKEMON = [
   {
     number: "249",
     name: "Lugia",
-    sprite: require('../sprites/249.png'),
+    sprite: require("../sprites/249.png"),
+    model: require("../models/lugia.png"),
     class: "Diving Pokémon",
     height: "5.2m",
     weight: "216.0kg",
@@ -4982,7 +5231,8 @@ export const POKEMON = [
   {
     number: "250",
     name: "Ho-Oh",
-    sprite: require('../sprites/250.png'),
+    sprite: require("../sprites/250.png"),
+    model: require("../models/ho-oh.png"),
     class: "Rainbow Pokémon",
     height: "3.8m",
     weight: "199.0kg",
@@ -5002,7 +5252,8 @@ export const POKEMON = [
   {
     number: "251",
     name: "Celebi",
-    sprite: require('../sprites/251.png'),
+    sprite: require("../sprites/251.png"),
+    model: require("../models/celebi.png"),
     class: "Time Travel Pokémon",
     height: "0.6m",
     weight: "5.0kg",
@@ -5022,7 +5273,8 @@ export const POKEMON = [
   {
     number: "252",
     name: "Treecko",
-    sprite: require('../sprites/252.png'),
+    sprite: require("../sprites/252.png"),
+    model: require("../models/treecko.png"),
     class: "Wood Gecko Pokémon",
     height: "0.5m",
     weight: "5.0kg",
@@ -5042,7 +5294,8 @@ export const POKEMON = [
   {
     number: "253",
     name: "Grovyle",
-    sprite: require('../sprites/253.png'),
+    sprite: require("../sprites/253.png"),
+    model: require("../models/grovyle.png"),
     class: "Wood Gecko Pokémon",
     height: "0.9m",
     weight: "21.6kg",
@@ -5062,7 +5315,8 @@ export const POKEMON = [
   {
     number: "254",
     name: "Sceptile",
-    sprite: require('../sprites/254.png'),
+    sprite: require("../sprites/254.png"),
+    model: require("../models/sceptile.png"),
     class: "Forest Pokémon",
     height: "1.7m",
     weight: "52.2kg",
@@ -5082,7 +5336,8 @@ export const POKEMON = [
   {
     number: "255",
     name: "Torchic",
-    sprite: require('../sprites/255.png'),
+    sprite: require("../sprites/255.png"),
+    model: require("../models/torchic.png"),
     class: "Chick Pokémon",
     height: "0.4m",
     weight: "2.5kg",
@@ -5102,7 +5357,8 @@ export const POKEMON = [
   {
     number: "256",
     name: "Combusken",
-    sprite: require('../sprites/256.png'),
+    sprite: require("../sprites/256.png"),
+    model: require("../models/combusken.png"),
     class: "Young Fowl Pokémon",
     height: "0.9m",
     weight: "19.5kg",
@@ -5122,7 +5378,8 @@ export const POKEMON = [
   {
     number: "257",
     name: "Blaziken",
-    sprite: require('../sprites/257.png'),
+    sprite: require("../sprites/257.png"),
+    model: require("../models/blaziken.png"),
     class: "Blaze Pokémon",
     height: "1.9m",
     weight: "52.0kg",
@@ -5142,7 +5399,8 @@ export const POKEMON = [
   {
     number: "258",
     name: "Mudkip",
-    sprite: require('../sprites/258.png'),
+    sprite: require("../sprites/258.png"),
+    model: require("../models/mudkip.png"),
     class: "Mud Fish Pokémon",
     height: "0.4m",
     weight: "7.6kg",
@@ -5162,7 +5420,8 @@ export const POKEMON = [
   {
     number: "259",
     name: "Marshtomp",
-    sprite: require('../sprites/259.png'),
+    sprite: require("../sprites/259.png"),
+    model: require("../models/marshtomp.png"),
     class: "Mud Fish Pokémon",
     height: "0.7m",
     weight: "28.0kg",
@@ -5182,7 +5441,8 @@ export const POKEMON = [
   {
     number: "260",
     name: "Swampert",
-    sprite: require('../sprites/260.png'),
+    sprite: require("../sprites/260.png"),
+    model: require("../models/swampert.png"),
     class: "Mud Fish Pokémon",
     height: "1.5m",
     weight: "81.9kg",
@@ -5202,7 +5462,8 @@ export const POKEMON = [
   {
     number: "261",
     name: "Poochyena",
-    sprite: require('../sprites/261.png'),
+    sprite: require("../sprites/261.png"),
+    model: require("../models/poochyena.png"),
     class: "Bite Pokémon",
     height: "0.5m",
     weight: "13.6kg",
@@ -5222,7 +5483,8 @@ export const POKEMON = [
   {
     number: "262",
     name: "Mightyena",
-    sprite: require('../sprites/262.png'),
+    sprite: require("../sprites/262.png"),
+    model: require("../models/mightyena.png"),
     class: "Bite Pokémon",
     height: "1m",
     weight: "37kg",
@@ -5242,7 +5504,8 @@ export const POKEMON = [
   {
     number: "263",
     name: "Zigzagoon",
-    sprite: require('../sprites/263.png'),
+    sprite: require("../sprites/263.png"),
+    model: require("../models/zigzagoon.png"),
     class: "Tiny Racoon Pokémon",
     height: "0.4m / 0.4m",
     weight: "17.5kg / 17.5kg",
@@ -5262,7 +5525,8 @@ export const POKEMON = [
   {
     number: "264",
     name: "Linoone",
-    sprite: require('../sprites/264.png'),
+    sprite: require("../sprites/264.png"),
+    model: require("../models/linoone.png"),
     class: "Rushing Pokémon",
     height: "0.5m / 0.5m",
     weight: "32.5kg / 32.5kg",
@@ -5282,7 +5546,8 @@ export const POKEMON = [
   {
     number: "265",
     name: "Wurmple",
-    sprite: require('../sprites/265.png'),
+    sprite: require("../sprites/265.png"),
+    model: require("../models/wurmple.png"),
     class: "Worm Pokémon",
     height: "0.3m",
     weight: "3.6kg",
@@ -5302,7 +5567,8 @@ export const POKEMON = [
   {
     number: "266",
     name: "Silcoon",
-    sprite: require('../sprites/266.png'),
+    sprite: require("../sprites/266.png"),
+    model: require("../models/silcoon.png"),
     class: "Cocoon Pokémon",
     height: "0.6m",
     weight: "10kg",
@@ -5322,7 +5588,8 @@ export const POKEMON = [
   {
     number: "267",
     name: "Beautifly",
-    sprite: require('../sprites/267.png'),
+    sprite: require("../sprites/267.png"),
+    model: require("../models/beautifly.png"),
     class: "Butterfly Pokémon",
     height: "1m",
     weight: "28.4kg",
@@ -5342,7 +5609,8 @@ export const POKEMON = [
   {
     number: "268",
     name: "Cascoon",
-    sprite: require('../sprites/268.png'),
+    sprite: require("../sprites/268.png"),
+    model: require("../models/cascoon.png"),
     class: "Cocoon Pokémon",
     height: "0.7m",
     weight: "11.5kg",
@@ -5362,7 +5630,8 @@ export const POKEMON = [
   {
     number: "269",
     name: "Dustox",
-    sprite: require('../sprites/269.png'),
+    sprite: require("../sprites/269.png"),
+    model: require("../models/dustox.png"),
     class: "Poison Moth Pokémon",
     height: "1.2m",
     weight: "31.6kg",
@@ -5382,7 +5651,8 @@ export const POKEMON = [
   {
     number: "270",
     name: "Lotad",
-    sprite: require('../sprites/270.png'),
+    sprite: require("../sprites/270.png"),
+    model: require("../models/lotad.png"),
     class: "Water Weed Pokémon",
     height: "0.5m",
     weight: "2.6kg",
@@ -5402,7 +5672,8 @@ export const POKEMON = [
   {
     number: "271",
     name: "Lombre",
-    sprite: require('../sprites/271.png'),
+    sprite: require("../sprites/271.png"),
+    model: require("../models/lombre.png"),
     class: "Jolly Pokémon",
     height: "1.2m",
     weight: "32.5kg",
@@ -5422,7 +5693,8 @@ export const POKEMON = [
   {
     number: "272",
     name: "Ludicolo",
-    sprite: require('../sprites/272.png'),
+    sprite: require("../sprites/272.png"),
+    model: require("../models/ludicolo.png"),
     class: "Carefree Pokémon",
     height: "1.5m",
     weight: "55.0kg",
@@ -5442,7 +5714,8 @@ export const POKEMON = [
   {
     number: "273",
     name: "Seedot",
-    sprite: require('../sprites/273.png'),
+    sprite: require("../sprites/273.png"),
+    model: require("../models/seedot.png"),
     class: "Acorn Pokémon",
     height: "0.5m",
     weight: "4.0kg",
@@ -5462,7 +5735,8 @@ export const POKEMON = [
   {
     number: "274",
     name: "Nuzleaf",
-    sprite: require('../sprites/274.png'),
+    sprite: require("../sprites/274.png"),
+    model: require("../models/nuzleaf.png"),
     class: "Wily Pokémon",
     height: "1.0m",
     weight: "28.0kg",
@@ -5482,7 +5756,8 @@ export const POKEMON = [
   {
     number: "275",
     name: "Shiftry",
-    sprite: require('../sprites/275.png'),
+    sprite: require("../sprites/275.png"),
+    model: require("../models/shiftry.png"),
     class: "Wickid Pokémon",
     height: "1.3m",
     weight: "59.6kg",
@@ -5502,7 +5777,8 @@ export const POKEMON = [
   {
     number: "276",
     name: "Taillow",
-    sprite: require('../sprites/276.png'),
+    sprite: require("../sprites/276.png"),
+    model: require("../models/taillow.png"),
     class: "TinySwallow Pokémon",
     height: "0.3m",
     weight: "2.3kg",
@@ -5522,7 +5798,8 @@ export const POKEMON = [
   {
     number: "277",
     name: "Swellow",
-    sprite: require('../sprites/277.png'),
+    sprite: require("../sprites/277.png"),
+    model: require("../models/swellow.png"),
     class: "Swallow Pokémon",
     height: "0.7m",
     weight: "19.8kg",
@@ -5542,7 +5819,8 @@ export const POKEMON = [
   {
     number: "278",
     name: "Wingull",
-    sprite: require('../sprites/278.png'),
+    sprite: require("../sprites/278.png"),
+    model: require("../models/wingull.png"),
     class: "Seagull Pokémon",
     height: "0.6m",
     weight: "9.5kg",
@@ -5562,7 +5840,8 @@ export const POKEMON = [
   {
     number: "279",
     name: "Pelipper",
-    sprite: require('../sprites/279.png'),
+    sprite: require("../sprites/279.png"),
+    model: require("../models/pelipper.png"),
     class: "Water Bird Pokémon",
     height: "1.2m",
     weight: "28.0kg",
@@ -5582,7 +5861,8 @@ export const POKEMON = [
   {
     number: "280",
     name: "Ralts",
-    sprite: require('../sprites/280.png'),
+    sprite: require("../sprites/280.png"),
+    model: require("../models/ralts.png"),
     class: "Feeling Pokémon",
     height: "0.4m",
     weight: "6.6kg",
@@ -5602,7 +5882,8 @@ export const POKEMON = [
   {
     number: "281",
     name: "Kirlia",
-    sprite: require('../sprites/281.png'),
+    sprite: require("../sprites/281.png"),
+    model: require("../models/kirlia.png"),
     class: "Emotion Pokémon",
     height: "0.8m",
     weight: "20.2kg",
@@ -5622,7 +5903,8 @@ export const POKEMON = [
   {
     number: "282",
     name: "Gardevoir",
-    sprite: require('../sprites/282.png'),
+    sprite: require("../sprites/282.png"),
+    model: require("../models/gardevoir.png"),
     class: "Embrace Pokémon",
     height: "1.6m",
     weight: "48.4kg",
@@ -5642,7 +5924,8 @@ export const POKEMON = [
   {
     number: "283",
     name: "Surskit",
-    sprite: require('../sprites/283.png'),
+    sprite: require("../sprites/283.png"),
+    model: require("../models/surskit.png"),
     class: "Pond Skater Pokémon",
     height: "0.5m",
     weight: "1.7kg",
@@ -5662,7 +5945,8 @@ export const POKEMON = [
   {
     number: "284",
     name: "Masquerain",
-    sprite: require('../sprites/284.png'),
+    sprite: require("../sprites/284.png"),
+    model: require("../models/masquerain.png"),
     class: "Eyeball Pokémon",
     height: "0.8m",
     weight: "3.6kg",
@@ -5682,7 +5966,8 @@ export const POKEMON = [
   {
     number: "285",
     name: "Shroomish",
-    sprite: require('../sprites/285.png'),
+    sprite: require("../sprites/285.png"),
+    model: require("../models/shroomish.png"),
     class: "Mushroom Pokémon",
     height: "0.4m",
     weight: "4.5kg",
@@ -5702,7 +5987,8 @@ export const POKEMON = [
   {
     number: "286",
     name: "Breloom",
-    sprite: require('../sprites/286.png'),
+    sprite: require("../sprites/286.png"),
+    model: require("../models/breloom.png"),
     class: "Mushroom Pokémon",
     height: "1.2m",
     weight: "39.2kg",
@@ -5722,7 +6008,8 @@ export const POKEMON = [
   {
     number: "287",
     name: "Slakoth",
-    sprite: require('../sprites/287.png'),
+    sprite: require("../sprites/287.png"),
+    model: require("../models/slakoth.png"),
     class: "Slacker Pokémon",
     height: "0.8m",
     weight: "24kg",
@@ -5742,7 +6029,8 @@ export const POKEMON = [
   {
     number: "288",
     name: "Vigoroth",
-    sprite: require('../sprites/288.png'),
+    sprite: require("../sprites/288.png"),
+    model: require("../models/vigoroth.png"),
     class: "Wild Monkey Pokémon",
     height: "1.4m",
     weight: "46.5kg",
@@ -5762,7 +6050,8 @@ export const POKEMON = [
   {
     number: "289",
     name: "Slaking",
-    sprite: require('../sprites/289.png'),
+    sprite: require("../sprites/289.png"),
+    model: require("../models/slaking.png"),
     class: "Lazy Pokémon",
     height: "2m",
     weight: "130.5kg",
@@ -5782,7 +6071,8 @@ export const POKEMON = [
   {
     number: "290",
     name: "Nincada",
-    sprite: require('../sprites/290.png'),
+    sprite: require("../sprites/290.png"),
+    model: require("../models/nincada.png"),
     class: "Trainee Pokémon",
     height: "0.5m",
     weight: "5.5kg",
@@ -5802,7 +6092,8 @@ export const POKEMON = [
   {
     number: "291",
     name: "Ninjask",
-    sprite: require('../sprites/291.png'),
+    sprite: require("../sprites/291.png"),
+    model: require("../models/ninjask.png"),
     class: "Ninja Pokémon",
     height: "0.8m",
     weight: "12.0kg",
@@ -5822,7 +6113,8 @@ export const POKEMON = [
   {
     number: "292",
     name: "Shedinja",
-    sprite: require('../sprites/292.png'),
+    sprite: require("../sprites/292.png"),
+    model: require("../models/shedinja.png"),
     class: "Shed Pokémon",
     height: "0.8m",
     weight: "1.2kg",
@@ -5842,7 +6134,8 @@ export const POKEMON = [
   {
     number: "293",
     name: "Whismur",
-    sprite: require('../sprites/293.png'),
+    sprite: require("../sprites/293.png"),
+    model: require("../models/whismur.png"),
     class: "Whisper Pokémon",
     height: "0.6m",
     weight: "16.3kg",
@@ -5862,7 +6155,8 @@ export const POKEMON = [
   {
     number: "294",
     name: "Loudred",
-    sprite: require('../sprites/294.png'),
+    sprite: require("../sprites/294.png"),
+    model: require("../models/loudred.png"),
     class: "Big Voice Pokémon",
     height: "1.0m",
     weight: "40.5kg",
@@ -5882,7 +6176,8 @@ export const POKEMON = [
   {
     number: "295",
     name: "Exploud",
-    sprite: require('../sprites/295.png'),
+    sprite: require("../sprites/295.png"),
+    model: require("../models/exploud.png"),
     class: "Loud Noise Pokémon",
     height: "1.5m",
     weight: "84.0kg",
@@ -5902,7 +6197,8 @@ export const POKEMON = [
   {
     number: "296",
     name: "Makuhita",
-    sprite: require('../sprites/296.png'),
+    sprite: require("../sprites/296.png"),
+    model: require("../models/makuhita.png"),
     class: "Guts Pokémon",
     height: "1m",
     weight: "86.4kg",
@@ -5922,7 +6218,8 @@ export const POKEMON = [
   {
     number: "297",
     name: "Hariyama",
-    sprite: require('../sprites/297.png'),
+    sprite: require("../sprites/297.png"),
+    model: require("../models/hariyama.png"),
     class: "Arm Thrust Pokémon",
     height: "2.3m",
     weight: "253.8kg",
@@ -5942,7 +6239,8 @@ export const POKEMON = [
   {
     number: "298",
     name: "Azurill",
-    sprite: require('../sprites/298.png'),
+    sprite: require("../sprites/298.png"),
+    model: require("../models/azurill.png"),
     class: "Polka Dot Pokémon",
     height: "0.2m",
     weight: "2.0kg",
@@ -5962,7 +6260,8 @@ export const POKEMON = [
   {
     number: "299",
     name: "Nosepass",
-    sprite: require('../sprites/299.png'),
+    sprite: require("../sprites/299.png"),
+    model: require("../models/nosepass.png"),
     class: "Compass Pokémon",
     height: "1m",
     weight: "97kg",
@@ -5982,7 +6281,8 @@ export const POKEMON = [
   {
     number: "300",
     name: "Skitty",
-    sprite: require('../sprites/300.png'),
+    sprite: require("../sprites/300.png"),
+    model: require("../models/skitty.png"),
     class: "Kitten Pokémon",
     height: "0.6m",
     weight: "11kg",
@@ -6002,7 +6302,8 @@ export const POKEMON = [
   {
     number: "301",
     name: "Delcatty",
-    sprite: require('../sprites/301.png'),
+    sprite: require("../sprites/301.png"),
+    model: require("../models/delcatty.png"),
     class: "Prim Pokémon",
     height: "1.1m",
     weight: "32.6kg",
@@ -6022,7 +6323,8 @@ export const POKEMON = [
   {
     number: "302",
     name: "Sableye",
-    sprite: require('../sprites/302.png'),
+    sprite: require("../sprites/302.png"),
+    model: require("../models/sableye.png"),
     class: "Darkness Pokémon",
     height: "0.5m",
     weight: "11.0kg",
@@ -6042,7 +6344,8 @@ export const POKEMON = [
   {
     number: "303",
     name: "Mawile",
-    sprite: require('../sprites/303.png'),
+    sprite: require("../sprites/303.png"),
+    model: require("../models/mawile.png"),
     class: "Deceiver Pokémon",
     height: "0.6m",
     weight: "11.5kg",
@@ -6062,7 +6365,8 @@ export const POKEMON = [
   {
     number: "304",
     name: "Aron",
-    sprite: require('../sprites/304.png'),
+    sprite: require("../sprites/304.png"),
+    model: require("../models/aron.png"),
     class: "Iron Armor Pokémon",
     height: "0.4m",
     weight: "60.0kg",
@@ -6082,7 +6386,8 @@ export const POKEMON = [
   {
     number: "305",
     name: "Lairon",
-    sprite: require('../sprites/305.png'),
+    sprite: require("../sprites/305.png"),
+    model: require("../models/lairon.png"),
     class: "Iron Armor Pokémon",
     height: "0.9m",
     weight: "120.0kg",
@@ -6102,7 +6407,8 @@ export const POKEMON = [
   {
     number: "306",
     name: "Aggron",
-    sprite: require('../sprites/306.png'),
+    sprite: require("../sprites/306.png"),
+    model: require("../models/aggron.png"),
     class: "Iron Armor Pokémon",
     height: "2.1m",
     weight: "360.0kg",
@@ -6122,7 +6428,8 @@ export const POKEMON = [
   {
     number: "307",
     name: "Meditite",
-    sprite: require('../sprites/307.png'),
+    sprite: require("../sprites/307.png"),
+    model: require("../models/meditite.png"),
     class: "Meditate Pokémon",
     height: "0.6m",
     weight: "11.2kg",
@@ -6142,7 +6449,8 @@ export const POKEMON = [
   {
     number: "308",
     name: "Medicham",
-    sprite: require('../sprites/308.png'),
+    sprite: require("../sprites/308.png"),
+    model: require("../models/medicham.png"),
     class: "Meditate Pokémon",
     height: "1.3m",
     weight: "31.5kg",
@@ -6162,7 +6470,8 @@ export const POKEMON = [
   {
     number: "309",
     name: "Electrike",
-    sprite: require('../sprites/309.png'),
+    sprite: require("../sprites/309.png"),
+    model: require("../models/electrike.png"),
     class: "Lightning Pokémon",
     height: "0.6m",
     weight: "15.2kg",
@@ -6182,7 +6491,8 @@ export const POKEMON = [
   {
     number: "310",
     name: "Manectric",
-    sprite: require('../sprites/310.png'),
+    sprite: require("../sprites/310.png"),
+    model: require("../models/manectric.png"),
     class: "Discharge Pokémon",
     height: "1.5m",
     weight: "40.2kg",
@@ -6202,7 +6512,8 @@ export const POKEMON = [
   {
     number: "311",
     name: "Plusle",
-    sprite: require('../sprites/311.png'),
+    sprite: require("../sprites/311.png"),
+    model: require("../models/plusle.png"),
     class: "Cheering Pokémon",
     height: "0.4m",
     weight: "4.2kg",
@@ -6222,7 +6533,8 @@ export const POKEMON = [
   {
     number: "312",
     name: "Minun",
-    sprite: require('../sprites/312.png'),
+    sprite: require("../sprites/312.png"),
+    model: require("../models/minun.png"),
     class: "Cheering Pokémon",
     height: "0.4m",
     weight: "4.2kg",
@@ -6242,7 +6554,8 @@ export const POKEMON = [
   {
     number: "313",
     name: "Volbeat",
-    sprite: require('../sprites/313.png'),
+    sprite: require("../sprites/313.png"),
+    model: require("../models/volbeat.png"),
     class: "Firefly Pokémon",
     height: "0.7m",
     weight: "17.7kg",
@@ -6262,7 +6575,8 @@ export const POKEMON = [
   {
     number: "314",
     name: "Illumise",
-    sprite: require('../sprites/314.png'),
+    sprite: require("../sprites/314.png"),
+    model: require("../models/illumise.png"),
     class: "Firefly Pokémon",
     height: "0.6m",
     weight: "17.7kg",
@@ -6282,7 +6596,8 @@ export const POKEMON = [
   {
     number: "315",
     name: "Roselia",
-    sprite: require('../sprites/315.png'),
+    sprite: require("../sprites/315.png"),
+    model: require("../models/roselia.png"),
     class: "Thorn Pokémon",
     height: "0.3m",
     weight: "2.0kg",
@@ -6302,7 +6617,8 @@ export const POKEMON = [
   {
     number: "316",
     name: "Gulpin",
-    sprite: require('../sprites/316.png'),
+    sprite: require("../sprites/316.png"),
+    model: require("../models/gulpin.png"),
     class: "Stomach Pokémon",
     height: "0.4m",
     weight: "10.3kg",
@@ -6322,7 +6638,8 @@ export const POKEMON = [
   {
     number: "317",
     name: "Swalot",
-    sprite: require('../sprites/317.png'),
+    sprite: require("../sprites/317.png"),
+    model: require("../models/swalot.png"),
     class: "Poison Bag Pokémon",
     height: "1.7m",
     weight: "80kg",
@@ -6342,7 +6659,8 @@ export const POKEMON = [
   {
     number: "318",
     name: "Carvanha",
-    sprite: require('../sprites/318.png'),
+    sprite: require("../sprites/318.png"),
+    model: require("../models/carvanha.png"),
     class: "Savage Pokémon",
     height: "0.8m",
     weight: "20.8kg",
@@ -6362,7 +6680,8 @@ export const POKEMON = [
   {
     number: "319",
     name: "Sharpedo",
-    sprite: require('../sprites/319.png'),
+    sprite: require("../sprites/319.png"),
+    model: require("../models/sharpedo.png"),
     class: "Brutal Pokémon",
     height: "1.8m",
     weight: "88.8kg",
@@ -6382,7 +6701,8 @@ export const POKEMON = [
   {
     number: "320",
     name: "Wailmer",
-    sprite: require('../sprites/320.png'),
+    sprite: require("../sprites/320.png"),
+    model: require("../models/wailmer.png"),
     class: "Ball Whale Pokémon",
     height: "2.0m",
     weight: "130.0kg",
@@ -6402,7 +6722,8 @@ export const POKEMON = [
   {
     number: "321",
     name: "Wailord",
-    sprite: require('../sprites/321.png'),
+    sprite: require("../sprites/321.png"),
+    model: require("../models/wailord.png"),
     class: "Float Whale Pokémon",
     height: "14.5m",
     weight: "398.0kg",
@@ -6422,7 +6743,8 @@ export const POKEMON = [
   {
     number: "322",
     name: "Numel",
-    sprite: require('../sprites/322.png'),
+    sprite: require("../sprites/322.png"),
+    model: require("../models/numel.png"),
     class: "Numb Pokémon",
     height: "0.7m",
     weight: "24kg",
@@ -6442,7 +6764,8 @@ export const POKEMON = [
   {
     number: "323",
     name: "Camerupt",
-    sprite: require('../sprites/323.png'),
+    sprite: require("../sprites/323.png"),
+    model: require("../models/camerupt.png"),
     class: "Eruption Pokémon",
     height: "1.9m",
     weight: "220kg",
@@ -6462,7 +6785,8 @@ export const POKEMON = [
   {
     number: "324",
     name: "Torkoal",
-    sprite: require('../sprites/324.png'),
+    sprite: require("../sprites/324.png"),
+    model: require("../models/torkoal.png"),
     class: "Coal Pokémon",
     height: "0.5m",
     weight: "80.4kg",
@@ -6482,7 +6806,8 @@ export const POKEMON = [
   {
     number: "325",
     name: "Spoink",
-    sprite: require('../sprites/325.png'),
+    sprite: require("../sprites/325.png"),
+    model: require("../models/spoink.png"),
     class: "Bounce Pokémon",
     height: "0.7m",
     weight: "30.6kg",
@@ -6502,7 +6827,8 @@ export const POKEMON = [
   {
     number: "326",
     name: "Grumpig",
-    sprite: require('../sprites/326.png'),
+    sprite: require("../sprites/326.png"),
+    model: require("../models/grumpig.png"),
     class: "Manipulate Pokémon",
     height: "0.9m",
     weight: "71.5kg",
@@ -6522,7 +6848,8 @@ export const POKEMON = [
   {
     number: "327",
     name: "Spinda",
-    sprite: require('../sprites/327.png'),
+    sprite: require("../sprites/327.png"),
+    model: require("../models/spinda.png"),
     class: "Spot Panda Pokémon",
     height: "1.1m",
     weight: "5kg",
@@ -6542,7 +6869,8 @@ export const POKEMON = [
   {
     number: "328",
     name: "Trapinch",
-    sprite: require('../sprites/328.png'),
+    sprite: require("../sprites/328.png"),
+    model: require("../models/trapinch.png"),
     class: "Ant Pit Pokémon",
     height: "0.7m",
     weight: "15.0kg",
@@ -6562,7 +6890,8 @@ export const POKEMON = [
   {
     number: "329",
     name: "Vibrava",
-    sprite: require('../sprites/329.png'),
+    sprite: require("../sprites/329.png"),
+    model: require("../models/vibrava.png"),
     class: "Vibration Pokémon",
     height: "1.1m",
     weight: "15.3kg",
@@ -6582,7 +6911,8 @@ export const POKEMON = [
   {
     number: "330",
     name: "Flygon",
-    sprite: require('../sprites/330.png'),
+    sprite: require("../sprites/330.png"),
+    model: require("../models/flygon.png"),
     class: "Mystic Pokémon",
     height: "2.0m",
     weight: "82.0kg",
@@ -6602,7 +6932,8 @@ export const POKEMON = [
   {
     number: "331",
     name: "Cacnea",
-    sprite: require('../sprites/331.png'),
+    sprite: require("../sprites/331.png"),
+    model: require("../models/cacnea.png"),
     class: "Cactus Pokémon",
     height: "0.4m",
     weight: "51.3kg",
@@ -6622,7 +6953,8 @@ export const POKEMON = [
   {
     number: "332",
     name: "Cacturne",
-    sprite: require('../sprites/332.png'),
+    sprite: require("../sprites/332.png"),
+    model: require("../models/cacturne.png"),
     class: "Scarecrow Pokémon",
     height: "1.3m",
     weight: "77.4kg",
@@ -6642,7 +6974,8 @@ export const POKEMON = [
   {
     number: "333",
     name: "Swablu",
-    sprite: require('../sprites/333.png'),
+    sprite: require("../sprites/333.png"),
+    model: require("../models/swablu.png"),
     class: "Cotton Bird Pokémon",
     height: "0.4m",
     weight: "1.2kg",
@@ -6662,7 +6995,8 @@ export const POKEMON = [
   {
     number: "334",
     name: "Altaria",
-    sprite: require('../sprites/334.png'),
+    sprite: require("../sprites/334.png"),
+    model: require("../models/altaria.png"),
     class: "Humming Pokémon",
     height: "1.1m",
     weight: "20.6kg",
@@ -6682,7 +7016,8 @@ export const POKEMON = [
   {
     number: "335",
     name: "Zangoose",
-    sprite: require('../sprites/335.png'),
+    sprite: require("../sprites/335.png"),
+    model: require("../models/zangoose.png"),
     class: "Cat Ferret Pokémon",
     height: "1.3m",
     weight: "40.3kg",
@@ -6702,7 +7037,8 @@ export const POKEMON = [
   {
     number: "336",
     name: "Seviper",
-    sprite: require('../sprites/336.png'),
+    sprite: require("../sprites/336.png"),
+    model: require("../models/seviper.png"),
     class: "Fang Snake Pokémon",
     height: "2.7m",
     weight: "52.5kg",
@@ -6722,7 +7058,8 @@ export const POKEMON = [
   {
     number: "337",
     name: "Lunatone",
-    sprite: require('../sprites/337.png'),
+    sprite: require("../sprites/337.png"),
+    model: require("../models/lunatone.png"),
     class: "Meteorite Pokémon",
     height: "1.0m",
     weight: "168.0kg",
@@ -6742,7 +7079,8 @@ export const POKEMON = [
   {
     number: "338",
     name: "Solrock",
-    sprite: require('../sprites/338.png'),
+    sprite: require("../sprites/338.png"),
+    model: require("../models/solrock.png"),
     class: "Meteorite Pokémon",
     height: "1.2m",
     weight: "154.0kg",
@@ -6762,7 +7100,8 @@ export const POKEMON = [
   {
     number: "339",
     name: "Barboach",
-    sprite: require('../sprites/339.png'),
+    sprite: require("../sprites/339.png"),
+    model: require("../models/barboach.png"),
     class: "Whiskers Pokémon",
     height: "0.4m",
     weight: "1.9kg",
@@ -6782,7 +7121,8 @@ export const POKEMON = [
   {
     number: "340",
     name: "Whiscash",
-    sprite: require('../sprites/340.png'),
+    sprite: require("../sprites/340.png"),
+    model: require("../models/whiscash.png"),
     class: "Whiskers Pokémon",
     height: "0.9m",
     weight: "23.6kg",
@@ -6802,7 +7142,8 @@ export const POKEMON = [
   {
     number: "341",
     name: "Corphish",
-    sprite: require('../sprites/341.png'),
+    sprite: require("../sprites/341.png"),
+    model: require("../models/corphish.png"),
     class: "Ruffian Pokémon",
     height: "0.6m",
     weight: "11.5kg",
@@ -6822,7 +7163,8 @@ export const POKEMON = [
   {
     number: "342",
     name: "Crawdaunt",
-    sprite: require('../sprites/342.png'),
+    sprite: require("../sprites/342.png"),
+    model: require("../models/crawdaunt.png"),
     class: "Rogue Pokémon",
     height: "1.1m",
     weight: "32.8kg",
@@ -6842,7 +7184,8 @@ export const POKEMON = [
   {
     number: "343",
     name: "Baltoy",
-    sprite: require('../sprites/343.png'),
+    sprite: require("../sprites/343.png"),
+    model: require("../models/baltoy.png"),
     class: "Clay Doll Pokémon",
     height: "0.5m",
     weight: "21.5kg",
@@ -6862,7 +7205,8 @@ export const POKEMON = [
   {
     number: "344",
     name: "Claydol",
-    sprite: require('../sprites/344.png'),
+    sprite: require("../sprites/344.png"),
+    model: require("../models/claydol.png"),
     class: "Clay Doll Pokémon",
     height: "1.5m",
     weight: "108.0kg",
@@ -6882,7 +7226,8 @@ export const POKEMON = [
   {
     number: "345",
     name: "Lileep",
-    sprite: require('../sprites/345.png'),
+    sprite: require("../sprites/345.png"),
+    model: require("../models/lileep.png"),
     class: "Sea Lily Pokémon",
     height: "1.0m",
     weight: "23.8kg",
@@ -6902,7 +7247,8 @@ export const POKEMON = [
   {
     number: "346",
     name: "Cradily",
-    sprite: require('../sprites/346.png'),
+    sprite: require("../sprites/346.png"),
+    model: require("../models/cradily.png"),
     class: "Barnacle Pokémon",
     height: "1.5m",
     weight: "60.4kg",
@@ -6922,7 +7268,8 @@ export const POKEMON = [
   {
     number: "347",
     name: "Anorith",
-    sprite: require('../sprites/347.png'),
+    sprite: require("../sprites/347.png"),
+    model: require("../models/anorith.png"),
     class: "Old Shrimp Pokémon",
     height: "0.7m",
     weight: "12.5kg",
@@ -6942,7 +7289,8 @@ export const POKEMON = [
   {
     number: "348",
     name: "Armaldo",
-    sprite: require('../sprites/348.png'),
+    sprite: require("../sprites/348.png"),
+    model: require("../models/armaldo.png"),
     class: "Plate Pokémon",
     height: "1.5m",
     weight: "68.2kg",
@@ -6962,7 +7310,8 @@ export const POKEMON = [
   {
     number: "349",
     name: "Feebas",
-    sprite: require('../sprites/349.png'),
+    sprite: require("../sprites/349.png"),
+    model: require("../models/feebas.png"),
     class: "Fish Pokémon",
     height: "0.6m",
     weight: "7.4kg",
@@ -6982,7 +7331,8 @@ export const POKEMON = [
   {
     number: "350",
     name: "Milotic",
-    sprite: require('../sprites/350.png'),
+    sprite: require("../sprites/350.png"),
+    model: require("../models/milotic.png"),
     class: "Tender Pokémon",
     height: "6.2m",
     weight: "162.0kg",
@@ -7002,7 +7352,8 @@ export const POKEMON = [
   {
     number: "351",
     name: "Castform",
-    sprite: require('../sprites/351.png'),
+    sprite: require("../sprites/351.png"),
+    model: require("../models/castform.png"),
     class: "Weather Pokémon",
     height: "0.3m",
     weight: "0.8kg",
@@ -7022,7 +7373,8 @@ export const POKEMON = [
   {
     number: "352",
     name: "Kecleon",
-    sprite: require('../sprites/352.png'),
+    sprite: require("../sprites/352.png"),
+    model: require("../models/kecleon.png"),
     class: "Color Swap Pokémon",
     height: "1m",
     weight: "22kg",
@@ -7042,7 +7394,8 @@ export const POKEMON = [
   {
     number: "353",
     name: "Shuppet",
-    sprite: require('../sprites/353.png'),
+    sprite: require("../sprites/353.png"),
+    model: require("../models/shuppet.png"),
     class: "Puppet Pokémon",
     height: "0.6m",
     weight: "2.3kg",
@@ -7062,7 +7415,8 @@ export const POKEMON = [
   {
     number: "354",
     name: "Banette",
-    sprite: require('../sprites/354.png'),
+    sprite: require("../sprites/354.png"),
+    model: require("../models/banette.png"),
     class: "Marionette Pokémon",
     height: "1.1m",
     weight: "12.5kg",
@@ -7082,7 +7436,8 @@ export const POKEMON = [
   {
     number: "355",
     name: "Duskull",
-    sprite: require('../sprites/355.png'),
+    sprite: require("../sprites/355.png"),
+    model: require("../models/duskull.png"),
     class: "Requiem Pokémon",
     height: "0.8m",
     weight: "15.0kg",
@@ -7102,7 +7457,8 @@ export const POKEMON = [
   {
     number: "356",
     name: "Dusclops",
-    sprite: require('../sprites/356.png'),
+    sprite: require("../sprites/356.png"),
+    model: require("../models/dusclops.png"),
     class: "Beckon Pokémon",
     height: "1.6m",
     weight: "30.6kg",
@@ -7122,7 +7478,8 @@ export const POKEMON = [
   {
     number: "357",
     name: "Tropius",
-    sprite: require('../sprites/357.png'),
+    sprite: require("../sprites/357.png"),
+    model: require("../models/tropius.png"),
     class: "Fruit Pokémon",
     height: "2m",
     weight: "100kg",
@@ -7142,7 +7499,8 @@ export const POKEMON = [
   {
     number: "358",
     name: "Chimecho",
-    sprite: require('../sprites/358.png'),
+    sprite: require("../sprites/358.png"),
+    model: require("../models/chimecho.png"),
     class: "Wind Chime Pokémon",
     height: "0.6m",
     weight: "1kg",
@@ -7162,7 +7520,8 @@ export const POKEMON = [
   {
     number: "359",
     name: "Absol",
-    sprite: require('../sprites/359.png'),
+    sprite: require("../sprites/359.png"),
+    model: require("../models/absol.png"),
     class: "Disaster Pokémon",
     height: "1.2m",
     weight: "47.0kg",
@@ -7182,7 +7541,8 @@ export const POKEMON = [
   {
     number: "360",
     name: "Wynaut",
-    sprite: require('../sprites/360.png'),
+    sprite: require("../sprites/360.png"),
+    model: require("../models/wynaut.png"),
     class: "Bright Pokémon",
     height: "0.6m",
     weight: "14.0kg",
@@ -7202,7 +7562,8 @@ export const POKEMON = [
   {
     number: "361",
     name: "Snorunt",
-    sprite: require('../sprites/361.png'),
+    sprite: require("../sprites/361.png"),
+    model: require("../models/snorunt.png"),
     class: "Snow Hat Pokémon",
     height: "0.7m",
     weight: "16.8kg",
@@ -7222,7 +7583,8 @@ export const POKEMON = [
   {
     number: "362",
     name: "Glalie",
-    sprite: require('../sprites/362.png'),
+    sprite: require("../sprites/362.png"),
+    model: require("../models/glalie.png"),
     class: "Face Pokémon",
     height: "1.5m",
     weight: "256.5kg",
@@ -7242,7 +7604,8 @@ export const POKEMON = [
   {
     number: "363",
     name: "Spheal",
-    sprite: require('../sprites/363.png'),
+    sprite: require("../sprites/363.png"),
+    model: require("../models/spheal.png"),
     class: "Clap Pokémon",
     height: "0.8m",
     weight: "39.5kg",
@@ -7262,7 +7625,8 @@ export const POKEMON = [
   {
     number: "364",
     name: "Sealeo",
-    sprite: require('../sprites/364.png'),
+    sprite: require("../sprites/364.png"),
+    model: require("../models/sealeo.png"),
     class: "Ball Roll Pokémon",
     height: "1.1m",
     weight: "87.6kg",
@@ -7282,7 +7646,8 @@ export const POKEMON = [
   {
     number: "365",
     name: "Walrein",
-    sprite: require('../sprites/365.png'),
+    sprite: require("../sprites/365.png"),
+    model: require("../models/walrein.png"),
     class: "Ice Break Pokémon",
     height: "1.4m",
     weight: "150.6kg",
@@ -7302,7 +7667,8 @@ export const POKEMON = [
   {
     number: "366",
     name: "Clamperl",
-    sprite: require('../sprites/366.png'),
+    sprite: require("../sprites/366.png"),
+    model: require("../models/clamperl.png"),
     class: "Bivalve Pokémon",
     height: "0.4m",
     weight: "52.5kg",
@@ -7322,7 +7688,8 @@ export const POKEMON = [
   {
     number: "367",
     name: "Huntail",
-    sprite: require('../sprites/367.png'),
+    sprite: require("../sprites/367.png"),
+    model: require("../models/huntail.png"),
     class: "Deep Sea Pokémon",
     height: "1.7m",
     weight: "27kg",
@@ -7342,7 +7709,8 @@ export const POKEMON = [
   {
     number: "368",
     name: "Gorebyss",
-    sprite: require('../sprites/368.png'),
+    sprite: require("../sprites/368.png"),
+    model: require("../models/gorebyss.png"),
     class: "South Sea Pokémon",
     height: "1.8m",
     weight: "22.6kg",
@@ -7362,7 +7730,8 @@ export const POKEMON = [
   {
     number: "369",
     name: "Relicanth",
-    sprite: require('../sprites/369.png'),
+    sprite: require("../sprites/369.png"),
+    model: require("../models/relicanth.png"),
     class: "Longevity Pokémon",
     height: "1.0m",
     weight: "23.4kg",
@@ -7382,7 +7751,8 @@ export const POKEMON = [
   {
     number: "370",
     name: "Luvdisc",
-    sprite: require('../sprites/370.png'),
+    sprite: require("../sprites/370.png"),
+    model: require("../models/luvdisc.png"),
     class: "Rendezvous Pokémon",
     height: "0.6m",
     weight: "8.7kg",
@@ -7402,7 +7772,8 @@ export const POKEMON = [
   {
     number: "371",
     name: "Bagon",
-    sprite: require('../sprites/371.png'),
+    sprite: require("../sprites/371.png"),
+    model: require("../models/bagon.png"),
     class: "Rock Head Pokémon",
     height: "0.6m",
     weight: "42.1kg",
@@ -7422,7 +7793,8 @@ export const POKEMON = [
   {
     number: "372",
     name: "Shelgon",
-    sprite: require('../sprites/372.png'),
+    sprite: require("../sprites/372.png"),
+    model: require("../models/shelgon.png"),
     class: "Endurance Pokémon",
     height: "1.1m",
     weight: "110.5kg",
@@ -7442,7 +7814,8 @@ export const POKEMON = [
   {
     number: "373",
     name: "Salamence",
-    sprite: require('../sprites/373.png'),
+    sprite: require("../sprites/373.png"),
+    model: require("../models/salamence.png"),
     class: "Dragon Pokémon",
     height: "1.5m",
     weight: "102.6kg",
@@ -7462,7 +7835,8 @@ export const POKEMON = [
   {
     number: "374",
     name: "Beldum",
-    sprite: require('../sprites/374.png'),
+    sprite: require("../sprites/374.png"),
+    model: require("../models/beldum.png"),
     class: "Iron Ball Pokémon",
     height: "0.6m",
     weight: "95.2kg",
@@ -7482,7 +7856,8 @@ export const POKEMON = [
   {
     number: "375",
     name: "Metang",
-    sprite: require('../sprites/375.png'),
+    sprite: require("../sprites/375.png"),
+    model: require("../models/metang.png"),
     class: "Iron Claw Pokémon",
     height: "1.2m",
     weight: "202.5kg",
@@ -7502,7 +7877,8 @@ export const POKEMON = [
   {
     number: "376",
     name: "Metagross",
-    sprite: require('../sprites/376.png'),
+    sprite: require("../sprites/376.png"),
+    model: require("../models/metagross.png"),
     class: "Iron Leg Pokémon",
     height: "1.6m",
     weight: "550.0kg",
@@ -7522,7 +7898,8 @@ export const POKEMON = [
   {
     number: "377",
     name: "Regirock",
-    sprite: require('../sprites/377.png'),
+    sprite: require("../sprites/377.png"),
+    model: require("../models/regirock.png"),
     class: "Rock Peak Pokémon",
     height: "1.7m",
     weight: "230.0kg",
@@ -7542,7 +7919,8 @@ export const POKEMON = [
   {
     number: "378",
     name: "Regice",
-    sprite: require('../sprites/378.png'),
+    sprite: require("../sprites/378.png"),
+    model: require("../models/regice.png"),
     class: "Iceberg Pokémon",
     height: "1.8m",
     weight: "175.0kg",
@@ -7562,7 +7940,8 @@ export const POKEMON = [
   {
     number: "379",
     name: "Registeel",
-    sprite: require('../sprites/379.png'),
+    sprite: require("../sprites/379.png"),
+    model: require("../models/registeel.png"),
     class: "Iron Pokémon",
     height: "1.9m",
     weight: "205.0kg",
@@ -7582,7 +7961,8 @@ export const POKEMON = [
   {
     number: "380",
     name: "Latias",
-    sprite: require('../sprites/380.png'),
+    sprite: require("../sprites/380.png"),
+    model: require("../models/latias.png"),
     class: "Eon Pokémon",
     height: "1.4m",
     weight: "40.0kg",
@@ -7602,7 +7982,8 @@ export const POKEMON = [
   {
     number: "381",
     name: "Latios",
-    sprite: require('../sprites/381.png'),
+    sprite: require("../sprites/381.png"),
+    model: require("../models/latios.png"),
     class: "Eon Pokémon",
     height: "2.0m",
     weight: "60.0kg",
@@ -7622,7 +8003,8 @@ export const POKEMON = [
   {
     number: "382",
     name: "Kyogre",
-    sprite: require('../sprites/382.png'),
+    sprite: require("../sprites/382.png"),
+    model: require("../models/kyogre.png"),
     class: "Sea Basin Pokémon",
     height: "4.5m",
     weight: "352.0kg",
@@ -7642,7 +8024,8 @@ export const POKEMON = [
   {
     number: "383",
     name: "Groudon",
-    sprite: require('../sprites/383.png'),
+    sprite: require("../sprites/383.png"),
+    model: require("../models/groudon.png"),
     class: "Continent Pokémon",
     height: "3.5m",
     weight: "950.0kg",
@@ -7662,7 +8045,8 @@ export const POKEMON = [
   {
     number: "384",
     name: "Rayquaza",
-    sprite: require('../sprites/384.png'),
+    sprite: require("../sprites/384.png"),
+    model: require("../models/rayquaza.png"),
     class: "Sky High Pokémon",
     height: "7.0m",
     weight: "206.5kg",
@@ -7682,7 +8066,8 @@ export const POKEMON = [
   {
     number: "385",
     name: "Jirachi",
-    sprite: require('../sprites/385.png'),
+    sprite: require("../sprites/385.png"),
+    model: require("../models/jirachi.png"),
     class: "Wish Pokémon",
     height: "0.3m",
     weight: "1.1kg",
@@ -7702,7 +8087,8 @@ export const POKEMON = [
   {
     number: "386",
     name: "Deoxys",
-    sprite: require('../sprites/386.png'),
+    sprite: require("../sprites/386.png"),
+    model: require("../models/deoxys.png"),
     class: "DNA Pokémon",
     height: "1.7m",
     weight: "60.8kg",
@@ -7722,7 +8108,8 @@ export const POKEMON = [
   {
     number: "387",
     name: "Turtwig",
-    sprite: require('../sprites/387.png'),
+    sprite: require("../sprites/387.png"),
+    model: require("../models/turtwig.png"),
     class: "Tiny Leaf Pokémon",
     height: "0.4m",
     weight: "10.2kg",
@@ -7742,7 +8129,8 @@ export const POKEMON = [
   {
     number: "388",
     name: "Grotle",
-    sprite: require('../sprites/388.png'),
+    sprite: require("../sprites/388.png"),
+    model: require("../models/grotle.png"),
     class: "Grove Pokémon",
     height: "1.1m",
     weight: "97kg",
@@ -7762,7 +8150,8 @@ export const POKEMON = [
   {
     number: "389",
     name: "Torterra",
-    sprite: require('../sprites/389.png'),
+    sprite: require("../sprites/389.png"),
+    model: require("../models/torterra.png"),
     class: "Continent Pokémon",
     height: "2.2m",
     weight: "310kg",
@@ -7782,7 +8171,8 @@ export const POKEMON = [
   {
     number: "390",
     name: "Chimchar",
-    sprite: require('../sprites/390.png'),
+    sprite: require("../sprites/390.png"),
+    model: require("../models/chimchar.png"),
     class: "Chimp Pokémon",
     height: "0.5m",
     weight: "6.2kg",
@@ -7802,7 +8192,8 @@ export const POKEMON = [
   {
     number: "391",
     name: "Monferno",
-    sprite: require('../sprites/391.png'),
+    sprite: require("../sprites/391.png"),
+    model: require("../models/monferno.png"),
     class: "Playful Pokémon",
     height: "0.9m",
     weight: "22kg",
@@ -7822,7 +8213,8 @@ export const POKEMON = [
   {
     number: "392",
     name: "Infernape",
-    sprite: require('../sprites/392.png'),
+    sprite: require("../sprites/392.png"),
+    model: require("../models/infernape.png"),
     class: "Flame Pokémon",
     height: "1.2m",
     weight: "55kg",
@@ -7842,7 +8234,8 @@ export const POKEMON = [
   {
     number: "393",
     name: "Piplup",
-    sprite: require('../sprites/393.png'),
+    sprite: require("../sprites/393.png"),
+    model: require("../models/piplup.png"),
     class: "Penguin Pokémon",
     height: "0.4m",
     weight: "5.2kg",
@@ -7862,7 +8255,8 @@ export const POKEMON = [
   {
     number: "394",
     name: "Prinplup",
-    sprite: require('../sprites/394.png'),
+    sprite: require("../sprites/394.png"),
+    model: require("../models/prinplup.png"),
     class: "Penguin Pokémon",
     height: "0.8m",
     weight: "23kg",
@@ -7882,7 +8276,8 @@ export const POKEMON = [
   {
     number: "395",
     name: "Empoleon",
-    sprite: require('../sprites/395.png'),
+    sprite: require("../sprites/395.png"),
+    model: require("../models/empoleon.png"),
     class: "Emperor Pokémon",
     height: "1.7m",
     weight: "84.5kg",
@@ -7902,7 +8297,8 @@ export const POKEMON = [
   {
     number: "396",
     name: "Starly",
-    sprite: require('../sprites/396.png'),
+    sprite: require("../sprites/396.png"),
+    model: require("../models/starly.png"),
     class: "Starling Pokémon",
     height: "0.3m",
     weight: "2kg",
@@ -7922,7 +8318,8 @@ export const POKEMON = [
   {
     number: "397",
     name: "Staravia",
-    sprite: require('../sprites/397.png'),
+    sprite: require("../sprites/397.png"),
+    model: require("../models/staravia.png"),
     class: "Starling Pokémon",
     height: "0.6m",
     weight: "15.5kg",
@@ -7942,7 +8339,8 @@ export const POKEMON = [
   {
     number: "398",
     name: "Staraptor",
-    sprite: require('../sprites/398.png'),
+    sprite: require("../sprites/398.png"),
+    model: require("../models/staraptor.png"),
     class: "Predator Pokémon",
     height: "1.2m",
     weight: "24.9kg",
@@ -7962,7 +8360,8 @@ export const POKEMON = [
   {
     number: "399",
     name: "Bidoof",
-    sprite: require('../sprites/399.png'),
+    sprite: require("../sprites/399.png"),
+    model: require("../models/bidoof.png"),
     class: "Plump Mouse Pokémon",
     height: "0.5m",
     weight: "20kg",
@@ -7982,7 +8381,8 @@ export const POKEMON = [
   {
     number: "400",
     name: "Bibarel",
-    sprite: require('../sprites/400.png'),
+    sprite: require("../sprites/400.png"),
+    model: require("../models/bibarel.png"),
     class: "Beaver Pokémon",
     height: "1m",
     weight: "31.5kg",
@@ -8002,7 +8402,8 @@ export const POKEMON = [
   {
     number: "401",
     name: "Kricketot",
-    sprite: require('../sprites/401.png'),
+    sprite: require("../sprites/401.png"),
+    model: require("../models/kricketot.png"),
     class: "Cricket Pokémon",
     height: "0.3m",
     weight: "2.2kg",
@@ -8022,7 +8423,8 @@ export const POKEMON = [
   {
     number: "402",
     name: "Kricketune",
-    sprite: require('../sprites/402.png'),
+    sprite: require("../sprites/402.png"),
+    model: require("../models/kricketune.png"),
     class: "Cricket Pokémon",
     height: "1m",
     weight: "25.5kg",
@@ -8042,7 +8444,8 @@ export const POKEMON = [
   {
     number: "403",
     name: "Shinx",
-    sprite: require('../sprites/403.png'),
+    sprite: require("../sprites/403.png"),
+    model: require("../models/shinx.png"),
     class: "Flash Pokémon",
     height: "0.5m",
     weight: "9.5kg",
@@ -8062,7 +8465,8 @@ export const POKEMON = [
   {
     number: "404",
     name: "Luxio",
-    sprite: require('../sprites/404.png'),
+    sprite: require("../sprites/404.png"),
+    model: require("../models/luxio.png"),
     class: "Spark Pokémon",
     height: "0.9m",
     weight: "30.5kg",
@@ -8082,7 +8486,8 @@ export const POKEMON = [
   {
     number: "405",
     name: "Luxray",
-    sprite: require('../sprites/405.png'),
+    sprite: require("../sprites/405.png"),
+    model: require("../models/luxray.png"),
     class: "Gleam Eyes Pokémon",
     height: "1.4m",
     weight: "42.0kg",
@@ -8102,7 +8507,8 @@ export const POKEMON = [
   {
     number: "406",
     name: "Budew",
-    sprite: require('../sprites/406.png'),
+    sprite: require("../sprites/406.png"),
+    model: require("../models/budew.png"),
     class: "Bud Pokémon",
     height: "0.2m",
     weight: "1.2kg",
@@ -8122,7 +8528,8 @@ export const POKEMON = [
   {
     number: "407",
     name: "Roserade",
-    sprite: require('../sprites/407.png'),
+    sprite: require("../sprites/407.png"),
+    model: require("../models/roserade.png"),
     class: "Bouquet Pokémon",
     height: "0.9m",
     weight: "14.5kg",
@@ -8142,7 +8549,8 @@ export const POKEMON = [
   {
     number: "408",
     name: "Cranidos",
-    sprite: require('../sprites/408.png'),
+    sprite: require("../sprites/408.png"),
+    model: require("../models/cranidos.png"),
     class: "Head Butt Pokémon",
     height: "0.9m",
     weight: "31.5kg",
@@ -8162,7 +8570,8 @@ export const POKEMON = [
   {
     number: "409",
     name: "Rampardos",
-    sprite: require('../sprites/409.png'),
+    sprite: require("../sprites/409.png"),
+    model: require("../models/rampardos.png"),
     class: "Head Butt Pokémon",
     height: "1.6m",
     weight: "102.5kg",
@@ -8182,7 +8591,8 @@ export const POKEMON = [
   {
     number: "410",
     name: "Shieldon",
-    sprite: require('../sprites/410.png'),
+    sprite: require("../sprites/410.png"),
+    model: require("../models/shieldon.png"),
     class: "Shield Pokémon",
     height: "0.5m",
     weight: "57kg",
@@ -8202,7 +8612,8 @@ export const POKEMON = [
   {
     number: "411",
     name: "Bastiodon",
-    sprite: require('../sprites/411.png'),
+    sprite: require("../sprites/411.png"),
+    model: require("../models/bastiodon.png"),
     class: "Shield Pokémon",
     height: "1.3m",
     weight: "149.5kg",
@@ -8222,7 +8633,8 @@ export const POKEMON = [
   {
     number: "412",
     name: "Burmy",
-    sprite: require('../sprites/412.png'),
+    sprite: require("../sprites/412.png"),
+    model: require("../models/burmy.png"),
     class: "Bagworm Pokémon",
     height: "0.2m",
     weight: "3.4kg",
@@ -8242,7 +8654,8 @@ export const POKEMON = [
   {
     number: "413",
     name: "Wormadam",
-    sprite: require('../sprites/413.png'),
+    sprite: require("../sprites/413.png"),
+    model: require("../models/wormadam.png"),
     class: "Bagworm Pokémon",
     height: "0.5m",
     weight: "6.5kg",
@@ -8262,7 +8675,8 @@ export const POKEMON = [
   {
     number: "414",
     name: "Mothim",
-    sprite: require('../sprites/414.png'),
+    sprite: require("../sprites/414.png"),
+    model: require("../models/mothim.png"),
     class: "Moth Pokémon",
     height: "0.9m",
     weight: "23.3kg",
@@ -8282,7 +8696,8 @@ export const POKEMON = [
   {
     number: "415",
     name: "Combee",
-    sprite: require('../sprites/415.png'),
+    sprite: require("../sprites/415.png"),
+    model: require("../models/combee.png"),
     class: "Tiny Bee Pokémon",
     height: "0.3m",
     weight: "5.5kg",
@@ -8302,7 +8717,8 @@ export const POKEMON = [
   {
     number: "416",
     name: "Vespiquen",
-    sprite: require('../sprites/416.png'),
+    sprite: require("../sprites/416.png"),
+    model: require("../models/vespiquen.png"),
     class: "Beehive Pokémon",
     height: "1.2m",
     weight: "38.5kg",
@@ -8322,7 +8738,8 @@ export const POKEMON = [
   {
     number: "417",
     name: "Pachirisu",
-    sprite: require('../sprites/417.png'),
+    sprite: require("../sprites/417.png"),
+    model: require("../models/pachirisu.png"),
     class: "EleSquirrel Pokémon",
     height: "0.4m",
     weight: "3.9kg",
@@ -8342,7 +8759,8 @@ export const POKEMON = [
   {
     number: "418",
     name: "Buizel",
-    sprite: require('../sprites/418.png'),
+    sprite: require("../sprites/418.png"),
+    model: require("../models/buizel.png"),
     class: "Sea Weasel Pokémon",
     height: "0.7m",
     weight: "29.5kg",
@@ -8362,7 +8780,8 @@ export const POKEMON = [
   {
     number: "419",
     name: "Floatzel",
-    sprite: require('../sprites/419.png'),
+    sprite: require("../sprites/419.png"),
+    model: require("../models/floatzel.png"),
     class: "Sea Weasel Pokémon",
     height: "1.1m",
     weight: "33.5kg",
@@ -8382,7 +8801,8 @@ export const POKEMON = [
   {
     number: "420",
     name: "Cherubi",
-    sprite: require('../sprites/420.png'),
+    sprite: require("../sprites/420.png"),
+    model: require("../models/cherubi.png"),
     class: "Cherry Pokémon",
     height: "0.4m",
     weight: "3.3kg",
@@ -8402,7 +8822,8 @@ export const POKEMON = [
   {
     number: "421",
     name: "Cherrim",
-    sprite: require('../sprites/421.png'),
+    sprite: require("../sprites/421.png"),
+    model: require("../models/cherrim.png"),
     class: "Blossom Pokémon",
     height: "0.5m",
     weight: "9.3kg",
@@ -8422,7 +8843,8 @@ export const POKEMON = [
   {
     number: "422",
     name: "Shellos",
-    sprite: require('../sprites/422.png'),
+    sprite: require("../sprites/422.png"),
+    model: require("../models/shellos.png"),
     class: "Sea Slug Pokémon",
     height: "0.3m",
     weight: "6.3kg",
@@ -8442,7 +8864,8 @@ export const POKEMON = [
   {
     number: "423",
     name: "Gastrodon",
-    sprite: require('../sprites/423.png'),
+    sprite: require("../sprites/423.png"),
+    model: require("../models/gastrodon.png"),
     class: "Sea Slug Pokémon",
     height: "0.9m",
     weight: "29.9kg",
@@ -8462,7 +8885,8 @@ export const POKEMON = [
   {
     number: "424",
     name: "Ambipom",
-    sprite: require('../sprites/424.png'),
+    sprite: require("../sprites/424.png"),
+    model: require("../models/ambipom.png"),
     class: "Long Tail Pokémon",
     height: "1.2m",
     weight: "20.3kg",
@@ -8482,7 +8906,8 @@ export const POKEMON = [
   {
     number: "425",
     name: "Drifloon",
-    sprite: require('../sprites/425.png'),
+    sprite: require("../sprites/425.png"),
+    model: require("../models/drifloon.png"),
     class: "Balloon Pokémon",
     height: "0.4m",
     weight: "1.2kg",
@@ -8502,7 +8927,8 @@ export const POKEMON = [
   {
     number: "426",
     name: "Drifblim",
-    sprite: require('../sprites/426.png'),
+    sprite: require("../sprites/426.png"),
+    model: require("../models/drifblim.png"),
     class: "Blimp Pokémon",
     height: "1.2m",
     weight: "15.0kg",
@@ -8522,7 +8948,8 @@ export const POKEMON = [
   {
     number: "427",
     name: "Buneary",
-    sprite: require('../sprites/427.png'),
+    sprite: require("../sprites/427.png"),
+    model: require("../models/buneary.png"),
     class: "Rabbit Pokémon",
     height: "0.4m",
     weight: "5.5kg",
@@ -8542,7 +8969,8 @@ export const POKEMON = [
   {
     number: "428",
     name: "Lopunny",
-    sprite: require('../sprites/428.png'),
+    sprite: require("../sprites/428.png"),
+    model: require("../models/lopunny.png"),
     class: "Rabbit Pokémon",
     height: "1.2m",
     weight: "33.3kg",
@@ -8562,7 +8990,8 @@ export const POKEMON = [
   {
     number: "429",
     name: "Mismagius",
-    sprite: require('../sprites/429.png'),
+    sprite: require("../sprites/429.png"),
+    model: require("../models/mismagius.png"),
     class: "Magical Pokémon",
     height: "0.9m",
     weight: "4.4kg",
@@ -8582,7 +9011,8 @@ export const POKEMON = [
   {
     number: "430",
     name: "Honchkrow",
-    sprite: require('../sprites/430.png'),
+    sprite: require("../sprites/430.png"),
+    model: require("../models/honchkrow.png"),
     class: "Big Boss Pokémon",
     height: "0.9m",
     weight: "27.3kg",
@@ -8602,7 +9032,8 @@ export const POKEMON = [
   {
     number: "431",
     name: "Glameow",
-    sprite: require('../sprites/431.png'),
+    sprite: require("../sprites/431.png"),
+    model: require("../models/glameow.png"),
     class: "Catty Pokémon",
     height: "0.5m",
     weight: "3.9kg",
@@ -8622,7 +9053,8 @@ export const POKEMON = [
   {
     number: "432",
     name: "Purugly",
-    sprite: require('../sprites/432.png'),
+    sprite: require("../sprites/432.png"),
+    model: require("../models/purugly.png"),
     class: "Tiger Cat Pokémon",
     height: "1m",
     weight: "43.8kg",
@@ -8642,7 +9074,8 @@ export const POKEMON = [
   {
     number: "433",
     name: "Chingling",
-    sprite: require('../sprites/433.png'),
+    sprite: require("../sprites/433.png"),
+    model: require("../models/chingling.png"),
     class: "Bell Pokémon",
     height: "0.2m",
     weight: "0.6kg",
@@ -8662,7 +9095,8 @@ export const POKEMON = [
   {
     number: "434",
     name: "Stunky",
-    sprite: require('../sprites/434.png'),
+    sprite: require("../sprites/434.png"),
+    model: require("../models/stunky.png"),
     class: "Skunk Pokémon",
     height: "0.4m",
     weight: "19.2kg",
@@ -8682,7 +9116,8 @@ export const POKEMON = [
   {
     number: "435",
     name: "Skuntank",
-    sprite: require('../sprites/435.png'),
+    sprite: require("../sprites/435.png"),
+    model: require("../models/skuntank.png"),
     class: "Skunk Pokémon",
     height: "1.0m",
     weight: "38.0kg",
@@ -8702,7 +9137,8 @@ export const POKEMON = [
   {
     number: "436",
     name: "Bronzor",
-    sprite: require('../sprites/436.png'),
+    sprite: require("../sprites/436.png"),
+    model: require("../models/bronzor.png"),
     class: "Bronze Pokémon",
     height: "0.5m",
     weight: "60.5kg",
@@ -8722,7 +9158,8 @@ export const POKEMON = [
   {
     number: "437",
     name: "Bronzong",
-    sprite: require('../sprites/437.png'),
+    sprite: require("../sprites/437.png"),
+    model: require("../models/bronzong.png"),
     class: "Bronze Bell Pokémon",
     height: "1.3m",
     weight: "187.0kg",
@@ -8742,7 +9179,8 @@ export const POKEMON = [
   {
     number: "438",
     name: "Bonsly",
-    sprite: require('../sprites/438.png'),
+    sprite: require("../sprites/438.png"),
+    model: require("../models/bonsly.png"),
     class: "Bonsai Pokémon",
     height: "0.5m",
     weight: "15.0kg",
@@ -8762,7 +9200,8 @@ export const POKEMON = [
   {
     number: "439",
     name: "Mime Jr.",
-    sprite: require('../sprites/439.png'),
+    sprite: require("../sprites/439.png"),
+    model: require("../models/mime jr..png"),
     class: "Mime Pokémon",
     height: "0.6m",
     weight: "13.0kg",
@@ -8782,7 +9221,8 @@ export const POKEMON = [
   {
     number: "440",
     name: "Happiny",
-    sprite: require('../sprites/440.png'),
+    sprite: require("../sprites/440.png"),
+    model: require("../models/happiny.png"),
     class: "Playhouse Pokémon",
     height: "0.6m",
     weight: "24.4kg",
@@ -8802,7 +9242,8 @@ export const POKEMON = [
   {
     number: "441",
     name: "Chatot",
-    sprite: require('../sprites/441.png'),
+    sprite: require("../sprites/441.png"),
+    model: require("../models/chatot.png"),
     class: "Music Note Pokémon",
     height: "0.5m",
     weight: "1.9kg",
@@ -8822,7 +9263,8 @@ export const POKEMON = [
   {
     number: "442",
     name: "Spiritomb",
-    sprite: require('../sprites/442.png'),
+    sprite: require("../sprites/442.png"),
+    model: require("../models/spiritomb.png"),
     class: "Forbidden Pokémon",
     height: "1.0m",
     weight: "108.0kg",
@@ -8842,7 +9284,8 @@ export const POKEMON = [
   {
     number: "443",
     name: "Gible",
-    sprite: require('../sprites/443.png'),
+    sprite: require("../sprites/443.png"),
+    model: require("../models/gible.png"),
     class: "Land Shark Pokémon",
     height: "0.7m",
     weight: "20.5kg",
@@ -8862,7 +9305,8 @@ export const POKEMON = [
   {
     number: "444",
     name: "Gabite",
-    sprite: require('../sprites/444.png'),
+    sprite: require("../sprites/444.png"),
+    model: require("../models/gabite.png"),
     class: "Cave Pokémon",
     height: "1.4m",
     weight: "56.0kg",
@@ -8882,7 +9326,8 @@ export const POKEMON = [
   {
     number: "445",
     name: "Garchomp",
-    sprite: require('../sprites/445.png'),
+    sprite: require("../sprites/445.png"),
+    model: require("../models/garchomp.png"),
     class: "Mach Pokémon",
     height: "1.9m",
     weight: "95.0kg",
@@ -8902,7 +9347,8 @@ export const POKEMON = [
   {
     number: "446",
     name: "Munchlax",
-    sprite: require('../sprites/446.png'),
+    sprite: require("../sprites/446.png"),
+    model: require("../models/munchlax.png"),
     class: "Big Eater Pokémon",
     height: "0.6m",
     weight: "105.0kg",
@@ -8922,7 +9368,8 @@ export const POKEMON = [
   {
     number: "447",
     name: "Riolu",
-    sprite: require('../sprites/447.png'),
+    sprite: require("../sprites/447.png"),
+    model: require("../models/riolu.png"),
     class: "Emanation Pokémon",
     height: "0.7m",
     weight: "20.2kg",
@@ -8942,7 +9389,8 @@ export const POKEMON = [
   {
     number: "448",
     name: "Lucario",
-    sprite: require('../sprites/448.png'),
+    sprite: require("../sprites/448.png"),
+    model: require("../models/lucario.png"),
     class: "Aura Pokémon",
     height: "1.2m",
     weight: "54.0kg",
@@ -8962,7 +9410,8 @@ export const POKEMON = [
   {
     number: "449",
     name: "Hippopotas",
-    sprite: require('../sprites/449.png'),
+    sprite: require("../sprites/449.png"),
+    model: require("../models/hippopotas.png"),
     class: "Hippo Pokémon",
     height: "0.8m",
     weight: "49.5kg",
@@ -8982,7 +9431,8 @@ export const POKEMON = [
   {
     number: "450",
     name: "Hippowdon",
-    sprite: require('../sprites/450.png'),
+    sprite: require("../sprites/450.png"),
+    model: require("../models/hippowdon.png"),
     class: "Heavyweight Pokémon",
     height: "2.0m",
     weight: "300.0kg",
@@ -9002,7 +9452,8 @@ export const POKEMON = [
   {
     number: "451",
     name: "Skorupi",
-    sprite: require('../sprites/451.png'),
+    sprite: require("../sprites/451.png"),
+    model: require("../models/skorupi.png"),
     class: "Scorpion Pokémon",
     height: "0.8m",
     weight: "12.0kg",
@@ -9022,7 +9473,8 @@ export const POKEMON = [
   {
     number: "452",
     name: "Drapion",
-    sprite: require('../sprites/452.png'),
+    sprite: require("../sprites/452.png"),
+    model: require("../models/drapion.png"),
     class: "Ogre Scorp Pokémon",
     height: "1.3m",
     weight: "61.5kg",
@@ -9042,7 +9494,8 @@ export const POKEMON = [
   {
     number: "453",
     name: "Croagunk",
-    sprite: require('../sprites/453.png'),
+    sprite: require("../sprites/453.png"),
+    model: require("../models/croagunk.png"),
     class: "Toxic Mouth Pokémon",
     height: "0.7m",
     weight: "23.0kg",
@@ -9062,7 +9515,8 @@ export const POKEMON = [
   {
     number: "454",
     name: "Toxicroak",
-    sprite: require('../sprites/454.png'),
+    sprite: require("../sprites/454.png"),
+    model: require("../models/toxicroak.png"),
     class: "Toxic Mouth Pokémon",
     height: "1.3m",
     weight: "44.4kg",
@@ -9082,7 +9536,8 @@ export const POKEMON = [
   {
     number: "455",
     name: "Carnivine",
-    sprite: require('../sprites/455.png'),
+    sprite: require("../sprites/455.png"),
+    model: require("../models/carnivine.png"),
     class: "Bug Catcher Pokémon",
     height: "1.4m",
     weight: "27kg",
@@ -9102,7 +9557,8 @@ export const POKEMON = [
   {
     number: "456",
     name: "Finneon",
-    sprite: require('../sprites/456.png'),
+    sprite: require("../sprites/456.png"),
+    model: require("../models/finneon.png"),
     class: "Wing Fish Pokémon",
     height: "0.4m",
     weight: "7kg",
@@ -9122,7 +9578,8 @@ export const POKEMON = [
   {
     number: "457",
     name: "Lumineon",
-    sprite: require('../sprites/457.png'),
+    sprite: require("../sprites/457.png"),
+    model: require("../models/lumineon.png"),
     class: "Neon Pokémon",
     height: "1.2m",
     weight: "24kg",
@@ -9142,7 +9599,8 @@ export const POKEMON = [
   {
     number: "458",
     name: "Mantyke",
-    sprite: require('../sprites/458.png'),
+    sprite: require("../sprites/458.png"),
+    model: require("../models/mantyke.png"),
     class: "Kite Pokémon",
     height: "1.0m",
     weight: "65.0kg",
@@ -9162,7 +9620,8 @@ export const POKEMON = [
   {
     number: "459",
     name: "Snover",
-    sprite: require('../sprites/459.png'),
+    sprite: require("../sprites/459.png"),
+    model: require("../models/snover.png"),
     class: "Frosted Tree Pokémon",
     height: "1.0m",
     weight: "50.5kg",
@@ -9182,7 +9641,8 @@ export const POKEMON = [
   {
     number: "460",
     name: "Abomasnow",
-    sprite: require('../sprites/460.png'),
+    sprite: require("../sprites/460.png"),
+    model: require("../models/abomasnow.png"),
     class: "Frosted Tree Pokémon",
     height: "2.2m",
     weight: "135.5kg",
@@ -9202,7 +9662,8 @@ export const POKEMON = [
   {
     number: "461",
     name: "Weavile",
-    sprite: require('../sprites/461.png'),
+    sprite: require("../sprites/461.png"),
+    model: require("../models/weavile.png"),
     class: "Sharp Claw Pokémon",
     height: "1.1m",
     weight: "34.0kg",
@@ -9222,7 +9683,8 @@ export const POKEMON = [
   {
     number: "462",
     name: "Magnezone",
-    sprite: require('../sprites/462.png'),
+    sprite: require("../sprites/462.png"),
+    model: require("../models/magnezone.png"),
     class: "Magnet Area Pokémon",
     height: "1.2m",
     weight: "180.0kg",
@@ -9242,7 +9704,8 @@ export const POKEMON = [
   {
     number: "463",
     name: "Lickilicky",
-    sprite: require('../sprites/463.png'),
+    sprite: require("../sprites/463.png"),
+    model: require("../models/lickilicky.png"),
     class: "Licking Pokémon",
     height: "1.7m",
     weight: "140.0kg",
@@ -9262,7 +9725,8 @@ export const POKEMON = [
   {
     number: "464",
     name: "Rhyperior",
-    sprite: require('../sprites/464.png'),
+    sprite: require("../sprites/464.png"),
+    model: require("../models/rhyperior.png"),
     class: "Drill Pokémon",
     height: "2.4m",
     weight: "282.8kg",
@@ -9282,7 +9746,8 @@ export const POKEMON = [
   {
     number: "465",
     name: "Tangrowth",
-    sprite: require('../sprites/465.png'),
+    sprite: require("../sprites/465.png"),
+    model: require("../models/tangrowth.png"),
     class: "Vine Pokémon",
     height: "2.0m",
     weight: "128.6kg",
@@ -9302,7 +9767,8 @@ export const POKEMON = [
   {
     number: "466",
     name: "Electivire",
-    sprite: require('../sprites/466.png'),
+    sprite: require("../sprites/466.png"),
+    model: require("../models/electivire.png"),
     class: "Thunderbolt Pokémon",
     height: "1.8m",
     weight: "138.6kg",
@@ -9322,7 +9788,8 @@ export const POKEMON = [
   {
     number: "467",
     name: "Magmortar",
-    sprite: require('../sprites/467.png'),
+    sprite: require("../sprites/467.png"),
+    model: require("../models/magmortar.png"),
     class: "Blast Pokémon",
     height: "1.6m",
     weight: "68.0kg",
@@ -9342,7 +9809,8 @@ export const POKEMON = [
   {
     number: "468",
     name: "Togekiss",
-    sprite: require('../sprites/468.png'),
+    sprite: require("../sprites/468.png"),
+    model: require("../models/togekiss.png"),
     class: "Jubilee Pokémon",
     height: "1.5m",
     weight: "38.0kg",
@@ -9362,7 +9830,8 @@ export const POKEMON = [
   {
     number: "469",
     name: "Yanmega",
-    sprite: require('../sprites/469.png'),
+    sprite: require("../sprites/469.png"),
+    model: require("../models/yanmega.png"),
     class: "Ogre Darner Pokémon",
     height: "1.9m",
     weight: "51.5kg",
@@ -9382,7 +9851,8 @@ export const POKEMON = [
   {
     number: "470",
     name: "Leafeon",
-    sprite: require('../sprites/470.png'),
+    sprite: require("../sprites/470.png"),
+    model: require("../models/leafeon.png"),
     class: "Verdant Pokémon",
     height: "1.0m",
     weight: "25.5kg",
@@ -9402,7 +9872,8 @@ export const POKEMON = [
   {
     number: "471",
     name: "Glaceon",
-    sprite: require('../sprites/471.png'),
+    sprite: require("../sprites/471.png"),
+    model: require("../models/glaceon.png"),
     class: "Fresh Snow Pokémon",
     height: "0.8m",
     weight: "25.9kg",
@@ -9422,7 +9893,8 @@ export const POKEMON = [
   {
     number: "472",
     name: "Gliscor",
-    sprite: require('../sprites/472.png'),
+    sprite: require("../sprites/472.png"),
+    model: require("../models/gliscor.png"),
     class: "Fang Scorp Pokémon",
     height: "2m",
     weight: "42.5kg",
@@ -9442,7 +9914,8 @@ export const POKEMON = [
   {
     number: "473",
     name: "Mamoswine",
-    sprite: require('../sprites/473.png'),
+    sprite: require("../sprites/473.png"),
+    model: require("../models/mamoswine.png"),
     class: "Twin Tusk Pokémon",
     height: "2.5m",
     weight: "291.0kg",
@@ -9462,7 +9935,8 @@ export const POKEMON = [
   {
     number: "474",
     name: "Porygon-Z",
-    sprite: require('../sprites/474.png'),
+    sprite: require("../sprites/474.png"),
+    model: require("../models/porygon-z.png"),
     class: "Virtual Pokémon",
     height: "0.9m",
     weight: "34.0kg",
@@ -9482,7 +9956,8 @@ export const POKEMON = [
   {
     number: "475",
     name: "Gallade",
-    sprite: require('../sprites/475.png'),
+    sprite: require("../sprites/475.png"),
+    model: require("../models/gallade.png"),
     class: "Blade Pokémon",
     height: "1.6m",
     weight: "52.0kg",
@@ -9502,7 +9977,8 @@ export const POKEMON = [
   {
     number: "476",
     name: "Probopass",
-    sprite: require('../sprites/476.png'),
+    sprite: require("../sprites/476.png"),
+    model: require("../models/probopass.png"),
     class: "Compass Pokémon",
     height: "1.4m",
     weight: "340kg",
@@ -9522,7 +9998,8 @@ export const POKEMON = [
   {
     number: "477",
     name: "Dusknoir",
-    sprite: require('../sprites/477.png'),
+    sprite: require("../sprites/477.png"),
+    model: require("../models/dusknoir.png"),
     class: "Gripper Pokémon",
     height: "2.2m",
     weight: "106.6kg",
@@ -9542,7 +10019,8 @@ export const POKEMON = [
   {
     number: "478",
     name: "Froslass",
-    sprite: require('../sprites/478.png'),
+    sprite: require("../sprites/478.png"),
+    model: require("../models/froslass.png"),
     class: "Snow Land Pokémon",
     height: "1.3m",
     weight: "26.6kg",
@@ -9562,7 +10040,8 @@ export const POKEMON = [
   {
     number: "479",
     name: "Rotom",
-    sprite: require('../sprites/479.png'),
+    sprite: require("../sprites/479.png"),
+    model: require("../models/rotom.png"),
     class: "Plasma Pokémon",
     height: "0.3m",
     weight: "0.3kg",
@@ -9582,7 +10061,8 @@ export const POKEMON = [
   {
     number: "480",
     name: "Uxie",
-    sprite: require('../sprites/480.png'),
+    sprite: require("../sprites/480.png"),
+    model: require("../models/uxie.png"),
     class: "Knowledge Pokémon",
     height: "0.3m",
     weight: "0.3kg",
@@ -9602,7 +10082,8 @@ export const POKEMON = [
   {
     number: "481",
     name: "Mesprit",
-    sprite: require('../sprites/481.png'),
+    sprite: require("../sprites/481.png"),
+    model: require("../models/mesprit.png"),
     class: "Emotion Pokémon",
     height: "0.3m",
     weight: "0.3kg",
@@ -9622,7 +10103,8 @@ export const POKEMON = [
   {
     number: "482",
     name: "Azelf",
-    sprite: require('../sprites/482.png'),
+    sprite: require("../sprites/482.png"),
+    model: require("../models/azelf.png"),
     class: "Willpower Pokémon",
     height: "0.3m",
     weight: "0.3kg",
@@ -9642,7 +10124,8 @@ export const POKEMON = [
   {
     number: "483",
     name: "Dialga",
-    sprite: require('../sprites/483.png'),
+    sprite: require("../sprites/483.png"),
+    model: require("../models/dialga.png"),
     class: "Temporal Pokémon",
     height: "5.4m",
     weight: "683.0kg",
@@ -9662,7 +10145,8 @@ export const POKEMON = [
   {
     number: "484",
     name: "Palkia",
-    sprite: require('../sprites/484.png'),
+    sprite: require("../sprites/484.png"),
+    model: require("../models/palkia.png"),
     class: "Spatial Pokémon",
     height: "4.2m",
     weight: "336.0kg",
@@ -9682,7 +10166,8 @@ export const POKEMON = [
   {
     number: "485",
     name: "Heatran",
-    sprite: require('../sprites/485.png'),
+    sprite: require("../sprites/485.png"),
+    model: require("../models/heatran.png"),
     class: "Lava Dome Pokémon",
     height: "1.7m",
     weight: "430.0kg",
@@ -9702,7 +10187,8 @@ export const POKEMON = [
   {
     number: "486",
     name: "Regigigas",
-    sprite: require('../sprites/486.png'),
+    sprite: require("../sprites/486.png"),
+    model: require("../models/regigigas.png"),
     class: "Colossal Pokémon",
     height: "3.7m",
     weight: "420.0kg",
@@ -9722,7 +10208,8 @@ export const POKEMON = [
   {
     number: "487",
     name: "Giratina",
-    sprite: require('../sprites/487.png'),
+    sprite: require("../sprites/487.png"),
+    model: require("../models/giratina.png"),
     class: "Renegade Pokémon",
     height: "4.5m",
     weight: "750.0kg",
@@ -9742,7 +10229,8 @@ export const POKEMON = [
   {
     number: "488",
     name: "Cresselia",
-    sprite: require('../sprites/488.png'),
+    sprite: require("../sprites/488.png"),
+    model: require("../models/cresselia.png"),
     class: "Lunar Pokémon",
     height: "1.5m",
     weight: "85.6kg",
@@ -9762,7 +10250,8 @@ export const POKEMON = [
   {
     number: "489",
     name: "Phione",
-    sprite: require('../sprites/489.png'),
+    sprite: require("../sprites/489.png"),
+    model: require("../models/phione.png"),
     class: "Sea Drifter Pokémon",
     height: "0.4m",
     weight: "3.1kg",
@@ -9782,7 +10271,8 @@ export const POKEMON = [
   {
     number: "490",
     name: "Manaphy",
-    sprite: require('../sprites/490.png'),
+    sprite: require("../sprites/490.png"),
+    model: require("../models/manaphy.png"),
     class: "Seafaring Pokémon",
     height: "0.3m",
     weight: "1.4kg",
@@ -9802,7 +10292,8 @@ export const POKEMON = [
   {
     number: "491",
     name: "Darkrai",
-    sprite: require('../sprites/491.png'),
+    sprite: require("../sprites/491.png"),
+    model: require("../models/darkrai.png"),
     class: "Pitch-Black Pokémon",
     height: "1.5m",
     weight: "50.5kg",
@@ -9822,7 +10313,8 @@ export const POKEMON = [
   {
     number: "492",
     name: "Shaymin",
-    sprite: require('../sprites/492.png'),
+    sprite: require("../sprites/492.png"),
+    model: require("../models/shaymin.png"),
     class: "Gratitude Pokémon",
     height: "0.2m",
     weight: "2.1kg",
@@ -9842,7 +10334,8 @@ export const POKEMON = [
   {
     number: "493",
     name: "Arceus",
-    sprite: require('../sprites/493.png'),
+    sprite: require("../sprites/493.png"),
+    model: require("../models/arceus.png"),
     class: "Alpha Pokémon",
     height: "3.2m",
     weight: "320kg",
@@ -9862,7 +10355,8 @@ export const POKEMON = [
   {
     number: "494",
     name: "Victini",
-    sprite: require('../sprites/494.png'),
+    sprite: require("../sprites/494.png"),
+    model: require("../models/victini.png"),
     class: "Victory Pokémon",
     height: "0.4m",
     weight: "4.0kg",
@@ -9882,7 +10376,8 @@ export const POKEMON = [
   {
     number: "495",
     name: "Snivy",
-    sprite: require('../sprites/495.png'),
+    sprite: require("../sprites/495.png"),
+    model: require("../models/snivy.png"),
     class: "Grass Snake Pokémon",
     height: "0.6m",
     weight: "8.1kg",
@@ -9902,7 +10397,8 @@ export const POKEMON = [
   {
     number: "496",
     name: "Servine",
-    sprite: require('../sprites/496.png'),
+    sprite: require("../sprites/496.png"),
+    model: require("../models/servine.png"),
     class: "Grass Snake Pokémon",
     height: "0.8m",
     weight: "16kg",
@@ -9922,7 +10418,8 @@ export const POKEMON = [
   {
     number: "497",
     name: "Serperior",
-    sprite: require('../sprites/497.png'),
+    sprite: require("../sprites/497.png"),
+    model: require("../models/serperior.png"),
     class: "Regal Pokémon",
     height: "3.3m",
     weight: "63kg",
@@ -9942,7 +10439,8 @@ export const POKEMON = [
   {
     number: "498",
     name: "Tepig",
-    sprite: require('../sprites/498.png'),
+    sprite: require("../sprites/498.png"),
+    model: require("../models/tepig.png"),
     class: "Fire Pig Pokémon",
     height: "0.5m",
     weight: "9.9kg",
@@ -9962,7 +10460,8 @@ export const POKEMON = [
   {
     number: "499",
     name: "Pignite",
-    sprite: require('../sprites/499.png'),
+    sprite: require("../sprites/499.png"),
+    model: require("../models/pignite.png"),
     class: "Fire Pig Pokémon",
     height: "1m",
     weight: "55.5kg",
@@ -9982,7 +10481,8 @@ export const POKEMON = [
   {
     number: "500",
     name: "Emboar",
-    sprite: require('../sprites/500.png'),
+    sprite: require("../sprites/500.png"),
+    model: require("../models/emboar.png"),
     class: "Mega Fire Pig Pokémon",
     height: "1.6m",
     weight: "150kg",
@@ -10002,7 +10502,8 @@ export const POKEMON = [
   {
     number: "501",
     name: "Oshawott",
-    sprite: require('../sprites/501.png'),
+    sprite: require("../sprites/501.png"),
+    model: require("../models/oshawott.png"),
     class: "Sea Otter Pokémon",
     height: "0.5m",
     weight: "5.9kg",
@@ -10022,7 +10523,8 @@ export const POKEMON = [
   {
     number: "502",
     name: "Dewott",
-    sprite: require('../sprites/502.png'),
+    sprite: require("../sprites/502.png"),
+    model: require("../models/dewott.png"),
     class: "Discipline Pokémon",
     height: "0.8m",
     weight: "24.5kg",
@@ -10042,7 +10544,8 @@ export const POKEMON = [
   {
     number: "503",
     name: "Samurott",
-    sprite: require('../sprites/503.png'),
+    sprite: require("../sprites/503.png"),
+    model: require("../models/samurott.png"),
     class: "Formidable Pokémon",
     height: "1.5m",
     weight: "94.6kg",
@@ -10062,7 +10565,8 @@ export const POKEMON = [
   {
     number: "504",
     name: "Patrat",
-    sprite: require('../sprites/504.png'),
+    sprite: require("../sprites/504.png"),
+    model: require("../models/patrat.png"),
     class: "Scout Pokémon",
     height: "0.5m",
     weight: "11.6kg",
@@ -10082,7 +10586,8 @@ export const POKEMON = [
   {
     number: "505",
     name: "Watchog",
-    sprite: require('../sprites/505.png'),
+    sprite: require("../sprites/505.png"),
+    model: require("../models/watchog.png"),
     class: "Lookout Pokémon",
     height: "1.1m",
     weight: "27kg",
@@ -10102,7 +10607,8 @@ export const POKEMON = [
   {
     number: "506",
     name: "Lillipup",
-    sprite: require('../sprites/506.png'),
+    sprite: require("../sprites/506.png"),
+    model: require("../models/lillipup.png"),
     class: "Puppy Pokémon",
     height: "0.4m",
     weight: "4.1kg",
@@ -10122,7 +10628,8 @@ export const POKEMON = [
   {
     number: "507",
     name: "Herdier",
-    sprite: require('../sprites/507.png'),
+    sprite: require("../sprites/507.png"),
+    model: require("../models/herdier.png"),
     class: "Loyal Dog Pokémon",
     height: "0.9m",
     weight: "14.7kg",
@@ -10142,7 +10649,8 @@ export const POKEMON = [
   {
     number: "508",
     name: "Stoutland",
-    sprite: require('../sprites/508.png'),
+    sprite: require("../sprites/508.png"),
+    model: require("../models/stoutland.png"),
     class: "Big-Hearted Pokémon",
     height: "1.2m",
     weight: "61.0kg",
@@ -10162,7 +10670,8 @@ export const POKEMON = [
   {
     number: "509",
     name: "Purrloin",
-    sprite: require('../sprites/509.png'),
+    sprite: require("../sprites/509.png"),
+    model: require("../models/purrloin.png"),
     class: "Devious Pokémon",
     height: "0.4m",
     weight: "10.1kg",
@@ -10182,7 +10691,8 @@ export const POKEMON = [
   {
     number: "510",
     name: "Liepard",
-    sprite: require('../sprites/510.png'),
+    sprite: require("../sprites/510.png"),
+    model: require("../models/liepard.png"),
     class: "Cruel Pokémon",
     height: "1.1m",
     weight: "37.5kg",
@@ -10202,7 +10712,8 @@ export const POKEMON = [
   {
     number: "511",
     name: "Pansage",
-    sprite: require('../sprites/511.png'),
+    sprite: require("../sprites/511.png"),
+    model: require("../models/pansage.png"),
     class: "Grass Monkey Pokémon",
     height: "0.6m",
     weight: "10.5kg",
@@ -10222,7 +10733,8 @@ export const POKEMON = [
   {
     number: "512",
     name: "Simisage",
-    sprite: require('../sprites/512.png'),
+    sprite: require("../sprites/512.png"),
+    model: require("../models/simisage.png"),
     class: "Thorn Monkey Pokémon",
     height: "1.1m",
     weight: "30.5kg",
@@ -10242,7 +10754,8 @@ export const POKEMON = [
   {
     number: "513",
     name: "Pansear",
-    sprite: require('../sprites/513.png'),
+    sprite: require("../sprites/513.png"),
+    model: require("../models/pansear.png"),
     class: "High Temp Pokémon",
     height: "0.6m",
     weight: "11kg",
@@ -10262,7 +10775,8 @@ export const POKEMON = [
   {
     number: "514",
     name: "Simisear",
-    sprite: require('../sprites/514.png'),
+    sprite: require("../sprites/514.png"),
+    model: require("../models/simisear.png"),
     class: "Ember Pokémon",
     height: "1m",
     weight: "28kg",
@@ -10282,7 +10796,8 @@ export const POKEMON = [
   {
     number: "515",
     name: "Panpour",
-    sprite: require('../sprites/515.png'),
+    sprite: require("../sprites/515.png"),
+    model: require("../models/panpour.png"),
     class: "Spray Pokémon",
     height: "0.6m",
     weight: "13.5kg",
@@ -10302,7 +10817,8 @@ export const POKEMON = [
   {
     number: "516",
     name: "Simipour",
-    sprite: require('../sprites/516.png'),
+    sprite: require("../sprites/516.png"),
+    model: require("../models/simipour.png"),
     class: "Geyser Pokémon",
     height: "1m",
     weight: "29kg",
@@ -10322,7 +10838,8 @@ export const POKEMON = [
   {
     number: "517",
     name: "Munna",
-    sprite: require('../sprites/517.png'),
+    sprite: require("../sprites/517.png"),
+    model: require("../models/munna.png"),
     class: "Dream Eater Pokémon",
     height: "0.6m",
     weight: "23.3kg",
@@ -10342,7 +10859,8 @@ export const POKEMON = [
   {
     number: "518",
     name: "Musharna",
-    sprite: require('../sprites/518.png'),
+    sprite: require("../sprites/518.png"),
+    model: require("../models/musharna.png"),
     class: "Drowsing Pokémon",
     height: "1.1m",
     weight: "60.5kg",
@@ -10362,7 +10880,8 @@ export const POKEMON = [
   {
     number: "519",
     name: "Pidove",
-    sprite: require('../sprites/519.png'),
+    sprite: require("../sprites/519.png"),
+    model: require("../models/pidove.png"),
     class: "Tiny Pigeon Pokémon",
     height: "0.3m",
     weight: "2.1kg",
@@ -10382,7 +10901,8 @@ export const POKEMON = [
   {
     number: "520",
     name: "Tranquill",
-    sprite: require('../sprites/520.png'),
+    sprite: require("../sprites/520.png"),
+    model: require("../models/tranquill.png"),
     class: "Wild Pigeon Pokémon",
     height: "0.6m",
     weight: "15.0kg",
@@ -10402,7 +10922,8 @@ export const POKEMON = [
   {
     number: "521",
     name: "Unfezant",
-    sprite: require('../sprites/521.png'),
+    sprite: require("../sprites/521.png"),
+    model: require("../models/unfezant.png"),
     class: "Proud Pokémon",
     height: "1.2m",
     weight: "29.0kg",
@@ -10422,7 +10943,8 @@ export const POKEMON = [
   {
     number: "522",
     name: "Blitzle",
-    sprite: require('../sprites/522.png'),
+    sprite: require("../sprites/522.png"),
+    model: require("../models/blitzle.png"),
     class: "Electrified Pokémon",
     height: "0.8m",
     weight: "29.8kg",
@@ -10442,7 +10964,8 @@ export const POKEMON = [
   {
     number: "523",
     name: "Zebstrika",
-    sprite: require('../sprites/523.png'),
+    sprite: require("../sprites/523.png"),
+    model: require("../models/zebstrika.png"),
     class: "Thunderbolt Pokémon",
     height: "1.6m",
     weight: "79.5kg",
@@ -10462,7 +10985,8 @@ export const POKEMON = [
   {
     number: "524",
     name: "Roggenrola",
-    sprite: require('../sprites/524.png'),
+    sprite: require("../sprites/524.png"),
+    model: require("../models/roggenrola.png"),
     class: "Mantle Pokémon",
     height: "0.4m",
     weight: "18.0kg",
@@ -10482,7 +11006,8 @@ export const POKEMON = [
   {
     number: "525",
     name: "Boldore",
-    sprite: require('../sprites/525.png'),
+    sprite: require("../sprites/525.png"),
+    model: require("../models/boldore.png"),
     class: "Ore Pokémon",
     height: "0.9m",
     weight: "102.0kg",
@@ -10502,7 +11027,8 @@ export const POKEMON = [
   {
     number: "526",
     name: "Gigalith",
-    sprite: require('../sprites/526.png'),
+    sprite: require("../sprites/526.png"),
+    model: require("../models/gigalith.png"),
     class: "Compressed Pokémon",
     height: "1.7m",
     weight: "260.0kg",
@@ -10522,7 +11048,8 @@ export const POKEMON = [
   {
     number: "527",
     name: "Woobat",
-    sprite: require('../sprites/527.png'),
+    sprite: require("../sprites/527.png"),
+    model: require("../models/woobat.png"),
     class: "Bat Pokémon",
     height: "0.4m",
     weight: "2.1kg",
@@ -10542,7 +11069,8 @@ export const POKEMON = [
   {
     number: "528",
     name: "Swoobat",
-    sprite: require('../sprites/528.png'),
+    sprite: require("../sprites/528.png"),
+    model: require("../models/swoobat.png"),
     class: "Courting Pokémon",
     height: "0.9m",
     weight: "10.5kg",
@@ -10562,7 +11090,8 @@ export const POKEMON = [
   {
     number: "529",
     name: "Drilbur",
-    sprite: require('../sprites/529.png'),
+    sprite: require("../sprites/529.png"),
+    model: require("../models/drilbur.png"),
     class: "Mole Pokémon",
     height: "0.3m",
     weight: "8.5kg",
@@ -10582,7 +11111,8 @@ export const POKEMON = [
   {
     number: "530",
     name: "Excadrill",
-    sprite: require('../sprites/530.png'),
+    sprite: require("../sprites/530.png"),
+    model: require("../models/excadrill.png"),
     class: "Subterrene Pokémon",
     height: "0.7m",
     weight: "40.4kg",
@@ -10602,7 +11132,8 @@ export const POKEMON = [
   {
     number: "531",
     name: "Audino",
-    sprite: require('../sprites/531.png'),
+    sprite: require("../sprites/531.png"),
+    model: require("../models/audino.png"),
     class: "Hearing Pokémon",
     height: "1.1m",
     weight: "31.0kg",
@@ -10622,7 +11153,8 @@ export const POKEMON = [
   {
     number: "532",
     name: "Timburr",
-    sprite: require('../sprites/532.png'),
+    sprite: require("../sprites/532.png"),
+    model: require("../models/timburr.png"),
     class: "Muscular Pokémon",
     height: "0.6m",
     weight: "12.5kg",
@@ -10642,7 +11174,8 @@ export const POKEMON = [
   {
     number: "533",
     name: "Gurdurr",
-    sprite: require('../sprites/533.png'),
+    sprite: require("../sprites/533.png"),
+    model: require("../models/gurdurr.png"),
     class: "Muscular Pokémon",
     height: "1.2m",
     weight: "40.0kg",
@@ -10662,7 +11195,8 @@ export const POKEMON = [
   {
     number: "534",
     name: "Conkeldurr",
-    sprite: require('../sprites/534.png'),
+    sprite: require("../sprites/534.png"),
+    model: require("../models/conkeldurr.png"),
     class: "Muscular Pokémon",
     height: "1.4m",
     weight: "87.0kg",
@@ -10682,7 +11216,8 @@ export const POKEMON = [
   {
     number: "535",
     name: "Tympole",
-    sprite: require('../sprites/535.png'),
+    sprite: require("../sprites/535.png"),
+    model: require("../models/tympole.png"),
     class: "Tadpole Pokémon",
     height: "0.5m",
     weight: "4.5kg",
@@ -10702,7 +11237,8 @@ export const POKEMON = [
   {
     number: "536",
     name: "Palpitoad",
-    sprite: require('../sprites/536.png'),
+    sprite: require("../sprites/536.png"),
+    model: require("../models/palpitoad.png"),
     class: "Vibration Pokémon",
     height: "0.8m",
     weight: "17.0kg",
@@ -10722,7 +11258,8 @@ export const POKEMON = [
   {
     number: "537",
     name: "Seismitoad",
-    sprite: require('../sprites/537.png'),
+    sprite: require("../sprites/537.png"),
+    model: require("../models/seismitoad.png"),
     class: "Vibration Pokémon",
     height: "1.5m",
     weight: "62.0kg",
@@ -10742,7 +11279,8 @@ export const POKEMON = [
   {
     number: "538",
     name: "Throh",
-    sprite: require('../sprites/538.png'),
+    sprite: require("../sprites/538.png"),
+    model: require("../models/throh.png"),
     class: "Judo Pokémon",
     height: "1.3m",
     weight: "55.5kg",
@@ -10762,7 +11300,8 @@ export const POKEMON = [
   {
     number: "539",
     name: "Sawk",
-    sprite: require('../sprites/539.png'),
+    sprite: require("../sprites/539.png"),
+    model: require("../models/sawk.png"),
     class: "Karate Pokémon",
     height: "1.4m",
     weight: "51.0kg",
@@ -10782,7 +11321,8 @@ export const POKEMON = [
   {
     number: "540",
     name: "Sewaddle",
-    sprite: require('../sprites/540.png'),
+    sprite: require("../sprites/540.png"),
+    model: require("../models/sewaddle.png"),
     class: "Sewing Pokémon",
     height: "0.3m",
     weight: "2.5kg",
@@ -10802,7 +11342,8 @@ export const POKEMON = [
   {
     number: "541",
     name: "Swadloon",
-    sprite: require('../sprites/541.png'),
+    sprite: require("../sprites/541.png"),
+    model: require("../models/swadloon.png"),
     class: "Leaf-Wrapped Pokémon",
     height: "0.5m",
     weight: "7.3kg",
@@ -10822,7 +11363,8 @@ export const POKEMON = [
   {
     number: "542",
     name: "Leavanny",
-    sprite: require('../sprites/542.png'),
+    sprite: require("../sprites/542.png"),
+    model: require("../models/leavanny.png"),
     class: "Nurturing Pokémon",
     height: "1.2m",
     weight: "20.5kg",
@@ -10842,7 +11384,8 @@ export const POKEMON = [
   {
     number: "543",
     name: "Venipede",
-    sprite: require('../sprites/543.png'),
+    sprite: require("../sprites/543.png"),
+    model: require("../models/venipede.png"),
     class: "Centipede Pokémon",
     height: "0.4m",
     weight: "5.3kg",
@@ -10862,7 +11405,8 @@ export const POKEMON = [
   {
     number: "544",
     name: "Whirlipede",
-    sprite: require('../sprites/544.png'),
+    sprite: require("../sprites/544.png"),
+    model: require("../models/whirlipede.png"),
     class: "Curlipede Pokémon",
     height: "1.2m",
     weight: "58.5kg",
@@ -10882,7 +11426,8 @@ export const POKEMON = [
   {
     number: "545",
     name: "Scolipede",
-    sprite: require('../sprites/545.png'),
+    sprite: require("../sprites/545.png"),
+    model: require("../models/scolipede.png"),
     class: "Megapede Pokémon",
     height: "2.5m",
     weight: "200.5kg",
@@ -10902,7 +11447,8 @@ export const POKEMON = [
   {
     number: "546",
     name: "Cottonee",
-    sprite: require('../sprites/546.png'),
+    sprite: require("../sprites/546.png"),
+    model: require("../models/cottonee.png"),
     class: "Cotton Puff Pokémon",
     height: "0.3m",
     weight: "0.6kg",
@@ -10922,7 +11468,8 @@ export const POKEMON = [
   {
     number: "547",
     name: "Whimsicott",
-    sprite: require('../sprites/547.png'),
+    sprite: require("../sprites/547.png"),
+    model: require("../models/whimsicott.png"),
     class: "Windveiled Pokémon",
     height: "0.7m",
     weight: "6.6kg",
@@ -10942,7 +11489,8 @@ export const POKEMON = [
   {
     number: "548",
     name: "Petilil",
-    sprite: require('../sprites/548.png'),
+    sprite: require("../sprites/548.png"),
+    model: require("../models/petilil.png"),
     class: "Bulb Pokémon",
     height: "0.5m",
     weight: "6.6kg",
@@ -10962,7 +11510,8 @@ export const POKEMON = [
   {
     number: "549",
     name: "Lilligant",
-    sprite: require('../sprites/549.png'),
+    sprite: require("../sprites/549.png"),
+    model: require("../models/lilligant.png"),
     class: "Flowering Pokémon",
     height: "1.1m",
     weight: "16.3kg",
@@ -10982,7 +11531,8 @@ export const POKEMON = [
   {
     number: "550",
     name: "Basculin",
-    sprite: require('../sprites/550.png'),
+    sprite: require("../sprites/550.png"),
+    model: require("../models/basculin.png"),
     class: "Hostile Pokémon",
     height: "1.0m",
     weight: "18.0kg",
@@ -11002,7 +11552,8 @@ export const POKEMON = [
   {
     number: "551",
     name: "Sandile",
-    sprite: require('../sprites/551.png'),
+    sprite: require("../sprites/551.png"),
+    model: require("../models/sandile.png"),
     class: "Desert Croc Pokémon",
     height: "0.7m",
     weight: "15.2kg",
@@ -11022,7 +11573,8 @@ export const POKEMON = [
   {
     number: "552",
     name: "Krokorok",
-    sprite: require('../sprites/552.png'),
+    sprite: require("../sprites/552.png"),
+    model: require("../models/krokorok.png"),
     class: "Desert Croc Pokémon",
     height: "1.0m",
     weight: "33.4kg",
@@ -11042,7 +11594,8 @@ export const POKEMON = [
   {
     number: "553",
     name: "Krookodile",
-    sprite: require('../sprites/553.png'),
+    sprite: require("../sprites/553.png"),
+    model: require("../models/krookodile.png"),
     class: "Intimidation Pokémon",
     height: "1.5m",
     weight: "96.3kg",
@@ -11062,7 +11615,8 @@ export const POKEMON = [
   {
     number: "554",
     name: "Darumaka",
-    sprite: require('../sprites/554.png'),
+    sprite: require("../sprites/554.png"),
+    model: require("../models/darumaka.png"),
     class: "Zen Charm Pokémon",
     height: "0.6m / 0.7m",
     weight: "37.5kg / 40.0kg",
@@ -11082,7 +11636,8 @@ export const POKEMON = [
   {
     number: "555",
     name: "Darmanitan",
-    sprite: require('../sprites/555.png'),
+    sprite: require("../sprites/555.png"),
+    model: require("../models/darmanitan.png"),
     class: "Blazing Pokémon (Unovan)Zen Charm Pokémon (Galarian)",
     height: "1.3m / 1.7m",
     weight: "92.9kg / 120.0kg",
@@ -11102,7 +11657,8 @@ export const POKEMON = [
   {
     number: "556",
     name: "Maractus",
-    sprite: require('../sprites/556.png'),
+    sprite: require("../sprites/556.png"),
+    model: require("../models/maractus.png"),
     class: "Cactus Pokémon",
     height: "1.0m",
     weight: "28.0kg",
@@ -11122,7 +11678,8 @@ export const POKEMON = [
   {
     number: "557",
     name: "Dwebble",
-    sprite: require('../sprites/557.png'),
+    sprite: require("../sprites/557.png"),
+    model: require("../models/dwebble.png"),
     class: "Rock Inn Pokémon",
     height: "0.3m",
     weight: "14.5kg",
@@ -11142,7 +11699,8 @@ export const POKEMON = [
   {
     number: "558",
     name: "Crustle",
-    sprite: require('../sprites/558.png'),
+    sprite: require("../sprites/558.png"),
+    model: require("../models/crustle.png"),
     class: "Stone Home Pokémon",
     height: "1.4m",
     weight: "200.0kg",
@@ -11162,7 +11720,8 @@ export const POKEMON = [
   {
     number: "559",
     name: "Scraggy",
-    sprite: require('../sprites/559.png'),
+    sprite: require("../sprites/559.png"),
+    model: require("../models/scraggy.png"),
     class: "Shedding Pokémon",
     height: "0.6m",
     weight: "11.8kg",
@@ -11182,7 +11741,8 @@ export const POKEMON = [
   {
     number: "560",
     name: "Scrafty",
-    sprite: require('../sprites/560.png'),
+    sprite: require("../sprites/560.png"),
+    model: require("../models/scrafty.png"),
     class: "Hoodlum Pokémon",
     height: "1.1m",
     weight: "30.0kg",
@@ -11202,7 +11762,8 @@ export const POKEMON = [
   {
     number: "561",
     name: "Sigilyph",
-    sprite: require('../sprites/561.png'),
+    sprite: require("../sprites/561.png"),
+    model: require("../models/sigilyph.png"),
     class: "Avianoid Pokémon",
     height: "1.4m",
     weight: "14.0kg",
@@ -11222,7 +11783,8 @@ export const POKEMON = [
   {
     number: "562",
     name: "Yamask",
-    sprite: require('../sprites/562.png'),
+    sprite: require("../sprites/562.png"),
+    model: require("../models/yamask.png"),
     class: "Spirit Pokémon",
     height: "0.5m / 0.5m",
     weight: "1.5kg / 1.5kg",
@@ -11242,7 +11804,8 @@ export const POKEMON = [
   {
     number: "563",
     name: "Cofagrigus",
-    sprite: require('../sprites/563.png'),
+    sprite: require("../sprites/563.png"),
+    model: require("../models/cofagrigus.png"),
     class: "Coffin Pokémon",
     height: "1.7m",
     weight: "76.5kg",
@@ -11262,7 +11825,8 @@ export const POKEMON = [
   {
     number: "564",
     name: "Tirtouga",
-    sprite: require('../sprites/564.png'),
+    sprite: require("../sprites/564.png"),
+    model: require("../models/tirtouga.png"),
     class: "Prototurtle Pokémon",
     height: "0.7m",
     weight: "16.5kg",
@@ -11282,7 +11846,8 @@ export const POKEMON = [
   {
     number: "565",
     name: "Carracosta",
-    sprite: require('../sprites/565.png'),
+    sprite: require("../sprites/565.png"),
+    model: require("../models/carracosta.png"),
     class: "Prototurtle Pokémon",
     height: "1.2m",
     weight: "81.0kg",
@@ -11302,7 +11867,8 @@ export const POKEMON = [
   {
     number: "566",
     name: "Archen",
-    sprite: require('../sprites/566.png'),
+    sprite: require("../sprites/566.png"),
+    model: require("../models/archen.png"),
     class: "First Bird Pokémon",
     height: "0.5m",
     weight: "9.5kg",
@@ -11322,7 +11888,8 @@ export const POKEMON = [
   {
     number: "567",
     name: "Archeops",
-    sprite: require('../sprites/567.png'),
+    sprite: require("../sprites/567.png"),
+    model: require("../models/archeops.png"),
     class: "First Bird Pokémon",
     height: "1.4m",
     weight: "32.0kg",
@@ -11342,7 +11909,8 @@ export const POKEMON = [
   {
     number: "568",
     name: "Trubbish",
-    sprite: require('../sprites/568.png'),
+    sprite: require("../sprites/568.png"),
+    model: require("../models/trubbish.png"),
     class: "Trash Bag Pokémon",
     height: "0.6m",
     weight: "31.0kg",
@@ -11362,7 +11930,8 @@ export const POKEMON = [
   {
     number: "569",
     name: "Garbodor",
-    sprite: require('../sprites/569.png'),
+    sprite: require("../sprites/569.png"),
+    model: require("../models/garbodor.png"),
     class: "Trash Heap Pokémon",
     height: "1.9m",
     weight: "107.3kg",
@@ -11382,7 +11951,8 @@ export const POKEMON = [
   {
     number: "570",
     name: "Zorua",
-    sprite: require('../sprites/570.png'),
+    sprite: require("../sprites/570.png"),
+    model: require("../models/zorua.png"),
     class: "Tricky Fox Pokémon (Unovan)Spiteful Fox Pokémon (Hisuian)",
     height: "0.7m",
     weight: "12.5kg",
@@ -11402,7 +11972,8 @@ export const POKEMON = [
   {
     number: "571",
     name: "Zoroark",
-    sprite: require('../sprites/571.png'),
+    sprite: require("../sprites/571.png"),
+    model: require("../models/zoroark.png"),
     class: "Illusion Fox Pokémon (Unovan)Baneful Fox Pokémon (Hisuian)",
     height: "1.6m",
     weight: "81.1kg",
@@ -11422,7 +11993,8 @@ export const POKEMON = [
   {
     number: "572",
     name: "Minccino",
-    sprite: require('../sprites/572.png'),
+    sprite: require("../sprites/572.png"),
+    model: require("../models/minccino.png"),
     class: "Chinchilla Pokémon",
     height: "0.4m",
     weight: "5.8kg",
@@ -11442,7 +12014,8 @@ export const POKEMON = [
   {
     number: "573",
     name: "Cinccino",
-    sprite: require('../sprites/573.png'),
+    sprite: require("../sprites/573.png"),
+    model: require("../models/cinccino.png"),
     class: "Scarf Pokémon",
     height: "0.5m",
     weight: "7.5kg",
@@ -11462,7 +12035,8 @@ export const POKEMON = [
   {
     number: "574",
     name: "Gothita",
-    sprite: require('../sprites/574.png'),
+    sprite: require("../sprites/574.png"),
+    model: require("../models/gothita.png"),
     class: "Fixation Pokémon",
     height: "0.4m",
     weight: "5.8kg",
@@ -11482,7 +12056,8 @@ export const POKEMON = [
   {
     number: "575",
     name: "Gothorita",
-    sprite: require('../sprites/575.png'),
+    sprite: require("../sprites/575.png"),
+    model: require("../models/gothorita.png"),
     class: "Manipulate Pokémon",
     height: "0.7m",
     weight: "18.0kg",
@@ -11502,7 +12077,8 @@ export const POKEMON = [
   {
     number: "576",
     name: "Gothitelle",
-    sprite: require('../sprites/576.png'),
+    sprite: require("../sprites/576.png"),
+    model: require("../models/gothitelle.png"),
     class: "Astral Body Pokémon",
     height: "1.5m",
     weight: "44.0kg",
@@ -11522,7 +12098,8 @@ export const POKEMON = [
   {
     number: "577",
     name: "Solosis",
-    sprite: require('../sprites/577.png'),
+    sprite: require("../sprites/577.png"),
+    model: require("../models/solosis.png"),
     class: "Cell Pokémon",
     height: "0.3m",
     weight: "1.0kg",
@@ -11542,7 +12119,8 @@ export const POKEMON = [
   {
     number: "578",
     name: "Duosion",
-    sprite: require('../sprites/578.png'),
+    sprite: require("../sprites/578.png"),
+    model: require("../models/duosion.png"),
     class: "Mitosis Pokémon",
     height: "0.6m",
     weight: "8.0kg",
@@ -11562,7 +12140,8 @@ export const POKEMON = [
   {
     number: "579",
     name: "Reuniclus",
-    sprite: require('../sprites/579.png'),
+    sprite: require("../sprites/579.png"),
+    model: require("../models/reuniclus.png"),
     class: "Multiplying Pokémon",
     height: "1.0m",
     weight: "20.1kg",
@@ -11582,7 +12161,8 @@ export const POKEMON = [
   {
     number: "580",
     name: "Ducklett",
-    sprite: require('../sprites/580.png'),
+    sprite: require("../sprites/580.png"),
+    model: require("../models/ducklett.png"),
     class: "Water Bird Pokémon",
     height: "0.5m",
     weight: "5.5kg",
@@ -11602,7 +12182,8 @@ export const POKEMON = [
   {
     number: "581",
     name: "Swanna",
-    sprite: require('../sprites/581.png'),
+    sprite: require("../sprites/581.png"),
+    model: require("../models/swanna.png"),
     class: "White Bird Pokémon",
     height: "1.3m",
     weight: "24.2kg",
@@ -11622,7 +12203,8 @@ export const POKEMON = [
   {
     number: "582",
     name: "Vanillite",
-    sprite: require('../sprites/582.png'),
+    sprite: require("../sprites/582.png"),
+    model: require("../models/vanillite.png"),
     class: "Fresh Snow Pokémon",
     height: "0.4m",
     weight: "5.7kg",
@@ -11642,7 +12224,8 @@ export const POKEMON = [
   {
     number: "583",
     name: "Vanillish",
-    sprite: require('../sprites/583.png'),
+    sprite: require("../sprites/583.png"),
+    model: require("../models/vanillish.png"),
     class: "Icy Snow Pokémon",
     height: "1.1m",
     weight: "41.0kg",
@@ -11662,7 +12245,8 @@ export const POKEMON = [
   {
     number: "584",
     name: "Vanilluxe",
-    sprite: require('../sprites/584.png'),
+    sprite: require("../sprites/584.png"),
+    model: require("../models/vanilluxe.png"),
     class: "Snowstorm Pokémon",
     height: "1.3m",
     weight: "57.5kg",
@@ -11682,7 +12266,8 @@ export const POKEMON = [
   {
     number: "585",
     name: "Deerling",
-    sprite: require('../sprites/585.png'),
+    sprite: require("../sprites/585.png"),
+    model: require("../models/deerling.png"),
     class: "Season Pokémon",
     height: "0.6m",
     weight: "19.5kg",
@@ -11702,7 +12287,8 @@ export const POKEMON = [
   {
     number: "586",
     name: "Sawsbuck",
-    sprite: require('../sprites/586.png'),
+    sprite: require("../sprites/586.png"),
+    model: require("../models/sawsbuck.png"),
     class: "Season Pokémon",
     height: "1.9m",
     weight: "92.5kg",
@@ -11722,7 +12308,8 @@ export const POKEMON = [
   {
     number: "587",
     name: "Emolga",
-    sprite: require('../sprites/587.png'),
+    sprite: require("../sprites/587.png"),
+    model: require("../models/emolga.png"),
     class: "Sky Squirrel Pokémon",
     height: "0.4m",
     weight: "5.0kg",
@@ -11742,7 +12329,8 @@ export const POKEMON = [
   {
     number: "588",
     name: "Karrablast",
-    sprite: require('../sprites/588.png'),
+    sprite: require("../sprites/588.png"),
+    model: require("../models/karrablast.png"),
     class: "Clamping Pokémon",
     height: "0.5m",
     weight: "5.9kg",
@@ -11762,7 +12350,8 @@ export const POKEMON = [
   {
     number: "589",
     name: "Escavalier",
-    sprite: require('../sprites/589.png'),
+    sprite: require("../sprites/589.png"),
+    model: require("../models/escavalier.png"),
     class: "Cavalry Pokémon",
     height: "1.0m",
     weight: "33.0kg",
@@ -11782,7 +12371,8 @@ export const POKEMON = [
   {
     number: "590",
     name: "Foongus",
-    sprite: require('../sprites/590.png'),
+    sprite: require("../sprites/590.png"),
+    model: require("../models/foongus.png"),
     class: "Mushroom Pokémon",
     height: "0.2m",
     weight: "1.0kg",
@@ -11802,7 +12392,8 @@ export const POKEMON = [
   {
     number: "591",
     name: "Amoonguss",
-    sprite: require('../sprites/591.png'),
+    sprite: require("../sprites/591.png"),
+    model: require("../models/amoonguss.png"),
     class: "Mushroom Pokémon",
     height: "0.6m",
     weight: "10.5kg",
@@ -11822,7 +12413,8 @@ export const POKEMON = [
   {
     number: "592",
     name: "Frillish",
-    sprite: require('../sprites/592.png'),
+    sprite: require("../sprites/592.png"),
+    model: require("../models/frillish.png"),
     class: "Floating Pokémon",
     height: "1.2m",
     weight: "33.0kg",
@@ -11842,7 +12434,8 @@ export const POKEMON = [
   {
     number: "593",
     name: "Jellicent",
-    sprite: require('../sprites/593.png'),
+    sprite: require("../sprites/593.png"),
+    model: require("../models/jellicent.png"),
     class: "Floating Pokémon",
     height: "2.2m",
     weight: "135.0kg",
@@ -11862,7 +12455,8 @@ export const POKEMON = [
   {
     number: "594",
     name: "Alomomola",
-    sprite: require('../sprites/594.png'),
+    sprite: require("../sprites/594.png"),
+    model: require("../models/alomomola.png"),
     class: "Caring Pokémon",
     height: "1.2m",
     weight: "31.6kg",
@@ -11882,7 +12476,8 @@ export const POKEMON = [
   {
     number: "595",
     name: "Joltik",
-    sprite: require('../sprites/595.png'),
+    sprite: require("../sprites/595.png"),
+    model: require("../models/joltik.png"),
     class: "Attaching Pokémon",
     height: "0.1m",
     weight: "0.6kg",
@@ -11902,7 +12497,8 @@ export const POKEMON = [
   {
     number: "596",
     name: "Galvantula",
-    sprite: require('../sprites/596.png'),
+    sprite: require("../sprites/596.png"),
+    model: require("../models/galvantula.png"),
     class: "EleSpider Pokémon",
     height: "0.8m",
     weight: "14.3kg",
@@ -11922,7 +12518,8 @@ export const POKEMON = [
   {
     number: "597",
     name: "Ferroseed",
-    sprite: require('../sprites/597.png'),
+    sprite: require("../sprites/597.png"),
+    model: require("../models/ferroseed.png"),
     class: "Thorn Seed Pokémon",
     height: "0.6m",
     weight: "18.8kg",
@@ -11942,7 +12539,8 @@ export const POKEMON = [
   {
     number: "598",
     name: "Ferrothorn",
-    sprite: require('../sprites/598.png'),
+    sprite: require("../sprites/598.png"),
+    model: require("../models/ferrothorn.png"),
     class: "Thorn Pod Pokémon",
     height: "1.0m",
     weight: "110.0kg",
@@ -11962,7 +12560,8 @@ export const POKEMON = [
   {
     number: "599",
     name: "Klink",
-    sprite: require('../sprites/599.png'),
+    sprite: require("../sprites/599.png"),
+    model: require("../models/klink.png"),
     class: "Gear Pokémon",
     height: "0.3m",
     weight: "21.0kg",
@@ -11982,7 +12581,8 @@ export const POKEMON = [
   {
     number: "600",
     name: "Klang",
-    sprite: require('../sprites/600.png'),
+    sprite: require("../sprites/600.png"),
+    model: require("../models/klang.png"),
     class: "Gear Pokémon",
     height: "0.6m",
     weight: "51.0kg",
@@ -12002,7 +12602,8 @@ export const POKEMON = [
   {
     number: "601",
     name: "Klinklang",
-    sprite: require('../sprites/601.png'),
+    sprite: require("../sprites/601.png"),
+    model: require("../models/klinklang.png"),
     class: "Gear Pokémon",
     height: "0.6m",
     weight: "81.0kg",
@@ -12022,7 +12623,8 @@ export const POKEMON = [
   {
     number: "602",
     name: "Tynamo",
-    sprite: require('../sprites/602.png'),
+    sprite: require("../sprites/602.png"),
+    model: require("../models/tynamo.png"),
     class: "EleFish Pokémon",
     height: "0.2m",
     weight: "0.3kg",
@@ -12042,7 +12644,8 @@ export const POKEMON = [
   {
     number: "603",
     name: "Eelektrik",
-    sprite: require('../sprites/603.png'),
+    sprite: require("../sprites/603.png"),
+    model: require("../models/eelektrik.png"),
     class: "EleFish Pokémon",
     height: "1.2m",
     weight: "22kg",
@@ -12062,7 +12665,8 @@ export const POKEMON = [
   {
     number: "604",
     name: "Eelektross",
-    sprite: require('../sprites/604.png'),
+    sprite: require("../sprites/604.png"),
+    model: require("../models/eelektross.png"),
     class: "EleFish Pokémon",
     height: "2.1m",
     weight: "80.5kg",
@@ -12082,7 +12686,8 @@ export const POKEMON = [
   {
     number: "605",
     name: "Elgyem",
-    sprite: require('../sprites/605.png'),
+    sprite: require("../sprites/605.png"),
+    model: require("../models/elgyem.png"),
     class: "Cerebral Pokémon",
     height: "0.5m",
     weight: "9.0kg",
@@ -12102,7 +12707,8 @@ export const POKEMON = [
   {
     number: "606",
     name: "Beheeyem",
-    sprite: require('../sprites/606.png'),
+    sprite: require("../sprites/606.png"),
+    model: require("../models/beheeyem.png"),
     class: "Cerebral Pokémon",
     height: "1.0m",
     weight: "34.5kg",
@@ -12122,7 +12728,8 @@ export const POKEMON = [
   {
     number: "607",
     name: "Litwick",
-    sprite: require('../sprites/607.png'),
+    sprite: require("../sprites/607.png"),
+    model: require("../models/litwick.png"),
     class: "Candle Pokémon",
     height: "0.3m",
     weight: "3.1kg",
@@ -12142,7 +12749,8 @@ export const POKEMON = [
   {
     number: "608",
     name: "Lampent",
-    sprite: require('../sprites/608.png'),
+    sprite: require("../sprites/608.png"),
+    model: require("../models/lampent.png"),
     class: "Lamp Pokémon",
     height: "0.6m",
     weight: "13.0kg",
@@ -12162,7 +12770,8 @@ export const POKEMON = [
   {
     number: "609",
     name: "Chandelure",
-    sprite: require('../sprites/609.png'),
+    sprite: require("../sprites/609.png"),
+    model: require("../models/chandelure.png"),
     class: "Luring Pokémon",
     height: "1.0m",
     weight: "34.3kg",
@@ -12182,7 +12791,8 @@ export const POKEMON = [
   {
     number: "610",
     name: "Axew",
-    sprite: require('../sprites/610.png'),
+    sprite: require("../sprites/610.png"),
+    model: require("../models/axew.png"),
     class: "Tusk Pokémon",
     height: "0.6m",
     weight: "18.0kg",
@@ -12202,7 +12812,8 @@ export const POKEMON = [
   {
     number: "611",
     name: "Fraxure",
-    sprite: require('../sprites/611.png'),
+    sprite: require("../sprites/611.png"),
+    model: require("../models/fraxure.png"),
     class: "Axe Jaw Pokémon",
     height: "1.0m",
     weight: "36.0kg",
@@ -12222,7 +12833,8 @@ export const POKEMON = [
   {
     number: "612",
     name: "Haxorus",
-    sprite: require('../sprites/612.png'),
+    sprite: require("../sprites/612.png"),
+    model: require("../models/haxorus.png"),
     class: "Axe Jaw Pokémon",
     height: "1.8m",
     weight: "105.5kg",
@@ -12242,7 +12854,8 @@ export const POKEMON = [
   {
     number: "613",
     name: "Cubchoo",
-    sprite: require('../sprites/613.png'),
+    sprite: require("../sprites/613.png"),
+    model: require("../models/cubchoo.png"),
     class: "Chill Pokémon",
     height: "0.5m",
     weight: "8.5kg",
@@ -12262,7 +12875,8 @@ export const POKEMON = [
   {
     number: "614",
     name: "Beartic",
-    sprite: require('../sprites/614.png'),
+    sprite: require("../sprites/614.png"),
+    model: require("../models/beartic.png"),
     class: "Freezing Pokémon",
     height: "2.6m",
     weight: "260.0kg",
@@ -12282,7 +12896,8 @@ export const POKEMON = [
   {
     number: "615",
     name: "Cryogonal",
-    sprite: require('../sprites/615.png'),
+    sprite: require("../sprites/615.png"),
+    model: require("../models/cryogonal.png"),
     class: "Crystallizing Pokémon",
     height: "1.1m",
     weight: "148.0kg",
@@ -12302,7 +12917,8 @@ export const POKEMON = [
   {
     number: "616",
     name: "Shelmet",
-    sprite: require('../sprites/616.png'),
+    sprite: require("../sprites/616.png"),
+    model: require("../models/shelmet.png"),
     class: "Snail Pokémon",
     height: "0.4m",
     weight: "7.7kg",
@@ -12322,7 +12938,8 @@ export const POKEMON = [
   {
     number: "617",
     name: "Accelgor",
-    sprite: require('../sprites/617.png'),
+    sprite: require("../sprites/617.png"),
+    model: require("../models/accelgor.png"),
     class: "Shell Out Pokémon",
     height: "0.8m",
     weight: "25.3kg",
@@ -12342,7 +12959,8 @@ export const POKEMON = [
   {
     number: "618",
     name: "Stunfisk",
-    sprite: require('../sprites/618.png'),
+    sprite: require("../sprites/618.png"),
+    model: require("../models/stunfisk.png"),
     class: "Trap Pokémon",
     height: "0.7m / 0.7m",
     weight: "11.0kg / 20.5kg",
@@ -12362,7 +12980,8 @@ export const POKEMON = [
   {
     number: "619",
     name: "Mienfoo",
-    sprite: require('../sprites/619.png'),
+    sprite: require("../sprites/619.png"),
+    model: require("../models/mienfoo.png"),
     class: "Martial Arts Pokémon",
     height: "0.9m",
     weight: "20.0kg",
@@ -12382,7 +13001,8 @@ export const POKEMON = [
   {
     number: "620",
     name: "Mienshao",
-    sprite: require('../sprites/620.png'),
+    sprite: require("../sprites/620.png"),
+    model: require("../models/mienshao.png"),
     class: "Martial Arts Pokémon",
     height: "1.4m",
     weight: "35.5kg",
@@ -12402,7 +13022,8 @@ export const POKEMON = [
   {
     number: "621",
     name: "Druddigon",
-    sprite: require('../sprites/621.png'),
+    sprite: require("../sprites/621.png"),
+    model: require("../models/druddigon.png"),
     class: "Cave Pokémon",
     height: "1.6m",
     weight: "139.0kg",
@@ -12422,7 +13043,8 @@ export const POKEMON = [
   {
     number: "622",
     name: "Golett",
-    sprite: require('../sprites/622.png'),
+    sprite: require("../sprites/622.png"),
+    model: require("../models/golett.png"),
     class: "Automaton Pokémon",
     height: "1.0m",
     weight: "92.0kg",
@@ -12442,7 +13064,8 @@ export const POKEMON = [
   {
     number: "623",
     name: "Golurk",
-    sprite: require('../sprites/623.png'),
+    sprite: require("../sprites/623.png"),
+    model: require("../models/golurk.png"),
     class: "Automaton Pokémon",
     height: "2.8m",
     weight: "330.0kg",
@@ -12462,7 +13085,8 @@ export const POKEMON = [
   {
     number: "624",
     name: "Pawniard",
-    sprite: require('../sprites/624.png'),
+    sprite: require("../sprites/624.png"),
+    model: require("../models/pawniard.png"),
     class: "Sharp Blade Pokémon",
     height: "0.5m",
     weight: "10.2kg",
@@ -12482,7 +13106,8 @@ export const POKEMON = [
   {
     number: "625",
     name: "Bisharp",
-    sprite: require('../sprites/625.png'),
+    sprite: require("../sprites/625.png"),
+    model: require("../models/bisharp.png"),
     class: "Sword Blade Pokémon",
     height: "1.6m",
     weight: "70.0kg",
@@ -12502,7 +13127,8 @@ export const POKEMON = [
   {
     number: "626",
     name: "Bouffalant",
-    sprite: require('../sprites/626.png'),
+    sprite: require("../sprites/626.png"),
+    model: require("../models/bouffalant.png"),
     class: "Bash Buffalo Pokémon",
     height: "1.6m",
     weight: "94.6kg",
@@ -12522,7 +13148,8 @@ export const POKEMON = [
   {
     number: "627",
     name: "Rufflet",
-    sprite: require('../sprites/627.png'),
+    sprite: require("../sprites/627.png"),
+    model: require("../models/rufflet.png"),
     class: "Eaglet Pokémon",
     height: "0.5m",
     weight: "10.5kg",
@@ -12542,7 +13169,8 @@ export const POKEMON = [
   {
     number: "628",
     name: "Braviary",
-    sprite: require('../sprites/628.png'),
+    sprite: require("../sprites/628.png"),
+    model: require("../models/braviary.png"),
     class: "Valiant Pokémon (Unovan)Battle Cry Pokémon (Hisuian)",
     height: "1.5m",
     weight: "41.0kg",
@@ -12562,7 +13190,8 @@ export const POKEMON = [
   {
     number: "629",
     name: "Vullaby",
-    sprite: require('../sprites/629.png'),
+    sprite: require("../sprites/629.png"),
+    model: require("../models/vullaby.png"),
     class: "Diapered Pokémon",
     height: "0.5m",
     weight: "9.0kg",
@@ -12582,7 +13211,8 @@ export const POKEMON = [
   {
     number: "630",
     name: "Mandibuzz",
-    sprite: require('../sprites/630.png'),
+    sprite: require("../sprites/630.png"),
+    model: require("../models/mandibuzz.png"),
     class: "Bone Vulture Pokémon",
     height: "1.2m",
     weight: "39.5kg",
@@ -12602,7 +13232,8 @@ export const POKEMON = [
   {
     number: "631",
     name: "Heatmor",
-    sprite: require('../sprites/631.png'),
+    sprite: require("../sprites/631.png"),
+    model: require("../models/heatmor.png"),
     class: "Anteater Pokémon",
     height: "1.4m",
     weight: "58.0kg",
@@ -12622,7 +13253,8 @@ export const POKEMON = [
   {
     number: "632",
     name: "Durant",
-    sprite: require('../sprites/632.png'),
+    sprite: require("../sprites/632.png"),
+    model: require("../models/durant.png"),
     class: "Iron Ant Pokémon",
     height: "0.3m",
     weight: "33.0kg",
@@ -12642,7 +13274,8 @@ export const POKEMON = [
   {
     number: "633",
     name: "Deino",
-    sprite: require('../sprites/633.png'),
+    sprite: require("../sprites/633.png"),
+    model: require("../models/deino.png"),
     class: "Irate Pokémon",
     height: "0.8m",
     weight: "17.3kg",
@@ -12662,7 +13295,8 @@ export const POKEMON = [
   {
     number: "634",
     name: "Zweilous",
-    sprite: require('../sprites/634.png'),
+    sprite: require("../sprites/634.png"),
+    model: require("../models/zweilous.png"),
     class: "Hostile Pokémon",
     height: "1.4m",
     weight: "50.0kg",
@@ -12682,7 +13316,8 @@ export const POKEMON = [
   {
     number: "635",
     name: "Hydreigon",
-    sprite: require('../sprites/635.png'),
+    sprite: require("../sprites/635.png"),
+    model: require("../models/hydreigon.png"),
     class: "Brutal Pokémon",
     height: "1.8m",
     weight: "160.0kg",
@@ -12702,7 +13337,8 @@ export const POKEMON = [
   {
     number: "636",
     name: "Larvesta",
-    sprite: require('../sprites/636.png'),
+    sprite: require("../sprites/636.png"),
+    model: require("../models/larvesta.png"),
     class: "Torch Pokémon",
     height: "1.1m",
     weight: "28.8kg",
@@ -12722,7 +13358,8 @@ export const POKEMON = [
   {
     number: "637",
     name: "Volcarona",
-    sprite: require('../sprites/637.png'),
+    sprite: require("../sprites/637.png"),
+    model: require("../models/volcarona.png"),
     class: "Sun Pokémon",
     height: "1.6m",
     weight: "46.0kg",
@@ -12742,7 +13379,8 @@ export const POKEMON = [
   {
     number: "638",
     name: "Cobalion",
-    sprite: require('../sprites/638.png'),
+    sprite: require("../sprites/638.png"),
+    model: require("../models/cobalion.png"),
     class: "Iron Will Pokémon",
     height: "2.1m",
     weight: "250.0kg",
@@ -12762,7 +13400,8 @@ export const POKEMON = [
   {
     number: "639",
     name: "Terrakion",
-    sprite: require('../sprites/639.png'),
+    sprite: require("../sprites/639.png"),
+    model: require("../models/terrakion.png"),
     class: "Cavern Pokémon",
     height: "1.9m",
     weight: "260.0kg",
@@ -12782,7 +13421,8 @@ export const POKEMON = [
   {
     number: "640",
     name: "Virizion",
-    sprite: require('../sprites/640.png'),
+    sprite: require("../sprites/640.png"),
+    model: require("../models/virizion.png"),
     class: "Grassland Pokémon",
     height: "2.0m",
     weight: "200.0kg",
@@ -12802,7 +13442,8 @@ export const POKEMON = [
   {
     number: "641",
     name: "Tornadus",
-    sprite: require('../sprites/641.png'),
+    sprite: require("../sprites/641.png"),
+    model: require("../models/tornadus.png"),
     class: "Cyclone Pokémon",
     height: "1.5m",
     weight: "63.0kg",
@@ -12822,7 +13463,8 @@ export const POKEMON = [
   {
     number: "642",
     name: "Thundurus",
-    sprite: require('../sprites/642.png'),
+    sprite: require("../sprites/642.png"),
+    model: require("../models/thundurus.png"),
     class: "Bolt Strike Pokémon",
     height: "1.5m",
     weight: "61.0kg",
@@ -12842,7 +13484,8 @@ export const POKEMON = [
   {
     number: "643",
     name: "Reshiram",
-    sprite: require('../sprites/643.png'),
+    sprite: require("../sprites/643.png"),
+    model: require("../models/reshiram.png"),
     class: "Vast White Pokémon",
     height: "3.2m",
     weight: "330.0kg",
@@ -12862,7 +13505,8 @@ export const POKEMON = [
   {
     number: "644",
     name: "Zekrom",
-    sprite: require('../sprites/644.png'),
+    sprite: require("../sprites/644.png"),
+    model: require("../models/zekrom.png"),
     class: "Deep Black Pokémon",
     height: "2.9m",
     weight: "345.0kg",
@@ -12882,7 +13526,8 @@ export const POKEMON = [
   {
     number: "645",
     name: "Landorus",
-    sprite: require('../sprites/645.png'),
+    sprite: require("../sprites/645.png"),
+    model: require("../models/landorus.png"),
     class: "Abundance Pokémon",
     height: "1.5m",
     weight: "68.0kg",
@@ -12902,7 +13547,8 @@ export const POKEMON = [
   {
     number: "646",
     name: "Kyurem",
-    sprite: require('../sprites/646.png'),
+    sprite: require("../sprites/646.png"),
+    model: require("../models/kyurem.png"),
     class: "Boundary Pokémon",
     height: "3.0m",
     weight: "325.0kg",
@@ -12922,7 +13568,8 @@ export const POKEMON = [
   {
     number: "647",
     name: "Keldeo",
-    sprite: require('../sprites/647.png'),
+    sprite: require("../sprites/647.png"),
+    model: require("../models/keldeo.png"),
     class: "Colt Pokémon",
     height: "1.4m",
     weight: "48.5kg",
@@ -12942,7 +13589,8 @@ export const POKEMON = [
   {
     number: "648",
     name: "Meloetta",
-    sprite: require('../sprites/648.png'),
+    sprite: require("../sprites/648.png"),
+    model: require("../models/meloetta.png"),
     class: "Melody Pokémon",
     height: "0.6m",
     weight: "6.5kg",
@@ -12962,7 +13610,8 @@ export const POKEMON = [
   {
     number: "649",
     name: "Genesect",
-    sprite: require('../sprites/649.png'),
+    sprite: require("../sprites/649.png"),
+    model: require("../models/genesect.png"),
     class: "Paleozoic Pokémon",
     height: "1.5m",
     weight: "82.5kg",
@@ -12982,7 +13631,8 @@ export const POKEMON = [
   {
     number: "650",
     name: "Chespin",
-    sprite: require('../sprites/650.png'),
+    sprite: require("../sprites/650.png"),
+    model: require("../models/chespin.png"),
     class: "Spiky Nut Pokémon",
     height: "0.4m",
     weight: "9kg",
@@ -13002,7 +13652,8 @@ export const POKEMON = [
   {
     number: "651",
     name: "Quilladin",
-    sprite: require('../sprites/651.png'),
+    sprite: require("../sprites/651.png"),
+    model: require("../models/quilladin.png"),
     class: "Spiny Armor Pokémon",
     height: "0.7m",
     weight: "29kg",
@@ -13022,7 +13673,8 @@ export const POKEMON = [
   {
     number: "652",
     name: "Chesnaught",
-    sprite: require('../sprites/652.png'),
+    sprite: require("../sprites/652.png"),
+    model: require("../models/chesnaught.png"),
     class: "Spiny Armor Pokémon",
     height: "1.6m",
     weight: "90kg",
@@ -13042,7 +13694,8 @@ export const POKEMON = [
   {
     number: "653",
     name: "Fennekin",
-    sprite: require('../sprites/653.png'),
+    sprite: require("../sprites/653.png"),
+    model: require("../models/fennekin.png"),
     class: "Fox Pokémon",
     height: "0.4m",
     weight: "9.4kg",
@@ -13062,7 +13715,8 @@ export const POKEMON = [
   {
     number: "654",
     name: "Braixen",
-    sprite: require('../sprites/654.png'),
+    sprite: require("../sprites/654.png"),
+    model: require("../models/braixen.png"),
     class: "Fox Pokémon",
     height: "1m",
     weight: "14.5kg",
@@ -13082,7 +13736,8 @@ export const POKEMON = [
   {
     number: "655",
     name: "Delphox",
-    sprite: require('../sprites/655.png'),
+    sprite: require("../sprites/655.png"),
+    model: require("../models/delphox.png"),
     class: "Fox Pokémon",
     height: "1.5m",
     weight: "39kg",
@@ -13102,7 +13757,8 @@ export const POKEMON = [
   {
     number: "656",
     name: "Froakie",
-    sprite: require('../sprites/656.png'),
+    sprite: require("../sprites/656.png"),
+    model: require("../models/froakie.png"),
     class: "Bubble Frog Pokémon",
     height: "0.3m",
     weight: "7kg",
@@ -13122,7 +13778,8 @@ export const POKEMON = [
   {
     number: "657",
     name: "Frogadier",
-    sprite: require('../sprites/657.png'),
+    sprite: require("../sprites/657.png"),
+    model: require("../models/frogadier.png"),
     class: "Bubble Frog Pokémon",
     height: "0.6m",
     weight: "10.9kg",
@@ -13142,7 +13799,8 @@ export const POKEMON = [
   {
     number: "658",
     name: "Greninja",
-    sprite: require('../sprites/658.png'),
+    sprite: require("../sprites/658.png"),
+    model: require("../models/greninja.png"),
     class: "Ninja Pokémon",
     height: "1.5m",
     weight: "40kg",
@@ -13162,7 +13820,8 @@ export const POKEMON = [
   {
     number: "659",
     name: "Bunnelby",
-    sprite: require('../sprites/659.png'),
+    sprite: require("../sprites/659.png"),
+    model: require("../models/bunnelby.png"),
     class: "Digging Pokémon",
     height: "0.4m",
     weight: "5.0kg",
@@ -13182,7 +13841,8 @@ export const POKEMON = [
   {
     number: "660",
     name: "Diggersby",
-    sprite: require('../sprites/660.png'),
+    sprite: require("../sprites/660.png"),
+    model: require("../models/diggersby.png"),
     class: "Digging Pokémon",
     height: "1.0m",
     weight: "42.4kg",
@@ -13202,7 +13862,8 @@ export const POKEMON = [
   {
     number: "661",
     name: "Fletchling",
-    sprite: require('../sprites/661.png'),
+    sprite: require("../sprites/661.png"),
+    model: require("../models/fletchling.png"),
     class: "Tiny Robin Pokémon",
     height: "0.3m",
     weight: "1.7kg",
@@ -13222,7 +13883,8 @@ export const POKEMON = [
   {
     number: "662",
     name: "Fletchinder",
-    sprite: require('../sprites/662.png'),
+    sprite: require("../sprites/662.png"),
+    model: require("../models/fletchinder.png"),
     class: "Ember Pokémon",
     height: "0.7m",
     weight: "16.0kg",
@@ -13242,7 +13904,8 @@ export const POKEMON = [
   {
     number: "663",
     name: "Talonflame",
-    sprite: require('../sprites/663.png'),
+    sprite: require("../sprites/663.png"),
+    model: require("../models/talonflame.png"),
     class: "Scorching Pokémon",
     height: "1.2m",
     weight: "24.5kg",
@@ -13262,7 +13925,8 @@ export const POKEMON = [
   {
     number: "664",
     name: "Scatterbug",
-    sprite: require('../sprites/664.png'),
+    sprite: require("../sprites/664.png"),
+    model: require("../models/scatterbug.png"),
     class: "Scatterdust Pokémon",
     height: "0.3m",
     weight: "2.5kg",
@@ -13282,7 +13946,8 @@ export const POKEMON = [
   {
     number: "665",
     name: "Spewpa",
-    sprite: require('../sprites/665.png'),
+    sprite: require("../sprites/665.png"),
+    model: require("../models/spewpa.png"),
     class: "Scatterdust Pokémon",
     height: "0.3m",
     weight: "8.4kg",
@@ -13302,7 +13967,8 @@ export const POKEMON = [
   {
     number: "666",
     name: "Vivillon",
-    sprite: require('../sprites/666.png'),
+    sprite: require("../sprites/666.png"),
+    model: require("../models/vivillon.png"),
     class: "Scale Pokémon",
     height: "1.2m",
     weight: "17kg",
@@ -13322,7 +13988,8 @@ export const POKEMON = [
   {
     number: "667",
     name: "Litleo",
-    sprite: require('../sprites/667.png'),
+    sprite: require("../sprites/667.png"),
+    model: require("../models/litleo.png"),
     class: "Lion Cub Pokémon",
     height: "0.6m",
     weight: "13.5kg",
@@ -13342,7 +14009,8 @@ export const POKEMON = [
   {
     number: "668",
     name: "Pyroar",
-    sprite: require('../sprites/668.png'),
+    sprite: require("../sprites/668.png"),
+    model: require("../models/pyroar.png"),
     class: "Royal Pokémon",
     height: "1.5m",
     weight: "81.5kg",
@@ -13362,7 +14030,8 @@ export const POKEMON = [
   {
     number: "669",
     name: "Flabébé",
-    sprite: require('../sprites/669.png'),
+    sprite: require("../sprites/669.png"),
+    model: require("../models/flabébé.png"),
     class: "Single Bloom Pokémon",
     height: "0.1m",
     weight: "0.1kg",
@@ -13382,7 +14051,8 @@ export const POKEMON = [
   {
     number: "670",
     name: "Floette",
-    sprite: require('../sprites/670.png'),
+    sprite: require("../sprites/670.png"),
+    model: require("../models/floette.png"),
     class: "Single Bloom Pokémon",
     height: "0.2m",
     weight: "0.9kg",
@@ -13402,7 +14072,8 @@ export const POKEMON = [
   {
     number: "671",
     name: "Florges",
-    sprite: require('../sprites/671.png'),
+    sprite: require("../sprites/671.png"),
+    model: require("../models/florges.png"),
     class: "Garden Pokémon",
     height: "1.1m",
     weight: "10kg",
@@ -13422,7 +14093,8 @@ export const POKEMON = [
   {
     number: "672",
     name: "Skiddo",
-    sprite: require('../sprites/672.png'),
+    sprite: require("../sprites/672.png"),
+    model: require("../models/skiddo.png"),
     class: "Mount Pokémon",
     height: "0.9m",
     weight: "31kg",
@@ -13442,7 +14114,8 @@ export const POKEMON = [
   {
     number: "673",
     name: "Gogoat",
-    sprite: require('../sprites/673.png'),
+    sprite: require("../sprites/673.png"),
+    model: require("../models/gogoat.png"),
     class: "Mount Pokémon",
     height: "1.7m",
     weight: "91kg",
@@ -13462,7 +14135,8 @@ export const POKEMON = [
   {
     number: "674",
     name: "Pancham",
-    sprite: require('../sprites/674.png'),
+    sprite: require("../sprites/674.png"),
+    model: require("../models/pancham.png"),
     class: "Playful Pokémon",
     height: "0.6m",
     weight: "8.0kg",
@@ -13482,7 +14156,8 @@ export const POKEMON = [
   {
     number: "675",
     name: "Pangoro",
-    sprite: require('../sprites/675.png'),
+    sprite: require("../sprites/675.png"),
+    model: require("../models/pangoro.png"),
     class: "Daunting Pokémon",
     height: "2.1m",
     weight: "136.0kg",
@@ -13502,7 +14177,8 @@ export const POKEMON = [
   {
     number: "676",
     name: "Furfrou",
-    sprite: require('../sprites/676.png'),
+    sprite: require("../sprites/676.png"),
+    model: require("../models/furfrou.png"),
     class: "Poodle Pokémon",
     height: "1.2m",
     weight: "28kg",
@@ -13522,7 +14198,8 @@ export const POKEMON = [
   {
     number: "677",
     name: "Espurr",
-    sprite: require('../sprites/677.png'),
+    sprite: require("../sprites/677.png"),
+    model: require("../models/espurr.png"),
     class: "Restraint Pokémon",
     height: "0.3m",
     weight: "3.5kg",
@@ -13542,7 +14219,8 @@ export const POKEMON = [
   {
     number: "678",
     name: "Meowstic",
-    sprite: require('../sprites/678.png'),
+    sprite: require("../sprites/678.png"),
+    model: require("../models/meowstic.png"),
     class: "Constraint Pokémon",
     height: "0.6m",
     weight: "8.5kg",
@@ -13562,7 +14240,8 @@ export const POKEMON = [
   {
     number: "679",
     name: "Honedge",
-    sprite: require('../sprites/679.png'),
+    sprite: require("../sprites/679.png"),
+    model: require("../models/honedge.png"),
     class: "Sword Pokémon",
     height: "0.8m",
     weight: "2.0kg",
@@ -13582,7 +14261,8 @@ export const POKEMON = [
   {
     number: "680",
     name: "Doublade",
-    sprite: require('../sprites/680.png'),
+    sprite: require("../sprites/680.png"),
+    model: require("../models/doublade.png"),
     class: "Sword Pokémon",
     height: "0.8m",
     weight: "4.5kg",
@@ -13602,7 +14282,8 @@ export const POKEMON = [
   {
     number: "681",
     name: "Aegislash",
-    sprite: require('../sprites/681.png'),
+    sprite: require("../sprites/681.png"),
+    model: require("../models/aegislash.png"),
     class: "Royal Sword Pokémon",
     height: "1.7m",
     weight: "53.0kg",
@@ -13622,7 +14303,8 @@ export const POKEMON = [
   {
     number: "682",
     name: "Spritzee",
-    sprite: require('../sprites/682.png'),
+    sprite: require("../sprites/682.png"),
+    model: require("../models/spritzee.png"),
     class: "Perfume Pokémon",
     height: "0.2m",
     weight: "0.5kg",
@@ -13642,7 +14324,8 @@ export const POKEMON = [
   {
     number: "683",
     name: "Aromatisse",
-    sprite: require('../sprites/683.png'),
+    sprite: require("../sprites/683.png"),
+    model: require("../models/aromatisse.png"),
     class: "Fragrance Pokémon",
     height: "0.8m",
     weight: "15.5kg",
@@ -13662,7 +14345,8 @@ export const POKEMON = [
   {
     number: "684",
     name: "Swirlix",
-    sprite: require('../sprites/684.png'),
+    sprite: require("../sprites/684.png"),
+    model: require("../models/swirlix.png"),
     class: "Cotton Candy Pokémon",
     height: "0.4m",
     weight: "3.5kg",
@@ -13682,7 +14366,8 @@ export const POKEMON = [
   {
     number: "685",
     name: "Slurpuff",
-    sprite: require('../sprites/685.png'),
+    sprite: require("../sprites/685.png"),
+    model: require("../models/slurpuff.png"),
     class: "Meringue Pokémon",
     height: "0.8m",
     weight: "5.0kg",
@@ -13702,7 +14387,8 @@ export const POKEMON = [
   {
     number: "686",
     name: "Inkay",
-    sprite: require('../sprites/686.png'),
+    sprite: require("../sprites/686.png"),
+    model: require("../models/inkay.png"),
     class: "Revolving Pokémon",
     height: "0.4m",
     weight: "3.5kg",
@@ -13722,7 +14408,8 @@ export const POKEMON = [
   {
     number: "687",
     name: "Malamar",
-    sprite: require('../sprites/687.png'),
+    sprite: require("../sprites/687.png"),
+    model: require("../models/malamar.png"),
     class: "Overturning Pokémon",
     height: "1.5m",
     weight: "47.0kg",
@@ -13742,7 +14429,8 @@ export const POKEMON = [
   {
     number: "688",
     name: "Binacle",
-    sprite: require('../sprites/688.png'),
+    sprite: require("../sprites/688.png"),
+    model: require("../models/binacle.png"),
     class: "Two-Handed Pokémon",
     height: "0.5m",
     weight: "31.0kg",
@@ -13762,7 +14450,8 @@ export const POKEMON = [
   {
     number: "689",
     name: "Barbaracle",
-    sprite: require('../sprites/689.png'),
+    sprite: require("../sprites/689.png"),
+    model: require("../models/barbaracle.png"),
     class: "Collective Pokémon",
     height: "1.3m",
     weight: "96.0kg",
@@ -13782,7 +14471,8 @@ export const POKEMON = [
   {
     number: "690",
     name: "Skrelp",
-    sprite: require('../sprites/690.png'),
+    sprite: require("../sprites/690.png"),
+    model: require("../models/skrelp.png"),
     class: "Mock Kelp Pokémon",
     height: "0.5m",
     weight: "7.3kg",
@@ -13802,7 +14492,8 @@ export const POKEMON = [
   {
     number: "691",
     name: "Dragalge",
-    sprite: require('../sprites/691.png'),
+    sprite: require("../sprites/691.png"),
+    model: require("../models/dragalge.png"),
     class: "Mock Kelp Pokémon",
     height: "1.8m",
     weight: "81.5kg",
@@ -13822,7 +14513,8 @@ export const POKEMON = [
   {
     number: "692",
     name: "Clauncher",
-    sprite: require('../sprites/692.png'),
+    sprite: require("../sprites/692.png"),
+    model: require("../models/clauncher.png"),
     class: "Water Gun Pokémon",
     height: "0.5m",
     weight: "8.3kg",
@@ -13842,7 +14534,8 @@ export const POKEMON = [
   {
     number: "693",
     name: "Clawitzer",
-    sprite: require('../sprites/693.png'),
+    sprite: require("../sprites/693.png"),
+    model: require("../models/clawitzer.png"),
     class: "Howitzer Pokémon",
     height: "1.3m",
     weight: "35.3kg",
@@ -13862,7 +14555,8 @@ export const POKEMON = [
   {
     number: "694",
     name: "Helioptile",
-    sprite: require('../sprites/694.png'),
+    sprite: require("../sprites/694.png"),
+    model: require("../models/helioptile.png"),
     class: "Generator Pokémon",
     height: "0.5m",
     weight: "6.0kg",
@@ -13882,7 +14576,8 @@ export const POKEMON = [
   {
     number: "695",
     name: "Heliolisk",
-    sprite: require('../sprites/695.png'),
+    sprite: require("../sprites/695.png"),
+    model: require("../models/heliolisk.png"),
     class: "Generator Pokémon",
     height: "1.0m",
     weight: "21.0kg",
@@ -13902,7 +14597,8 @@ export const POKEMON = [
   {
     number: "696",
     name: "Tyrunt",
-    sprite: require('../sprites/696.png'),
+    sprite: require("../sprites/696.png"),
+    model: require("../models/tyrunt.png"),
     class: "Royal Heir Pokémon",
     height: "0.8m",
     weight: "26.0kg",
@@ -13922,7 +14618,8 @@ export const POKEMON = [
   {
     number: "697",
     name: "Tyrantrum",
-    sprite: require('../sprites/697.png'),
+    sprite: require("../sprites/697.png"),
+    model: require("../models/tyrantrum.png"),
     class: "Despot Pokémon",
     height: "2.5m",
     weight: "270.0kg",
@@ -13942,7 +14639,8 @@ export const POKEMON = [
   {
     number: "698",
     name: "Amaura",
-    sprite: require('../sprites/698.png'),
+    sprite: require("../sprites/698.png"),
+    model: require("../models/amaura.png"),
     class: "Tundra Pokémon",
     height: "1.3m",
     weight: "25.2kg",
@@ -13962,7 +14660,8 @@ export const POKEMON = [
   {
     number: "699",
     name: "Aurorus",
-    sprite: require('../sprites/699.png'),
+    sprite: require("../sprites/699.png"),
+    model: require("../models/aurorus.png"),
     class: "Tundra Pokémon",
     height: "2.7m",
     weight: "225.0kg",
@@ -13982,7 +14681,8 @@ export const POKEMON = [
   {
     number: "700",
     name: "Sylveon",
-    sprite: require('../sprites/700.png'),
+    sprite: require("../sprites/700.png"),
+    model: require("../models/sylveon.png"),
     class: "Intertwining Pokémon",
     height: "1.0m",
     weight: "23.5kg",
@@ -14002,7 +14702,8 @@ export const POKEMON = [
   {
     number: "701",
     name: "Hawlucha",
-    sprite: require('../sprites/701.png'),
+    sprite: require("../sprites/701.png"),
+    model: require("../models/hawlucha.png"),
     class: "Wrestling Pokémon",
     height: "0.8m",
     weight: "21.5kg",
@@ -14022,7 +14723,8 @@ export const POKEMON = [
   {
     number: "702",
     name: "Dedenne",
-    sprite: require('../sprites/702.png'),
+    sprite: require("../sprites/702.png"),
+    model: require("../models/dedenne.png"),
     class: "Antenna Pokémon",
     height: "0.2m",
     weight: "2.2kg",
@@ -14042,7 +14744,8 @@ export const POKEMON = [
   {
     number: "703",
     name: "Carbink",
-    sprite: require('../sprites/703.png'),
+    sprite: require("../sprites/703.png"),
+    model: require("../models/carbink.png"),
     class: "Jewel Pokémon",
     height: "0.3m",
     weight: "5.7kg",
@@ -14062,7 +14765,8 @@ export const POKEMON = [
   {
     number: "704",
     name: "Goomy",
-    sprite: require('../sprites/704.png'),
+    sprite: require("../sprites/704.png"),
+    model: require("../models/goomy.png"),
     class: "Soft Tissue Pokémon",
     height: "0.3m",
     weight: "2.8kg",
@@ -14082,7 +14786,8 @@ export const POKEMON = [
   {
     number: "705",
     name: "Sliggoo",
-    sprite: require('../sprites/705.png'),
+    sprite: require("../sprites/705.png"),
+    model: require("../models/sliggoo.png"),
     class: "Soft Tissue Pokémon",
     height: "0.8m",
     weight: "17.5kg",
@@ -14102,7 +14807,8 @@ export const POKEMON = [
   {
     number: "706",
     name: "Goodra",
-    sprite: require('../sprites/706.png'),
+    sprite: require("../sprites/706.png"),
+    model: require("../models/goodra.png"),
     class: "Dragon Pokémon",
     height: "2.0m",
     weight: "150.5kg",
@@ -14122,7 +14828,8 @@ export const POKEMON = [
   {
     number: "707",
     name: "Klefki",
-    sprite: require('../sprites/707.png'),
+    sprite: require("../sprites/707.png"),
+    model: require("../models/klefki.png"),
     class: "Key Ring Pokémon",
     height: "0.2m",
     weight: "3.0kg",
@@ -14142,7 +14849,8 @@ export const POKEMON = [
   {
     number: "708",
     name: "Phantump",
-    sprite: require('../sprites/708.png'),
+    sprite: require("../sprites/708.png"),
+    model: require("../models/phantump.png"),
     class: "Stump Pokémon",
     height: "0.4m",
     weight: "7.0kg",
@@ -14162,7 +14870,8 @@ export const POKEMON = [
   {
     number: "709",
     name: "Trevenant",
-    sprite: require('../sprites/709.png'),
+    sprite: require("../sprites/709.png"),
+    model: require("../models/trevenant.png"),
     class: "Elder Tree Pokémon",
     height: "1.5m",
     weight: "71.0kg",
@@ -14182,7 +14891,8 @@ export const POKEMON = [
   {
     number: "710",
     name: "Pumpkaboo",
-    sprite: require('../sprites/710.png'),
+    sprite: require("../sprites/710.png"),
+    model: require("../models/pumpkaboo.png"),
     class: "Pumpkin Pokémon",
     height: "0.4m",
     weight: "5.0kg",
@@ -14202,7 +14912,8 @@ export const POKEMON = [
   {
     number: "711",
     name: "Gourgeist",
-    sprite: require('../sprites/711.png'),
+    sprite: require("../sprites/711.png"),
+    model: require("../models/gourgeist.png"),
     class: "Pumpkin Pokémon",
     height: "0.9m",
     weight: "12.5kg",
@@ -14222,7 +14933,8 @@ export const POKEMON = [
   {
     number: "712",
     name: "Bergmite",
-    sprite: require('../sprites/712.png'),
+    sprite: require("../sprites/712.png"),
+    model: require("../models/bergmite.png"),
     class: "Ice Chunk Pokémon",
     height: "1.0m",
     weight: "99.5kg",
@@ -14242,7 +14954,8 @@ export const POKEMON = [
   {
     number: "713",
     name: "Avalugg",
-    sprite: require('../sprites/713.png'),
+    sprite: require("../sprites/713.png"),
+    model: require("../models/avalugg.png"),
     class: "Iceberg Pokémon",
     height: "2.0m",
     weight: "505.0kg",
@@ -14262,7 +14975,8 @@ export const POKEMON = [
   {
     number: "714",
     name: "Noibat",
-    sprite: require('../sprites/714.png'),
+    sprite: require("../sprites/714.png"),
+    model: require("../models/noibat.png"),
     class: "Sound Wave Pokémon",
     height: "0.5m",
     weight: "8.0kg",
@@ -14282,7 +14996,8 @@ export const POKEMON = [
   {
     number: "715",
     name: "Noivern",
-    sprite: require('../sprites/715.png'),
+    sprite: require("../sprites/715.png"),
+    model: require("../models/noivern.png"),
     class: "Sound Wave Pokémon",
     height: "1.5m",
     weight: "85.0kg",
@@ -14302,7 +15017,8 @@ export const POKEMON = [
   {
     number: "716",
     name: "Xerneas",
-    sprite: require('../sprites/716.png'),
+    sprite: require("../sprites/716.png"),
+    model: require("../models/xerneas.png"),
     class: "Life Pokémon",
     height: "3.0m",
     weight: "215.0kg",
@@ -14322,7 +15038,8 @@ export const POKEMON = [
   {
     number: "717",
     name: "Yveltal",
-    sprite: require('../sprites/717.png'),
+    sprite: require("../sprites/717.png"),
+    model: require("../models/yveltal.png"),
     class: "Destruction Pokémon",
     height: "5.8m",
     weight: "203.0kg",
@@ -14342,7 +15059,8 @@ export const POKEMON = [
   {
     number: "718",
     name: "Zygarde",
-    sprite: require('../sprites/718.png'),
+    sprite: require("../sprites/718.png"),
+    model: require("../models/zygarde.png"),
     class: "Order Pokémon",
     height: "5.0m",
     weight: "305.0kg",
@@ -14362,7 +15080,8 @@ export const POKEMON = [
   {
     number: "719",
     name: "Diancie",
-    sprite: require('../sprites/719.png'),
+    sprite: require("../sprites/719.png"),
+    model: require("../models/diancie.png"),
     class: "Jewel Pokémon",
     height: "0.7m",
     weight: "8.8kg",
@@ -14382,7 +15101,8 @@ export const POKEMON = [
   {
     number: "720",
     name: "Hoopa",
-    sprite: require('../sprites/720.png'),
+    sprite: require("../sprites/720.png"),
+    model: require("../models/hoopa.png"),
     class: "Mischief Pokémon (Confined)Djinn Pokémonn (Unbound)",
     height: "0.5m / 6.5m",
     weight: "9kg / 490kg",
@@ -14402,7 +15122,8 @@ export const POKEMON = [
   {
     number: "721",
     name: "Volcanion",
-    sprite: require('../sprites/721.png'),
+    sprite: require("../sprites/721.png"),
+    model: require("../models/volcanion.png"),
     class: "Steam Pokémon",
     height: "1.7m",
     weight: "195.0kg",
@@ -14422,7 +15143,8 @@ export const POKEMON = [
   {
     number: "722",
     name: "Rowlet",
-    sprite: require('../sprites/722.png'),
+    sprite: require("../sprites/722.png"),
+    model: require("../models/rowlet.png"),
     class: "Grass Quill Pokémon",
     height: "0.3m",
     weight: "1.5kg",
@@ -14442,7 +15164,8 @@ export const POKEMON = [
   {
     number: "723",
     name: "Dartrix",
-    sprite: require('../sprites/723.png'),
+    sprite: require("../sprites/723.png"),
+    model: require("../models/dartrix.png"),
     class: "Blade Quill Pokémon",
     height: "0.7m",
     weight: "16.0kg",
@@ -14462,7 +15185,8 @@ export const POKEMON = [
   {
     number: "724",
     name: "Decidueye",
-    sprite: require('../sprites/724.png'),
+    sprite: require("../sprites/724.png"),
+    model: require("../models/decidueye.png"),
     class: "Arrow Quill Pokémon",
     height: "1.6m",
     weight: "36.6kg",
@@ -14482,7 +15206,8 @@ export const POKEMON = [
   {
     number: "725",
     name: "Litten",
-    sprite: require('../sprites/725.png'),
+    sprite: require("../sprites/725.png"),
+    model: require("../models/litten.png"),
     class: "Fire Cat Pokémon",
     height: "0.4m",
     weight: "4.3kg",
@@ -14502,7 +15227,8 @@ export const POKEMON = [
   {
     number: "726",
     name: "Torracat",
-    sprite: require('../sprites/726.png'),
+    sprite: require("../sprites/726.png"),
+    model: require("../models/torracat.png"),
     class: "Fire Cat Pokémon",
     height: "0.7m",
     weight: "25.0kg",
@@ -14522,7 +15248,8 @@ export const POKEMON = [
   {
     number: "727",
     name: "Incineroar",
-    sprite: require('../sprites/727.png'),
+    sprite: require("../sprites/727.png"),
+    model: require("../models/incineroar.png"),
     class: "Heel Pokémon",
     height: "1.8m",
     weight: "83.0kg",
@@ -14542,7 +15269,8 @@ export const POKEMON = [
   {
     number: "728",
     name: "Popplio",
-    sprite: require('../sprites/728.png'),
+    sprite: require("../sprites/728.png"),
+    model: require("../models/popplio.png"),
     class: "Sea Lion Pokémon",
     height: "0.4m",
     weight: "7.5kg",
@@ -14562,7 +15290,8 @@ export const POKEMON = [
   {
     number: "729",
     name: "Brionne",
-    sprite: require('../sprites/729.png'),
+    sprite: require("../sprites/729.png"),
+    model: require("../models/brionne.png"),
     class: "Pop Star Pokémon",
     height: "0.6m",
     weight: "17.5kg",
@@ -14582,7 +15311,8 @@ export const POKEMON = [
   {
     number: "730",
     name: "Primarina",
-    sprite: require('../sprites/730.png'),
+    sprite: require("../sprites/730.png"),
+    model: require("../models/primarina.png"),
     class: "Soloist Pokémon",
     height: "1.8m",
     weight: "44.0kg",
@@ -14602,7 +15332,8 @@ export const POKEMON = [
   {
     number: "731",
     name: "Pikipek",
-    sprite: require('../sprites/731.png'),
+    sprite: require("../sprites/731.png"),
+    model: require("../models/pikipek.png"),
     class: "Woodpecker Pokémon",
     height: "0.3m",
     weight: "1.2kg",
@@ -14622,7 +15353,8 @@ export const POKEMON = [
   {
     number: "732",
     name: "Trumbeak",
-    sprite: require('../sprites/732.png'),
+    sprite: require("../sprites/732.png"),
+    model: require("../models/trumbeak.png"),
     class: "Bugle Beak Pokémon",
     height: "0.6m",
     weight: "14.8kg",
@@ -14642,7 +15374,8 @@ export const POKEMON = [
   {
     number: "733",
     name: "Toucannon",
-    sprite: require('../sprites/733.png'),
+    sprite: require("../sprites/733.png"),
+    model: require("../models/toucannon.png"),
     class: "Cannon Pokémon",
     height: "1.1m",
     weight: "26kg",
@@ -14662,7 +15395,8 @@ export const POKEMON = [
   {
     number: "734",
     name: "Yungoos",
-    sprite: require('../sprites/734.png'),
+    sprite: require("../sprites/734.png"),
+    model: require("../models/yungoos.png"),
     class: "Loitering Pokémon",
     height: "0.4m",
     weight: "6kg",
@@ -14682,7 +15416,8 @@ export const POKEMON = [
   {
     number: "735",
     name: "Gumshoos",
-    sprite: require('../sprites/735.png'),
+    sprite: require("../sprites/735.png"),
+    model: require("../models/gumshoos.png"),
     class: "Stakeout Pokémon",
     height: "0.7m",
     weight: "14.2kg",
@@ -14702,7 +15437,8 @@ export const POKEMON = [
   {
     number: "736",
     name: "Grubbin",
-    sprite: require('../sprites/736.png'),
+    sprite: require("../sprites/736.png"),
+    model: require("../models/grubbin.png"),
     class: "Larva Pokémon",
     height: "0.4m",
     weight: "4.4kg",
@@ -14722,7 +15458,8 @@ export const POKEMON = [
   {
     number: "737",
     name: "Charjabug",
-    sprite: require('../sprites/737.png'),
+    sprite: require("../sprites/737.png"),
+    model: require("../models/charjabug.png"),
     class: "Battery Pokémon",
     height: "0.5m",
     weight: "10.5kg",
@@ -14742,7 +15479,8 @@ export const POKEMON = [
   {
     number: "738",
     name: "Vikavolt",
-    sprite: require('../sprites/738.png'),
+    sprite: require("../sprites/738.png"),
+    model: require("../models/vikavolt.png"),
     class: "Stag Beetle Pokémon",
     height: "1.5m",
     weight: "45.0kg",
@@ -14762,7 +15500,8 @@ export const POKEMON = [
   {
     number: "739",
     name: "Crabrawler",
-    sprite: require('../sprites/739.png'),
+    sprite: require("../sprites/739.png"),
+    model: require("../models/crabrawler.png"),
     class: "Boxing Pokémon",
     height: "0.6m",
     weight: "7kg",
@@ -14782,7 +15521,8 @@ export const POKEMON = [
   {
     number: "740",
     name: "Crabominable",
-    sprite: require('../sprites/740.png'),
+    sprite: require("../sprites/740.png"),
+    model: require("../models/crabominable.png"),
     class: "Woolly Crab Pokémon",
     height: "1.7m",
     weight: "180kg",
@@ -14802,7 +15542,8 @@ export const POKEMON = [
   {
     number: "741",
     name: "Oricorio",
-    sprite: require('../sprites/741.png'),
+    sprite: require("../sprites/741.png"),
+    model: require("../models/oricorio.png"),
     class: "Dancing Pokémon",
     height: "0.6m",
     weight: "3.4kg",
@@ -14822,7 +15563,8 @@ export const POKEMON = [
   {
     number: "742",
     name: "Cutiefly",
-    sprite: require('../sprites/742.png'),
+    sprite: require("../sprites/742.png"),
+    model: require("../models/cutiefly.png"),
     class: "Bee Fly Pokémon",
     height: "0.1m",
     weight: "0.2kg",
@@ -14842,7 +15584,8 @@ export const POKEMON = [
   {
     number: "743",
     name: "Ribombee",
-    sprite: require('../sprites/743.png'),
+    sprite: require("../sprites/743.png"),
+    model: require("../models/ribombee.png"),
     class: "Bee Fly Pokémon",
     height: "0.2m",
     weight: "0.5kg",
@@ -14862,7 +15605,8 @@ export const POKEMON = [
   {
     number: "744",
     name: "Rockruff",
-    sprite: require('../sprites/744.png'),
+    sprite: require("../sprites/744.png"),
+    model: require("../models/rockruff.png"),
     class: "Puppy Pokémon",
     height: "0.5m",
     weight: "9.2kg",
@@ -14882,7 +15626,8 @@ export const POKEMON = [
   {
     number: "745",
     name: "Lycanroc",
-    sprite: require('../sprites/745.png'),
+    sprite: require("../sprites/745.png"),
+    model: require("../models/lycanroc.png"),
     class: "Wolf Pokémon",
     height: "0.8m / 1.1m / 0.8m",
     weight: "25.0kg / 25.0kg",
@@ -14902,7 +15647,8 @@ export const POKEMON = [
   {
     number: "746",
     name: "Wishiwashi",
-    sprite: require('../sprites/746.png'),
+    sprite: require("../sprites/746.png"),
+    model: require("../models/wishiwashi.png"),
     class: "Small Fry Pokémon",
     height: "0.2m / 0.8m",
     weight: "0.3kg / 25.0kg",
@@ -14922,7 +15668,8 @@ export const POKEMON = [
   {
     number: "747",
     name: "Mareanie",
-    sprite: require('../sprites/747.png'),
+    sprite: require("../sprites/747.png"),
+    model: require("../models/mareanie.png"),
     class: "Brutal Star Pokémon",
     height: "0.4m",
     weight: "8.0kg",
@@ -14942,7 +15689,8 @@ export const POKEMON = [
   {
     number: "748",
     name: "Toxapex",
-    sprite: require('../sprites/748.png'),
+    sprite: require("../sprites/748.png"),
+    model: require("../models/toxapex.png"),
     class: "Brutal Star Pokémon",
     height: "0.7m",
     weight: "14.5kg",
@@ -14962,7 +15710,8 @@ export const POKEMON = [
   {
     number: "749",
     name: "Mudbray",
-    sprite: require('../sprites/749.png'),
+    sprite: require("../sprites/749.png"),
+    model: require("../models/mudbray.png"),
     class: "Donkey Pokémon",
     height: "1.0m",
     weight: "110.0kg",
@@ -14982,7 +15731,8 @@ export const POKEMON = [
   {
     number: "750",
     name: "Mudsdale",
-    sprite: require('../sprites/750.png'),
+    sprite: require("../sprites/750.png"),
+    model: require("../models/mudsdale.png"),
     class: "Draft Horse Pokémon",
     height: "2.5m",
     weight: "920.0kg",
@@ -15002,7 +15752,8 @@ export const POKEMON = [
   {
     number: "751",
     name: "Dewpider",
-    sprite: require('../sprites/751.png'),
+    sprite: require("../sprites/751.png"),
+    model: require("../models/dewpider.png"),
     class: "Water Bubble Pokémon",
     height: "0.3m",
     weight: "4.0kg",
@@ -15022,7 +15773,8 @@ export const POKEMON = [
   {
     number: "752",
     name: "Araquanid",
-    sprite: require('../sprites/752.png'),
+    sprite: require("../sprites/752.png"),
+    model: require("../models/araquanid.png"),
     class: "Water Bubble Pokémon",
     height: "1.8m",
     weight: "82.0kg",
@@ -15042,7 +15794,8 @@ export const POKEMON = [
   {
     number: "753",
     name: "Fomantis",
-    sprite: require('../sprites/753.png'),
+    sprite: require("../sprites/753.png"),
+    model: require("../models/fomantis.png"),
     class: "Sickle Grass Pokémon",
     height: "0.3m",
     weight: "1.5kg",
@@ -15062,7 +15815,8 @@ export const POKEMON = [
   {
     number: "754",
     name: "Lurantis",
-    sprite: require('../sprites/754.png'),
+    sprite: require("../sprites/754.png"),
+    model: require("../models/lurantis.png"),
     class: "Bloom Sickle Pokémon",
     height: "0.9m",
     weight: "18.5kg",
@@ -15082,7 +15836,8 @@ export const POKEMON = [
   {
     number: "755",
     name: "Morelull",
-    sprite: require('../sprites/755.png'),
+    sprite: require("../sprites/755.png"),
+    model: require("../models/morelull.png"),
     class: "Illuminating Pokémon",
     height: "0.2m",
     weight: "1.5kg",
@@ -15102,7 +15857,8 @@ export const POKEMON = [
   {
     number: "756",
     name: "Shiinotic",
-    sprite: require('../sprites/756.png'),
+    sprite: require("../sprites/756.png"),
+    model: require("../models/shiinotic.png"),
     class: "Illuminating Pokémon",
     height: "1.0m",
     weight: "11.5kg",
@@ -15122,7 +15878,8 @@ export const POKEMON = [
   {
     number: "757",
     name: "Salandit",
-    sprite: require('../sprites/757.png'),
+    sprite: require("../sprites/757.png"),
+    model: require("../models/salandit.png"),
     class: "Toxic Lizard Pokémon",
     height: "0.6m",
     weight: "4.8kg",
@@ -15142,7 +15899,8 @@ export const POKEMON = [
   {
     number: "758",
     name: "Salazzle",
-    sprite: require('../sprites/758.png'),
+    sprite: require("../sprites/758.png"),
+    model: require("../models/salazzle.png"),
     class: "Toxic Lizard Pokémon",
     height: "1.2m",
     weight: "22.2kg",
@@ -15162,7 +15920,8 @@ export const POKEMON = [
   {
     number: "759",
     name: "Stufful",
-    sprite: require('../sprites/759.png'),
+    sprite: require("../sprites/759.png"),
+    model: require("../models/stufful.png"),
     class: "Flailing Pokémon",
     height: "0.5m",
     weight: "6.8kg",
@@ -15182,7 +15941,8 @@ export const POKEMON = [
   {
     number: "760",
     name: "Bewear",
-    sprite: require('../sprites/760.png'),
+    sprite: require("../sprites/760.png"),
+    model: require("../models/bewear.png"),
     class: "Strong Arm Pokémon",
     height: "2.1m",
     weight: "135.0kg",
@@ -15202,7 +15962,8 @@ export const POKEMON = [
   {
     number: "761",
     name: "Bounsweet",
-    sprite: require('../sprites/761.png'),
+    sprite: require("../sprites/761.png"),
+    model: require("../models/bounsweet.png"),
     class: "Fruit Pokémon",
     height: "0.3m",
     weight: "3.2kg",
@@ -15222,7 +15983,8 @@ export const POKEMON = [
   {
     number: "762",
     name: "Steenee",
-    sprite: require('../sprites/762.png'),
+    sprite: require("../sprites/762.png"),
+    model: require("../models/steenee.png"),
     class: "Fruit Pokémon",
     height: "0.7m",
     weight: "8.2kg",
@@ -15242,7 +16004,8 @@ export const POKEMON = [
   {
     number: "763",
     name: "Tsareena",
-    sprite: require('../sprites/763.png'),
+    sprite: require("../sprites/763.png"),
+    model: require("../models/tsareena.png"),
     class: "Fruit Pokémon",
     height: "1.2m",
     weight: "21.4kg",
@@ -15262,7 +16025,8 @@ export const POKEMON = [
   {
     number: "764",
     name: "Comfey",
-    sprite: require('../sprites/764.png'),
+    sprite: require("../sprites/764.png"),
+    model: require("../models/comfey.png"),
     class: "Posy Picker Pokémon",
     height: "0.1m",
     weight: "0.3kg",
@@ -15282,7 +16046,8 @@ export const POKEMON = [
   {
     number: "765",
     name: "Oranguru",
-    sprite: require('../sprites/765.png'),
+    sprite: require("../sprites/765.png"),
+    model: require("../models/oranguru.png"),
     class: "Sage Pokémon",
     height: "1.5m",
     weight: "76.0kg",
@@ -15302,7 +16067,8 @@ export const POKEMON = [
   {
     number: "766",
     name: "Passimian",
-    sprite: require('../sprites/766.png'),
+    sprite: require("../sprites/766.png"),
+    model: require("../models/passimian.png"),
     class: "Teamwork Pokémon",
     height: "2.0m",
     weight: "82.8kg",
@@ -15322,7 +16088,8 @@ export const POKEMON = [
   {
     number: "767",
     name: "Wimpod",
-    sprite: require('../sprites/767.png'),
+    sprite: require("../sprites/767.png"),
+    model: require("../models/wimpod.png"),
     class: "Turn Tail Pokémon",
     height: "0.5m",
     weight: "12.0kg",
@@ -15342,7 +16109,8 @@ export const POKEMON = [
   {
     number: "768",
     name: "Golisopod",
-    sprite: require('../sprites/768.png'),
+    sprite: require("../sprites/768.png"),
+    model: require("../models/golisopod.png"),
     class: "Hard Scale Pokémon",
     height: "2.0m",
     weight: "108.0kg",
@@ -15362,7 +16130,8 @@ export const POKEMON = [
   {
     number: "769",
     name: "Sandygast",
-    sprite: require('../sprites/769.png'),
+    sprite: require("../sprites/769.png"),
+    model: require("../models/sandygast.png"),
     class: "Sand Heap Pokémon",
     height: "0.5m",
     weight: "70.0kg",
@@ -15382,7 +16151,8 @@ export const POKEMON = [
   {
     number: "770",
     name: "Palossand",
-    sprite: require('../sprites/770.png'),
+    sprite: require("../sprites/770.png"),
+    model: require("../models/palossand.png"),
     class: "Sand Castle Pokémon",
     height: "1.3m",
     weight: "250.0kg",
@@ -15402,7 +16172,8 @@ export const POKEMON = [
   {
     number: "771",
     name: "Pyukumuku",
-    sprite: require('../sprites/771.png'),
+    sprite: require("../sprites/771.png"),
+    model: require("../models/pyukumuku.png"),
     class: "Sea Cucumber Pokémon",
     height: "0.3m",
     weight: "1.2kg",
@@ -15422,7 +16193,8 @@ export const POKEMON = [
   {
     number: "772",
     name: "Type: Null",
-    sprite: require('../sprites/772.png'),
+    sprite: require("../sprites/772.png"),
+    model: require("../models/type: null.png"),
     class: "Synthetic Pokémon",
     height: "1.9m",
     weight: "120.5kg",
@@ -15442,7 +16214,8 @@ export const POKEMON = [
   {
     number: "773",
     name: "Silvally",
-    sprite: require('../sprites/773.png'),
+    sprite: require("../sprites/773.png"),
+    model: require("../models/silvally.png"),
     class: "Synthetic Pokémon",
     height: "2.3m",
     weight: "100.5kg",
@@ -15462,7 +16235,8 @@ export const POKEMON = [
   {
     number: "774",
     name: "Minior",
-    sprite: require('../sprites/774.png'),
+    sprite: require("../sprites/774.png"),
+    model: require("../models/minior.png"),
     class: "Meteor Pokémon",
     height: "0.3m",
     weight: "40kg",
@@ -15482,7 +16256,8 @@ export const POKEMON = [
   {
     number: "775",
     name: "Komala",
-    sprite: require('../sprites/775.png'),
+    sprite: require("../sprites/775.png"),
+    model: require("../models/komala.png"),
     class: "Drowsing Pokémon",
     height: "0.4m",
     weight: "19.9kg",
@@ -15502,7 +16277,8 @@ export const POKEMON = [
   {
     number: "776",
     name: "Turtonator",
-    sprite: require('../sprites/776.png'),
+    sprite: require("../sprites/776.png"),
+    model: require("../models/turtonator.png"),
     class: "Blast Turtle Pokémon",
     height: "2.0m",
     weight: "212.0kg",
@@ -15522,7 +16298,8 @@ export const POKEMON = [
   {
     number: "777",
     name: "Togedemaru",
-    sprite: require('../sprites/777.png'),
+    sprite: require("../sprites/777.png"),
+    model: require("../models/togedemaru.png"),
     class: "Roly-Poly Pokémon",
     height: "0.3m",
     weight: "3.3kg",
@@ -15542,7 +16319,8 @@ export const POKEMON = [
   {
     number: "778",
     name: "Mimikyu",
-    sprite: require('../sprites/778.png'),
+    sprite: require("../sprites/778.png"),
+    model: require("../models/mimikyu.png"),
     class: "Disguise Pokémon",
     height: "0.2m",
     weight: "0.7kg",
@@ -15562,7 +16340,8 @@ export const POKEMON = [
   {
     number: "779",
     name: "Bruxish",
-    sprite: require('../sprites/779.png'),
+    sprite: require("../sprites/779.png"),
+    model: require("../models/bruxish.png"),
     class: "Gnash Teeth Pokémon",
     height: "0.9m",
     weight: "19kg",
@@ -15582,7 +16361,8 @@ export const POKEMON = [
   {
     number: "780",
     name: "Drampa",
-    sprite: require('../sprites/780.png'),
+    sprite: require("../sprites/780.png"),
+    model: require("../models/drampa.png"),
     class: "Placid Pokémon",
     height: "3.0m",
     weight: "185.0kg",
@@ -15602,7 +16382,8 @@ export const POKEMON = [
   {
     number: "781",
     name: "Dhelmise",
-    sprite: require('../sprites/781.png'),
+    sprite: require("../sprites/781.png"),
+    model: require("../models/dhelmise.png"),
     class: "Sea Creeper Pokémon",
     height: "3.9m",
     weight: "210.0kg",
@@ -15622,7 +16403,8 @@ export const POKEMON = [
   {
     number: "782",
     name: "Jangmo-o",
-    sprite: require('../sprites/782.png'),
+    sprite: require("../sprites/782.png"),
+    model: require("../models/jangmo-o.png"),
     class: "Scaly Pokémon",
     height: "0.6m",
     weight: "29.7kg",
@@ -15642,7 +16424,8 @@ export const POKEMON = [
   {
     number: "783",
     name: "Hakamo-o",
-    sprite: require('../sprites/783.png'),
+    sprite: require("../sprites/783.png"),
+    model: require("../models/hakamo-o.png"),
     class: "Scaly Pokémon",
     height: "1.2m",
     weight: "47.0kg",
@@ -15662,7 +16445,8 @@ export const POKEMON = [
   {
     number: "784",
     name: "Kommo-o",
-    sprite: require('../sprites/784.png'),
+    sprite: require("../sprites/784.png"),
+    model: require("../models/kommo-o.png"),
     class: "Scaly Pokémon",
     height: "1.6m",
     weight: "78.2kg",
@@ -15682,7 +16466,8 @@ export const POKEMON = [
   {
     number: "785",
     name: "Tapu Koko",
-    sprite: require('../sprites/785.png'),
+    sprite: require("../sprites/785.png"),
+    model: require("../models/tapu koko.png"),
     class: "Land Spirit Pokémon",
     height: "1.8m",
     weight: "20.5kg",
@@ -15702,7 +16487,8 @@ export const POKEMON = [
   {
     number: "786",
     name: "Tapu Lele",
-    sprite: require('../sprites/786.png'),
+    sprite: require("../sprites/786.png"),
+    model: require("../models/tapu lele.png"),
     class: "Land Spirit Pokémon",
     height: "1.2m",
     weight: "18.6kg",
@@ -15722,7 +16508,8 @@ export const POKEMON = [
   {
     number: "787",
     name: "Tapu Bulu",
-    sprite: require('../sprites/787.png'),
+    sprite: require("../sprites/787.png"),
+    model: require("../models/tapu bulu.png"),
     class: "Land Spirit Pokémon",
     height: "1.9m",
     weight: "45.5kg",
@@ -15742,7 +16529,8 @@ export const POKEMON = [
   {
     number: "788",
     name: "Tapu Fini",
-    sprite: require('../sprites/788.png'),
+    sprite: require("../sprites/788.png"),
+    model: require("../models/tapu fini.png"),
     class: "Land Spirit Pokémon",
     height: "1.3m",
     weight: "21.2kg",
@@ -15762,7 +16550,8 @@ export const POKEMON = [
   {
     number: "789",
     name: "Cosmog",
-    sprite: require('../sprites/789.png'),
+    sprite: require("../sprites/789.png"),
+    model: require("../models/cosmog.png"),
     class: "Nebula Pokémon",
     height: "0.2m",
     weight: "0.1kg",
@@ -15782,7 +16571,8 @@ export const POKEMON = [
   {
     number: "790",
     name: "Cosmoem",
-    sprite: require('../sprites/790.png'),
+    sprite: require("../sprites/790.png"),
+    model: require("../models/cosmoem.png"),
     class: "Protostar Pokémon",
     height: "0.1m",
     weight: "999.9kg",
@@ -15802,7 +16592,8 @@ export const POKEMON = [
   {
     number: "791",
     name: "Solgaleo",
-    sprite: require('../sprites/791.png'),
+    sprite: require("../sprites/791.png"),
+    model: require("../models/solgaleo.png"),
     class: "Sunne Pokémon",
     height: "3.4m",
     weight: "230.0kg",
@@ -15822,7 +16613,8 @@ export const POKEMON = [
   {
     number: "792",
     name: "Lunala",
-    sprite: require('../sprites/792.png'),
+    sprite: require("../sprites/792.png"),
+    model: require("../models/lunala.png"),
     class: "Moone Pokémon",
     height: "4.0m",
     weight: "120.0kg",
@@ -15842,7 +16634,8 @@ export const POKEMON = [
   {
     number: "793",
     name: "Nihilego",
-    sprite: require('../sprites/793.png'),
+    sprite: require("../sprites/793.png"),
+    model: require("../models/nihilego.png"),
     class: "Parasite Pokémon",
     height: "1.2m",
     weight: "55.5kg",
@@ -15862,7 +16655,8 @@ export const POKEMON = [
   {
     number: "794",
     name: "Buzzwole",
-    sprite: require('../sprites/794.png'),
+    sprite: require("../sprites/794.png"),
+    model: require("../models/buzzwole.png"),
     class: "Swollen Pokémon",
     height: "2.4m",
     weight: "333.6kg",
@@ -15882,7 +16676,8 @@ export const POKEMON = [
   {
     number: "795",
     name: "Pheromosa",
-    sprite: require('../sprites/795.png'),
+    sprite: require("../sprites/795.png"),
+    model: require("../models/pheromosa.png"),
     class: "Lissome Pokémon",
     height: "1.8m",
     weight: "25.0kg",
@@ -15902,7 +16697,8 @@ export const POKEMON = [
   {
     number: "796",
     name: "Xurkitree",
-    sprite: require('../sprites/796.png'),
+    sprite: require("../sprites/796.png"),
+    model: require("../models/xurkitree.png"),
     class: "Glowing Pokémon",
     height: "3.8m",
     weight: "100.0kg",
@@ -15922,7 +16718,8 @@ export const POKEMON = [
   {
     number: "797",
     name: "Celesteela",
-    sprite: require('../sprites/797.png'),
+    sprite: require("../sprites/797.png"),
+    model: require("../models/celesteela.png"),
     class: "Launch Pokémon",
     height: "9.2m",
     weight: "999.9kg",
@@ -15942,7 +16739,8 @@ export const POKEMON = [
   {
     number: "798",
     name: "Kartana",
-    sprite: require('../sprites/798.png'),
+    sprite: require("../sprites/798.png"),
+    model: require("../models/kartana.png"),
     class: "Drawn Sword Pokémon",
     height: "0.3m",
     weight: "0.1kg",
@@ -15962,7 +16760,8 @@ export const POKEMON = [
   {
     number: "799",
     name: "Guzzlord",
-    sprite: require('../sprites/799.png'),
+    sprite: require("../sprites/799.png"),
+    model: require("../models/guzzlord.png"),
     class: "Junkivore Pokémon",
     height: "5.5m",
     weight: "888.0kg",
@@ -15982,7 +16781,8 @@ export const POKEMON = [
   {
     number: "800",
     name: "Necrozma",
-    sprite: require('../sprites/800.png'),
+    sprite: require("../sprites/800.png"),
+    model: require("../models/necrozma.png"),
     class: "Prism Pokémon",
     height: "2.4m / 3.8m / 2.3m",
     weight: "230.0kg / 460.0kg / 350.0kg",
@@ -16002,7 +16802,8 @@ export const POKEMON = [
   {
     number: "801",
     name: "Magearna",
-    sprite: require('../sprites/801.png'),
+    sprite: require("../sprites/801.png"),
+    model: require("../models/magearna.png"),
     class: "Artificial Pokémon",
     height: "1.0m",
     weight: "80.5kg",
@@ -16022,7 +16823,8 @@ export const POKEMON = [
   {
     number: "802",
     name: "Marshadow",
-    sprite: require('../sprites/802.png'),
+    sprite: require("../sprites/802.png"),
+    model: require("../models/marshadow.png"),
     class: "Gloomdweller Pokémon",
     height: "0.7m",
     weight: "22.2kg",
@@ -16042,7 +16844,8 @@ export const POKEMON = [
   {
     number: "803",
     name: "Poipole",
-    sprite: require('../sprites/803.png'),
+    sprite: require("../sprites/803.png"),
+    model: require("../models/poipole.png"),
     class: "Poison Pin Pokémon",
     height: "0.6m",
     weight: "1.8kg",
@@ -16062,7 +16865,8 @@ export const POKEMON = [
   {
     number: "804",
     name: "Naganadel",
-    sprite: require('../sprites/804.png'),
+    sprite: require("../sprites/804.png"),
+    model: require("../models/naganadel.png"),
     class: "Poison Pin Pokémon",
     height: "3.6m",
     weight: "150.0kg",
@@ -16082,7 +16886,8 @@ export const POKEMON = [
   {
     number: "805",
     name: "Stakataka",
-    sprite: require('../sprites/805.png'),
+    sprite: require("../sprites/805.png"),
+    model: require("../models/stakataka.png"),
     class: "Rampart Pokémon",
     height: "5.5m",
     weight: "820.0kg",
@@ -16102,7 +16907,8 @@ export const POKEMON = [
   {
     number: "806",
     name: "Blacephalon",
-    sprite: require('../sprites/806.png'),
+    sprite: require("../sprites/806.png"),
+    model: require("../models/blacephalon.png"),
     class: "Fireworks Pokémon",
     height: "1.8m",
     weight: "13.0kg",
@@ -16122,7 +16928,8 @@ export const POKEMON = [
   {
     number: "807",
     name: "Zeraora",
-    sprite: require('../sprites/807.png'),
+    sprite: require("../sprites/807.png"),
+    model: require("../models/zeraora.png"),
     class: "Thunderclap Pokémon",
     height: "1.5m",
     weight: "44.5kg",
@@ -16142,7 +16949,8 @@ export const POKEMON = [
   {
     number: "808",
     name: "Meltan",
-    sprite: require('../sprites/808.png'),
+    sprite: require("../sprites/808.png"),
+    model: require("../models/meltan.png"),
     class: "Hex Nut Pokémon",
     height: "0.2m",
     weight: "8.0kg",
@@ -16162,7 +16970,8 @@ export const POKEMON = [
   {
     number: "809",
     name: "Melmetal",
-    sprite: require('../sprites/809.png'),
+    sprite: require("../sprites/809.png"),
+    model: require("../models/melmetal.png"),
     class: "Hex Nut Pokémon",
     height: "2.5m",
     weight: "800.0kg",
@@ -16182,7 +16991,8 @@ export const POKEMON = [
   {
     number: "810",
     name: "Grookey",
-    sprite: require('../sprites/810.png'),
+    sprite: require("../sprites/810.png"),
+    model: require("../models/grookey.png"),
     class: "Chimp Pokémon",
     height: "0.3m",
     weight: "5.0kg",
@@ -16202,7 +17012,8 @@ export const POKEMON = [
   {
     number: "811",
     name: "Thwackey",
-    sprite: require('../sprites/811.png'),
+    sprite: require("../sprites/811.png"),
+    model: require("../models/thwackey.png"),
     class: "Beat Pokémon",
     height: "0.7m",
     weight: "14.0kg",
@@ -16222,7 +17033,8 @@ export const POKEMON = [
   {
     number: "812",
     name: "Rillaboom",
-    sprite: require('../sprites/812.png'),
+    sprite: require("../sprites/812.png"),
+    model: require("../models/rillaboom.png"),
     class: "Drummer Pokémon",
     height: "2.1m",
     weight: "90.0kg",
@@ -16242,7 +17054,8 @@ export const POKEMON = [
   {
     number: "813",
     name: "Scorbunny",
-    sprite: require('../sprites/813.png'),
+    sprite: require("../sprites/813.png"),
+    model: require("../models/scorbunny.png"),
     class: "Rabbit Pokémon",
     height: "0.3m",
     weight: "4.5kg",
@@ -16262,7 +17075,8 @@ export const POKEMON = [
   {
     number: "814",
     name: "Raboot",
-    sprite: require('../sprites/814.png'),
+    sprite: require("../sprites/814.png"),
+    model: require("../models/raboot.png"),
     class: "Rabbit Pokémon",
     height: "0.6m",
     weight: "9.0kg",
@@ -16282,7 +17096,8 @@ export const POKEMON = [
   {
     number: "815",
     name: "Cinderace",
-    sprite: require('../sprites/815.png'),
+    sprite: require("../sprites/815.png"),
+    model: require("../models/cinderace.png"),
     class: "Striker Pokémon",
     height: "1.4m",
     weight: "33.0kg",
@@ -16302,7 +17117,8 @@ export const POKEMON = [
   {
     number: "816",
     name: "Sobble",
-    sprite: require('../sprites/816.png'),
+    sprite: require("../sprites/816.png"),
+    model: require("../models/sobble.png"),
     class: "Water Lizard Pokémon",
     height: "0.3m",
     weight: "4.0kg",
@@ -16322,7 +17138,8 @@ export const POKEMON = [
   {
     number: "817",
     name: "Drizzile",
-    sprite: require('../sprites/817.png'),
+    sprite: require("../sprites/817.png"),
+    model: require("../models/drizzile.png"),
     class: "Water Lizard Pokémon",
     height: "0.7m",
     weight: "11.5kg",
@@ -16342,7 +17159,8 @@ export const POKEMON = [
   {
     number: "818",
     name: "Inteleon",
-    sprite: require('../sprites/818.png'),
+    sprite: require("../sprites/818.png"),
+    model: require("../models/inteleon.png"),
     class: "Secret Agent Pokémon",
     height: "1.9m",
     weight: "45.2kg",
@@ -16362,7 +17180,8 @@ export const POKEMON = [
   {
     number: "819",
     name: "Skwovet",
-    sprite: require('../sprites/819.png'),
+    sprite: require("../sprites/819.png"),
+    model: require("../models/skwovet.png"),
     class: "Cheeky Pokémon",
     height: "0.3m",
     weight: "2.5kg",
@@ -16382,7 +17201,8 @@ export const POKEMON = [
   {
     number: "820",
     name: "Greedent",
-    sprite: require('../sprites/820.png'),
+    sprite: require("../sprites/820.png"),
+    model: require("../models/greedent.png"),
     class: "Greedy Pokémon",
     height: "0.6m",
     weight: "6.0kg",
@@ -16402,7 +17222,8 @@ export const POKEMON = [
   {
     number: "821",
     name: "Rookidee",
-    sprite: require('../sprites/821.png'),
+    sprite: require("../sprites/821.png"),
+    model: require("../models/rookidee.png"),
     class: "Tiny Bird Pokémon",
     height: "0.2m",
     weight: "1.8kg",
@@ -16422,7 +17243,8 @@ export const POKEMON = [
   {
     number: "822",
     name: "Corvisquire",
-    sprite: require('../sprites/822.png'),
+    sprite: require("../sprites/822.png"),
+    model: require("../models/corvisquire.png"),
     class: "Raven Pokémon",
     height: "0.8m",
     weight: "16.0kg",
@@ -16442,7 +17264,8 @@ export const POKEMON = [
   {
     number: "823",
     name: "Corviknight",
-    sprite: require('../sprites/823.png'),
+    sprite: require("../sprites/823.png"),
+    model: require("../models/corviknight.png"),
     class: "Raven Pokémon",
     height: "2.2m",
     weight: "75.0kg",
@@ -16462,7 +17285,8 @@ export const POKEMON = [
   {
     number: "824",
     name: "Blipbug",
-    sprite: require('../sprites/824.png'),
+    sprite: require("../sprites/824.png"),
+    model: require("../models/blipbug.png"),
     class: "Larva Pokémon",
     height: "0.4m",
     weight: "8.0kg",
@@ -16482,7 +17306,8 @@ export const POKEMON = [
   {
     number: "825",
     name: "Dottler",
-    sprite: require('../sprites/825.png'),
+    sprite: require("../sprites/825.png"),
+    model: require("../models/dottler.png"),
     class: "Radome Pokémon",
     height: "0.4m",
     weight: "19.5kg",
@@ -16502,7 +17327,8 @@ export const POKEMON = [
   {
     number: "826",
     name: "Orbeetle",
-    sprite: require('../sprites/826.png'),
+    sprite: require("../sprites/826.png"),
+    model: require("../models/orbeetle.png"),
     class: "Seven Spot Pokémon",
     height: "0.4m",
     weight: "40.8kg",
@@ -16522,7 +17348,8 @@ export const POKEMON = [
   {
     number: "827",
     name: "Nickit",
-    sprite: require('../sprites/827.png'),
+    sprite: require("../sprites/827.png"),
+    model: require("../models/nickit.png"),
     class: "Fox Pokémon",
     height: "0.6m",
     weight: "8.9kg",
@@ -16542,7 +17369,8 @@ export const POKEMON = [
   {
     number: "828",
     name: "Thievul",
-    sprite: require('../sprites/828.png'),
+    sprite: require("../sprites/828.png"),
+    model: require("../models/thievul.png"),
     class: "Fox Pokémon",
     height: "1.2m",
     weight: "19.9kg",
@@ -16562,7 +17390,8 @@ export const POKEMON = [
   {
     number: "829",
     name: "Gossifleur",
-    sprite: require('../sprites/829.png'),
+    sprite: require("../sprites/829.png"),
+    model: require("../models/gossifleur.png"),
     class: "Flowering Pokémon",
     height: "0.4m",
     weight: "2.2kg",
@@ -16582,7 +17411,8 @@ export const POKEMON = [
   {
     number: "830",
     name: "Eldegoss",
-    sprite: require('../sprites/830.png'),
+    sprite: require("../sprites/830.png"),
+    model: require("../models/eldegoss.png"),
     class: "Cotton Bloom Pokémon",
     height: "0.5m",
     weight: "2.5kg",
@@ -16602,7 +17432,8 @@ export const POKEMON = [
   {
     number: "831",
     name: "Wooloo",
-    sprite: require('../sprites/831.png'),
+    sprite: require("../sprites/831.png"),
+    model: require("../models/wooloo.png"),
     class: "Sheep Pokémon",
     height: "0.6m",
     weight: "6.0kg",
@@ -16622,7 +17453,8 @@ export const POKEMON = [
   {
     number: "832",
     name: "Dubwool",
-    sprite: require('../sprites/832.png'),
+    sprite: require("../sprites/832.png"),
+    model: require("../models/dubwool.png"),
     class: "Sheep Pokémon",
     height: "1.3m",
     weight: "43.0kg",
@@ -16642,7 +17474,8 @@ export const POKEMON = [
   {
     number: "833",
     name: "Chewtle",
-    sprite: require('../sprites/833.png'),
+    sprite: require("../sprites/833.png"),
+    model: require("../models/chewtle.png"),
     class: "Snapping Pokémon",
     height: "0.3m",
     weight: "8.5kg",
@@ -16662,7 +17495,8 @@ export const POKEMON = [
   {
     number: "834",
     name: "Drednaw",
-    sprite: require('../sprites/834.png'),
+    sprite: require("../sprites/834.png"),
+    model: require("../models/drednaw.png"),
     class: "Bite Pokémon",
     height: "1.0m",
     weight: "115.5kg",
@@ -16682,7 +17516,8 @@ export const POKEMON = [
   {
     number: "835",
     name: "Yamper",
-    sprite: require('../sprites/835.png'),
+    sprite: require("../sprites/835.png"),
+    model: require("../models/yamper.png"),
     class: "Puppy Pokémon",
     height: "0.3m",
     weight: "13.5kg",
@@ -16702,7 +17537,8 @@ export const POKEMON = [
   {
     number: "836",
     name: "Boltund",
-    sprite: require('../sprites/836.png'),
+    sprite: require("../sprites/836.png"),
+    model: require("../models/boltund.png"),
     class: "Dog Pokémon",
     height: "1.0m",
     weight: "34.0kg",
@@ -16722,7 +17558,8 @@ export const POKEMON = [
   {
     number: "837",
     name: "Rolycoly",
-    sprite: require('../sprites/837.png'),
+    sprite: require("../sprites/837.png"),
+    model: require("../models/rolycoly.png"),
     class: "Coal Pokémon",
     height: "0.3m",
     weight: "12.0kg",
@@ -16742,7 +17579,8 @@ export const POKEMON = [
   {
     number: "838",
     name: "Carkol",
-    sprite: require('../sprites/838.png'),
+    sprite: require("../sprites/838.png"),
+    model: require("../models/carkol.png"),
     class: "Coal Pokémon",
     height: "1.1m",
     weight: "78.0kg",
@@ -16762,7 +17600,8 @@ export const POKEMON = [
   {
     number: "839",
     name: "Coalossal",
-    sprite: require('../sprites/839.png'),
+    sprite: require("../sprites/839.png"),
+    model: require("../models/coalossal.png"),
     class: "Coal Pokémon",
     height: "2.8m",
     weight: "310.5kg",
@@ -16782,7 +17621,8 @@ export const POKEMON = [
   {
     number: "840",
     name: "Applin",
-    sprite: require('../sprites/840.png'),
+    sprite: require("../sprites/840.png"),
+    model: require("../models/applin.png"),
     class: "Apple Core Pokémon",
     height: "0.2m",
     weight: "0.5kg",
@@ -16802,7 +17642,8 @@ export const POKEMON = [
   {
     number: "841",
     name: "Flapple",
-    sprite: require('../sprites/841.png'),
+    sprite: require("../sprites/841.png"),
+    model: require("../models/flapple.png"),
     class: "Apple Wing Pokémon",
     height: "0.3m",
     weight: "1.0kg",
@@ -16822,7 +17663,8 @@ export const POKEMON = [
   {
     number: "842",
     name: "Appletun",
-    sprite: require('../sprites/842.png'),
+    sprite: require("../sprites/842.png"),
+    model: require("../models/appletun.png"),
     class: "Apple Nectar Pokémon",
     height: "0.4m",
     weight: "13.0kg",
@@ -16842,7 +17684,8 @@ export const POKEMON = [
   {
     number: "843",
     name: "Silicobra",
-    sprite: require('../sprites/843.png'),
+    sprite: require("../sprites/843.png"),
+    model: require("../models/silicobra.png"),
     class: "Sand Snake Pokémon",
     height: "2.2m",
     weight: "7.6kg",
@@ -16862,7 +17705,8 @@ export const POKEMON = [
   {
     number: "844",
     name: "Sandaconda",
-    sprite: require('../sprites/844.png'),
+    sprite: require("../sprites/844.png"),
+    model: require("../models/sandaconda.png"),
     class: "Sand Snake Pokémon",
     height: "3.8m",
     weight: "65.5kg",
@@ -16882,7 +17726,8 @@ export const POKEMON = [
   {
     number: "845",
     name: "Cramorant",
-    sprite: require('../sprites/845.png'),
+    sprite: require("../sprites/845.png"),
+    model: require("../models/cramorant.png"),
     class: "Gulp Pokémon",
     height: "0.8m",
     weight: "18.0kg",
@@ -16902,7 +17747,8 @@ export const POKEMON = [
   {
     number: "846",
     name: "Arrokuda",
-    sprite: require('../sprites/846.png'),
+    sprite: require("../sprites/846.png"),
+    model: require("../models/arrokuda.png"),
     class: "Rush Pokémon",
     height: "0.5m",
     weight: "1.0kg",
@@ -16922,7 +17768,8 @@ export const POKEMON = [
   {
     number: "847",
     name: "Barraskewda",
-    sprite: require('../sprites/847.png'),
+    sprite: require("../sprites/847.png"),
+    model: require("../models/barraskewda.png"),
     class: "Skewer Pokémon",
     height: "1.3m",
     weight: "30.0kg",
@@ -16942,7 +17789,8 @@ export const POKEMON = [
   {
     number: "848",
     name: "Toxel",
-    sprite: require('../sprites/848.png'),
+    sprite: require("../sprites/848.png"),
+    model: require("../models/toxel.png"),
     class: "Baby Pokémon",
     height: "0.4m",
     weight: "11.0kg",
@@ -16962,7 +17810,8 @@ export const POKEMON = [
   {
     number: "849",
     name: "Toxtricity",
-    sprite: require('../sprites/849.png'),
+    sprite: require("../sprites/849.png"),
+    model: require("../models/toxtricity.png"),
     class: "Punk Pokémon",
     height: "1.6m",
     weight: "40.0kg",
@@ -16982,7 +17831,8 @@ export const POKEMON = [
   {
     number: "850",
     name: "Sizzlipede",
-    sprite: require('../sprites/850.png'),
+    sprite: require("../sprites/850.png"),
+    model: require("../models/sizzlipede.png"),
     class: "Radiator Pokémon",
     height: "0.7m",
     weight: "1.0kg",
@@ -17002,7 +17852,8 @@ export const POKEMON = [
   {
     number: "851",
     name: "Centiskorch",
-    sprite: require('../sprites/851.png'),
+    sprite: require("../sprites/851.png"),
+    model: require("../models/centiskorch.png"),
     class: "Radiator Pokémon",
     height: "3.0m",
     weight: "120.0kg",
@@ -17022,7 +17873,8 @@ export const POKEMON = [
   {
     number: "852",
     name: "Clobbopus",
-    sprite: require('../sprites/852.png'),
+    sprite: require("../sprites/852.png"),
+    model: require("../models/clobbopus.png"),
     class: "Tantrum Pokémon",
     height: "0.6m",
     weight: "4.0kg",
@@ -17042,7 +17894,8 @@ export const POKEMON = [
   {
     number: "853",
     name: "Grapploct",
-    sprite: require('../sprites/853.png'),
+    sprite: require("../sprites/853.png"),
+    model: require("../models/grapploct.png"),
     class: "Jujitsu Pokémon",
     height: "1.6m",
     weight: "39.0kg",
@@ -17062,7 +17915,8 @@ export const POKEMON = [
   {
     number: "854",
     name: "Sinistea",
-    sprite: require('../sprites/854.png'),
+    sprite: require("../sprites/854.png"),
+    model: require("../models/sinistea.png"),
     class: "Black Tea Pokémon",
     height: "0.1m",
     weight: "0.2kg",
@@ -17082,7 +17936,8 @@ export const POKEMON = [
   {
     number: "855",
     name: "Polteageist",
-    sprite: require('../sprites/855.png'),
+    sprite: require("../sprites/855.png"),
+    model: require("../models/polteageist.png"),
     class: "Black Tea Pokémon",
     height: "0.2m",
     weight: "0.4kg",
@@ -17102,7 +17957,8 @@ export const POKEMON = [
   {
     number: "856",
     name: "Hatenna",
-    sprite: require('../sprites/856.png'),
+    sprite: require("../sprites/856.png"),
+    model: require("../models/hatenna.png"),
     class: "Calm Pokémon",
     height: "0.4m",
     weight: "3.4kg",
@@ -17122,7 +17978,8 @@ export const POKEMON = [
   {
     number: "857",
     name: "Hattrem",
-    sprite: require('../sprites/857.png'),
+    sprite: require("../sprites/857.png"),
+    model: require("../models/hattrem.png"),
     class: "Serene Pokémon",
     height: "0.6m",
     weight: "4.8kg",
@@ -17142,7 +17999,8 @@ export const POKEMON = [
   {
     number: "858",
     name: "Hatterene",
-    sprite: require('../sprites/858.png'),
+    sprite: require("../sprites/858.png"),
+    model: require("../models/hatterene.png"),
     class: "Silent Pokémon",
     height: "2.1m",
     weight: "5.1kg",
@@ -17162,7 +18020,8 @@ export const POKEMON = [
   {
     number: "859",
     name: "Impidimp",
-    sprite: require('../sprites/859.png'),
+    sprite: require("../sprites/859.png"),
+    model: require("../models/impidimp.png"),
     class: "Wily Pokémon",
     height: "0.4m",
     weight: "5.5kg",
@@ -17182,7 +18041,8 @@ export const POKEMON = [
   {
     number: "860",
     name: "Morgrem",
-    sprite: require('../sprites/860.png'),
+    sprite: require("../sprites/860.png"),
+    model: require("../models/morgrem.png"),
     class: "Devious Pokémon",
     height: "0.8m",
     weight: "12.5kg",
@@ -17202,7 +18062,8 @@ export const POKEMON = [
   {
     number: "861",
     name: "Grimmsnarl",
-    sprite: require('../sprites/861.png'),
+    sprite: require("../sprites/861.png"),
+    model: require("../models/grimmsnarl.png"),
     class: "Bulk Up Pokémon",
     height: "1.5m",
     weight: "61.0kg",
@@ -17222,7 +18083,8 @@ export const POKEMON = [
   {
     number: "862",
     name: "Obstagoon",
-    sprite: require('../sprites/862.png'),
+    sprite: require("../sprites/862.png"),
+    model: require("../models/obstagoon.png"),
     class: "Blocking Pokémon",
     height: "1.6m",
     weight: "46.0kg",
@@ -17242,7 +18104,8 @@ export const POKEMON = [
   {
     number: "863",
     name: "Perrserker",
-    sprite: require('../sprites/863.png'),
+    sprite: require("../sprites/863.png"),
+    model: require("../models/perrserker.png"),
     class: "Viking Pokémon",
     height: "0.8m",
     weight: "28.0kg",
@@ -17262,7 +18125,8 @@ export const POKEMON = [
   {
     number: "864",
     name: "Cursola",
-    sprite: require('../sprites/864.png'),
+    sprite: require("../sprites/864.png"),
+    model: require("../models/cursola.png"),
     class: "Coral Pokémon",
     height: "1.0m",
     weight: "0.4kg",
@@ -17282,7 +18146,8 @@ export const POKEMON = [
   {
     number: "865",
     name: "Sirfetch'd",
-    sprite: require('../sprites/865.png'),
+    sprite: require("../sprites/865.png"),
+    model: require("../models/sirfetch'd.png"),
     class: "Wild Duck Pokémon",
     height: "0.8m",
     weight: "117.0kg",
@@ -17302,7 +18167,8 @@ export const POKEMON = [
   {
     number: "866",
     name: "Mr. Rime",
-    sprite: require('../sprites/866.png'),
+    sprite: require("../sprites/866.png"),
+    model: require("../models/mr. rime.png"),
     class: "Comedian Pokémon",
     height: "1.5m",
     weight: "58.2kg",
@@ -17322,7 +18188,8 @@ export const POKEMON = [
   {
     number: "867",
     name: "Runerigus",
-    sprite: require('../sprites/867.png'),
+    sprite: require("../sprites/867.png"),
+    model: require("../models/runerigus.png"),
     class: "Grudge Pokémon",
     height: "1.6m",
     weight: "66.6kg",
@@ -17342,7 +18209,8 @@ export const POKEMON = [
   {
     number: "868",
     name: "Milcery",
-    sprite: require('../sprites/868.png'),
+    sprite: require("../sprites/868.png"),
+    model: require("../models/milcery.png"),
     class: "Cream Pokémon",
     height: "0.2m",
     weight: "0.3kg",
@@ -17362,7 +18230,8 @@ export const POKEMON = [
   {
     number: "869",
     name: "Alcremie",
-    sprite: require('../sprites/869.png'),
+    sprite: require("../sprites/869.png"),
+    model: require("../models/alcremie.png"),
     class: "Cream Pokémon",
     height: "0.3m",
     weight: "0.5kg",
@@ -17382,7 +18251,8 @@ export const POKEMON = [
   {
     number: "870",
     name: "Falinks",
-    sprite: require('../sprites/870.png'),
+    sprite: require("../sprites/870.png"),
+    model: require("../models/falinks.png"),
     class: "Formation Pokémon",
     height: "3.0m",
     weight: "62.0kg",
@@ -17402,7 +18272,8 @@ export const POKEMON = [
   {
     number: "871",
     name: "Pincurchin",
-    sprite: require('../sprites/871.png'),
+    sprite: require("../sprites/871.png"),
+    model: require("../models/pincurchin.png"),
     class: "Sea Urchin Pokémon",
     height: "0.3m",
     weight: "1.0kg",
@@ -17422,7 +18293,8 @@ export const POKEMON = [
   {
     number: "872",
     name: "Snom",
-    sprite: require('../sprites/872.png'),
+    sprite: require("../sprites/872.png"),
+    model: require("../models/snom.png"),
     class: "Worm Pokémon",
     height: "0.3m",
     weight: "3.8kg",
@@ -17442,7 +18314,8 @@ export const POKEMON = [
   {
     number: "873",
     name: "Frosmoth",
-    sprite: require('../sprites/873.png'),
+    sprite: require("../sprites/873.png"),
+    model: require("../models/frosmoth.png"),
     class: "Frost Moth Pokémon",
     height: "1.3m",
     weight: "42.0kg",
@@ -17462,7 +18335,8 @@ export const POKEMON = [
   {
     number: "874",
     name: "Stonjourner",
-    sprite: require('../sprites/874.png'),
+    sprite: require("../sprites/874.png"),
+    model: require("../models/stonjourner.png"),
     class: "Big Rock Pokémon",
     height: "2.5m",
     weight: "520.0kg",
@@ -17482,7 +18356,8 @@ export const POKEMON = [
   {
     number: "875",
     name: "Eiscue",
-    sprite: require('../sprites/875.png'),
+    sprite: require("../sprites/875.png"),
+    model: require("../models/eiscue.png"),
     class: "Penguin Pokémon",
     height: "1.4m",
     weight: "89.0kg",
@@ -17502,7 +18377,8 @@ export const POKEMON = [
   {
     number: "876",
     name: "Indeedee",
-    sprite: require('../sprites/876.png'),
+    sprite: require("../sprites/876.png"),
+    model: require("../models/indeedee.png"),
     class: "Emotion Pokémon",
     height: "0.9m",
     weight: "28.0kg",
@@ -17522,7 +18398,8 @@ export const POKEMON = [
   {
     number: "877",
     name: "Morpeko",
-    sprite: require('../sprites/877.png'),
+    sprite: require("../sprites/877.png"),
+    model: require("../models/morpeko.png"),
     class: "Two-Sided Pokémon",
     height: "0.3m",
     weight: "3.0kg",
@@ -17542,7 +18419,8 @@ export const POKEMON = [
   {
     number: "878",
     name: "Cufant",
-    sprite: require('../sprites/878.png'),
+    sprite: require("../sprites/878.png"),
+    model: require("../models/cufant.png"),
     class: "Copperderm Pokémon",
     height: "1.2m",
     weight: "100.0kg",
@@ -17562,7 +18440,8 @@ export const POKEMON = [
   {
     number: "879",
     name: "Copperajah",
-    sprite: require('../sprites/879.png'),
+    sprite: require("../sprites/879.png"),
+    model: require("../models/copperajah.png"),
     class: "Copperderm Pokémon",
     height: "3.0m",
     weight: "650.0kg",
@@ -17582,7 +18461,8 @@ export const POKEMON = [
   {
     number: "880",
     name: "Dracozolt",
-    sprite: require('../sprites/880.png'),
+    sprite: require("../sprites/880.png"),
+    model: require("../models/dracozolt.png"),
     class: "Fossil Pokémon",
     height: "1.8m",
     weight: "190.0kg",
@@ -17602,7 +18482,8 @@ export const POKEMON = [
   {
     number: "881",
     name: "Arctozolt",
-    sprite: require('../sprites/881.png'),
+    sprite: require("../sprites/881.png"),
+    model: require("../models/arctozolt.png"),
     class: "Fossil Pokémon",
     height: "2.3m",
     weight: "150.0kg",
@@ -17622,7 +18503,8 @@ export const POKEMON = [
   {
     number: "882",
     name: "Dracovish",
-    sprite: require('../sprites/882.png'),
+    sprite: require("../sprites/882.png"),
+    model: require("../models/dracovish.png"),
     class: "Fossil Pokémon",
     height: "2.3m",
     weight: "215.0kg",
@@ -17642,7 +18524,8 @@ export const POKEMON = [
   {
     number: "883",
     name: "Arctovish",
-    sprite: require('../sprites/883.png'),
+    sprite: require("../sprites/883.png"),
+    model: require("../models/arctovish.png"),
     class: "Fossil Pokémon",
     height: "2.0m",
     weight: "175.0kg",
@@ -17662,7 +18545,8 @@ export const POKEMON = [
   {
     number: "884",
     name: "Duraludon",
-    sprite: require('../sprites/884.png'),
+    sprite: require("../sprites/884.png"),
+    model: require("../models/duraludon.png"),
     class: "Alloy Pokémon",
     height: "1.8m",
     weight: "40.0kg",
@@ -17682,7 +18566,8 @@ export const POKEMON = [
   {
     number: "885",
     name: "Dreepy",
-    sprite: require('../sprites/885.png'),
+    sprite: require("../sprites/885.png"),
+    model: require("../models/dreepy.png"),
     class: "Lingering Pokémon",
     height: "0.5m",
     weight: "2.0kg",
@@ -17702,7 +18587,8 @@ export const POKEMON = [
   {
     number: "886",
     name: "Drakloak",
-    sprite: require('../sprites/886.png'),
+    sprite: require("../sprites/886.png"),
+    model: require("../models/drakloak.png"),
     class: "Caretaker Pokémon",
     height: "1.4m",
     weight: "11.0kg",
@@ -17722,7 +18608,8 @@ export const POKEMON = [
   {
     number: "887",
     name: "Dragapult",
-    sprite: require('../sprites/887.png'),
+    sprite: require("../sprites/887.png"),
+    model: require("../models/dragapult.png"),
     class: "Stealth Pokémon",
     height: "3.0m",
     weight: "50.0kg",
@@ -17742,7 +18629,8 @@ export const POKEMON = [
   {
     number: "888",
     name: "Zacian",
-    sprite: require('../sprites/888.png'),
+    sprite: require("../sprites/888.png"),
+    model: require("../models/zacian.png"),
     class: "Warrior Pokémon",
     height: "2.8m",
     weight: "110.0kg",
@@ -17762,7 +18650,8 @@ export const POKEMON = [
   {
     number: "889",
     name: "Zamazenta",
-    sprite: require('../sprites/889.png'),
+    sprite: require("../sprites/889.png"),
+    model: require("../models/zamazenta.png"),
     class: "Warrior Pokémon",
     height: "2.9m",
     weight: "210.0kg",
@@ -17782,7 +18671,8 @@ export const POKEMON = [
   {
     number: "890",
     name: "Eternatus",
-    sprite: require('../sprites/890.png'),
+    sprite: require("../sprites/890.png"),
+    model: require("../models/eternatus.png"),
     class: "Gigantic Pokémon",
     height: "20.0m",
     weight: "950.0kg",
@@ -17802,7 +18692,8 @@ export const POKEMON = [
   {
     number: "891",
     name: "Kubfu",
-    sprite: require('../sprites/891.png'),
+    sprite: require("../sprites/891.png"),
+    model: require("../models/kubfu.png"),
     class: "Wushu Pokémon",
     height: "0.6m",
     weight: "12.0kg",
@@ -17822,7 +18713,8 @@ export const POKEMON = [
   {
     number: "892",
     name: "Urshifu",
-    sprite: require('../sprites/892.png'),
+    sprite: require("../sprites/892.png"),
+    model: require("../models/urshifu.png"),
     class: "Wushu Pokémon",
     height: "1.9m",
     weight: "105.0kg",
@@ -17842,7 +18734,8 @@ export const POKEMON = [
   {
     number: "893",
     name: "Zarude",
-    sprite: require('../sprites/893.png'),
+    sprite: require("../sprites/893.png"),
+    model: require("../models/zarude.png"),
     class: "Rogue Monkey Pokémon",
     height: "1.8m",
     weight: "70.0kg",
@@ -17862,7 +18755,8 @@ export const POKEMON = [
   {
     number: "894",
     name: "Regieleki",
-    sprite: require('../sprites/894.png'),
+    sprite: require("../sprites/894.png"),
+    model: require("../models/regieleki.png"),
     class: "Electron Pokémon",
     height: "1.2m",
     weight: "145.0kg",
@@ -17882,7 +18776,8 @@ export const POKEMON = [
   {
     number: "895",
     name: "Regidrago",
-    sprite: require('../sprites/895.png'),
+    sprite: require("../sprites/895.png"),
+    model: require("../models/regidrago.png"),
     class: "Dragon Orb Pokémon",
     height: "2.1m",
     weight: "200.0kg",
@@ -17902,7 +18797,8 @@ export const POKEMON = [
   {
     number: "896",
     name: "Glastrier",
-    sprite: require('../sprites/896.png'),
+    sprite: require("../sprites/896.png"),
+    model: require("../models/glastrier.png"),
     class: "Wild Horse Pokémon",
     height: "2.2m",
     weight: "800.0kg",
@@ -17922,7 +18818,8 @@ export const POKEMON = [
   {
     number: "897",
     name: "Spectrier",
-    sprite: require('../sprites/897.png'),
+    sprite: require("../sprites/897.png"),
+    model: require("../models/spectrier.png"),
     class: "Swift Horse Pokémon",
     height: "2.0m",
     weight: "44.5kg",
@@ -17942,7 +18839,8 @@ export const POKEMON = [
   {
     number: "898",
     name: "Calyrex",
-    sprite: require('../sprites/898.png'),
+    sprite: require("../sprites/898.png"),
+    model: require("../models/calyrex.png"),
     class: "King Pokémon (Calyrex)High King Pokémon (Rider)",
     height: "1.1m",
     weight: "7.7kg",
@@ -17962,7 +18860,8 @@ export const POKEMON = [
   {
     number: "899",
     name: "Wyrdeer",
-    sprite: require('../sprites/899.png'),
+    sprite: require("../sprites/899.png"),
+    model: require("../models/wyrdeer.png"),
     class: "Big Hornr Pokémon",
     height: "1.8m",
     weight: "95.1kg",
@@ -17982,7 +18881,8 @@ export const POKEMON = [
   {
     number: "900",
     name: "Kleavor",
-    sprite: require('../sprites/900.png'),
+    sprite: require("../sprites/900.png"),
+    model: require("../models/kleavor.png"),
     class: "Axe Pokémon",
     height: "1.8m",
     weight: "89kg",
@@ -18002,7 +18902,8 @@ export const POKEMON = [
   {
     number: "901",
     name: "Ursaluna",
-    sprite: require('../sprites/901.png'),
+    sprite: require("../sprites/901.png"),
+    model: require("../models/ursaluna.png"),
     class: "Peat Pokémon",
     height: "2.4m",
     weight: "290kg",
@@ -18022,7 +18923,8 @@ export const POKEMON = [
   {
     number: "902",
     name: "Basculegion",
-    sprite: require('../sprites/902.png'),
+    sprite: require("../sprites/902.png"),
+    model: require("../models/basculegion.png"),
     class: "Big Fish Pokémon",
     height: "3m",
     weight: "110kg",
@@ -18042,7 +18944,8 @@ export const POKEMON = [
   {
     number: "903",
     name: "Sneasler",
-    sprite: require('../sprites/903.png'),
+    sprite: require("../sprites/903.png"),
+    model: require("../models/sneasler.png"),
     class: "Free Climb Pokémon",
     height: "1.3m",
     weight: "43kg",
@@ -18062,7 +18965,8 @@ export const POKEMON = [
   {
     number: "904",
     name: "Overqwil",
-    sprite: require('../sprites/904.png'),
+    sprite: require("../sprites/904.png"),
+    model: require("../models/overqwil.png"),
     class: "Pin Cluster Pokémon",
     height: "2.5m",
     weight: "60.5kg",
@@ -18082,7 +18986,8 @@ export const POKEMON = [
   {
     number: "905",
     name: "Enamorus",
-    sprite: require('../sprites/905.png'),
+    sprite: require("../sprites/905.png"),
+    model: require("../models/enamorus.png"),
     class: "Love-Hate Pokémon",
     height: "1.6m",
     weight: "48kg",
@@ -18100,4 +19005,3 @@ export const POKEMON = [
     speed: "106"
   },
 ];
-
