@@ -31,7 +31,7 @@ const PokemonTabs = ({ pokemon }) => {
     pokemon.type2 === '' ? setTypingText(pokemon.type1) : setTypingText(pokemon.type1 + '/' + pokemon.type2)
 
     var typingBorderHex;
-    pokemon.type2 === '' ? typingBorderHex = 'white' : null
+    pokemon.type2 === '' ? typingBorderHex = typingHex : null
     pokemon.type2 === 'Normal' ? typingBorderHex = '#A8A77A' : null
     pokemon.type2 === 'Fire' ? typingBorderHex = '#EE8130' : null
     pokemon.type2 === 'Water' ? typingBorderHex = '#6390F0' : null
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
   },
 
   name: {
-    color: "white",
+    color: "#FFFFFF",
     fontFamily: 'Ubuntu_500Medium',
     fontSize: 20,
     position: 'absolute', 
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
 
   typing: {
-    color: "white",
+    color: "#FFFFFF",
     fontFamily: 'Ubuntu_300Light_Italic',
     fontSize: 14,
     position: 'absolute', 
