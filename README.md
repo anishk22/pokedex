@@ -1,12 +1,14 @@
 # Pokédex
 
+This mobile application serves as a reference for all Pokémon statistical information. It is built using React Native with data coming from a custom-built Python webscraper.
+
 ## Home Screen
 
-The app opens in the home page, which allows the user to scroll through all 905 Pokemon and view their respective typings and sprites. 
+The app opens in the home page, which allows the user to scroll through all 905 Pokémon and view their respective typings and sprites. 
 
 ## Additional Info 
 
-The user can then click on any Pokemon tab, which leads them to a screen displaying more information about the Pokemon, including the official in-game model and base stat totals.
+The user can then click on any Pokémon tab, which leads them to a screen displaying more information about the Pokémon, including the official in-game model and base stat totals.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/92560993/176733393-45d9279e-c4b8-45bb-8c0b-697f1c4ae394.PNG" width=30% height=30%>
