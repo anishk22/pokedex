@@ -41,20 +41,25 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
         </View>
 
         <View style={styles.attributeContainer}>
-          <Text style={styles.header}>Ability 1: </Text>
+          <Text style={styles.header}>Ability: </Text>
           <Text style={styles.content}>{pokemon.ability1}</Text>
         </View>
 
-        {pokemon.ability2 ? (
+        {pokemon.ability3 ? (
           <View style={styles.attributeContainer}>
-            <Text style={styles.header}>Ability 2: </Text>
+            <Text style={styles.header}>Ability: </Text>
             <Text style={styles.content}>{pokemon.ability2}</Text>
           </View>
-        ) : null}
+        ) : 
+          <View style={styles.attributeContainer}>
+            <Text style={styles.header}>Hidden Ability: </Text>
+            <Text style={styles.content}>{pokemon.ability2}</Text>
+          </View>
+        }
 
         {pokemon.ability3 ? (
           <View style={styles.attributeContainer}>
-            <Text style={styles.header}>Ability 3: </Text>
+            <Text style={styles.header}>Hidden Ability: </Text>
             <Text style={styles.content}>{pokemon.ability3}</Text>
           </View>
         ) : null}
