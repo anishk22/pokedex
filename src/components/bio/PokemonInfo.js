@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Divider } from "react-native-elements";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
 const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
@@ -117,11 +118,13 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
 
   return (
     <>
+      <Divider width={2}/>
       <View style={styles.iconContainer}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
         ))}
       </View>
+      <Divider width={2}/>
       {renderSection()}
     </>
   );
@@ -129,8 +132,8 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
 
 const styles = StyleSheet.create({
   iconContainer: {
-    marginTop: "4%",
-    marginBottom: "2%",
+    marginTop: "3%",
+    marginBottom: "3%",
     width: "90%",
     alignSelf: "center",
     flexDirection: "row",
@@ -175,7 +178,7 @@ const styles = StyleSheet.create({
   },
 
   statsContainer: {
-    marginTop: "5%",
+    marginTop: "10%",
     alignItems: "center",
   },
 

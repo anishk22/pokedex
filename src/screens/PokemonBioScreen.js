@@ -7,7 +7,7 @@ const PokemonBioScreen = ({ route }) => {
   const { pokemon, type1Color, type2Color } = route.params;
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, { backgroundColor: type1Color, borderColor: type2Color, borderWidth: 5, borderRadius: 45, }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <PokemonBio pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} />
         <PokemonInfo pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} icons={bioIcons} />
@@ -19,7 +19,7 @@ const PokemonBioScreen = ({ route }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000000",
+    // backgroundColor: "#000000",
   },
 });
 

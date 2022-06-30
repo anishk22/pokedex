@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet } from "react-native";
 
 const PokemonBio = ({ pokemon, type1Color, type2Color }) => {
   return (
-    <View style={[styles.titleContainer, { backgroundColor: type1Color, borderColor: type2Color }]}>
+    <View style={[styles.titleContainer]}>
       <Text style={styles.titleNumber}>{pokemon.number}</Text>
       <Text style={styles.titleText}>{pokemon.name}</Text>
 
@@ -20,10 +20,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingTop: "5%",
     paddingBottom: "12%",
-    borderWidth: 5,
-    borderBottomWidth: 0,
-    borderTopLeftRadius: 50,
-    borderTopRightRadius: 50,
+    // borderWidth: 5,
+    // borderBottomWidth: 0,
+    // borderTopLeftRadius: 50,
+    // borderTopRightRadius: 50,
     padding: 20,
   },
 
