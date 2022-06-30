@@ -6,6 +6,8 @@ This mobile application serves as a reference for all Pokémon statistical infor
 
 The app opens in the home page, which allows the user to scroll through all 905 Pokémon and view their respective typings and sprites. 
 
+<img src="https://user-images.githubusercontent.com/92560993/176736591-91a9dd2f-af51-4e92-aa48-49f775ab7ba8.PNG" width=30% height=30%>
+
 ## Additional Info 
 
 The user can then click on any Pokémon tab, which leads them to a screen displaying more information about the Pokémon, including the official in-game model and base stat totals.
