@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
+import HorizontalBarGraph from '@chartiful/react-native-horizontal-bar-graph'
+
 const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
   const [activeTab, setActiveTab] = useState("About");
 
@@ -80,7 +82,37 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
   };
 
   const renderStats = () => {
-    return <Text style={{ color: "white" }}>lets GOOO</Text>;
+    return (
+      <View style={{ marginLeft: 30, marginTop: 30, }}>
+        <HorizontalBarGraph
+          data={[pokemon.speed, pokemon.sp_defense, pokemon.sp_attack, pokemon.defense, pokemon.attack, pokemon.hp]}
+          labels={['Speed', 'Sp. Def', 'Sp. Atk', 'Defense', 'Attack', 'HP']}
+          width={305}
+          height={350}
+          barRadius={15}
+          barColor={type1Color}
+          baseConfig={{
+            hasYAxisBackgroundLines: false,
+            xAxisLabelStyle: {
+              rotation: 0,
+              fontSize: 12,
+              width: 70,
+              yOffset: 4,
+              xOffset: -15,
+              color: 'white',
+            },
+            yAxisLabelStyle: {
+              fontSize: 13,
+              position: 'bottom',
+              xOffset: 15,
+              yOffset: 15,
+              height: 100,
+              color: 'white',
+            }
+          }}
+        />
+      </View>
+    );
   };
 
   return (
