@@ -9,7 +9,7 @@ const PokemonBioScreen = ({ navigation, route }) => {
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: background, borderColor: type2Color, borderWidth: 5, borderRadius: 45, }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <PokemonBio navigation={navigation} pokemon={pokemon} />
+        <PokemonBio navigation={navigation} pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} />
         <PokemonInfo pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} icons={bioIcons} />
       </ScrollView>
     </SafeAreaView>

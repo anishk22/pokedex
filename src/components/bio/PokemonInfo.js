@@ -26,24 +26,6 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
     return (
       <View style={styles.infoContainer}>
         <View style={styles.attributeContainer}>
-          <Text style={styles.header}>Typing:</Text>
-
-          <View style={{ flexDirection: 'row' }}>
-            <View style={[styles.typing, { backgroundColor: type1Color }]}>
-              <Text style={[styles.content]}>{pokemon.type1}</Text>
-            </View>
-
-            {pokemon.type2 ? (
-            <View style={[styles.typing, { backgroundColor: type2Color }]}>
-              <Text style={[styles.content]}>{pokemon.type2}</Text>
-            </View>
-            ) : null}
-          
-          </View>
-
-        </View>
-
-        <View style={styles.attributeContainer}>
           <Text style={styles.header}>Class: </Text>
           <Text style={styles.content}>{pokemon.class}</Text>
         </View>
