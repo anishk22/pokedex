@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "@chartiful/react-native-chart-builder": "^0.1.8",
-    "@chartiful/react-native-horizontal-bar-graph": "^0.1.2",
     "@expo-google-fonts/ubuntu": "^0.2.2",
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/stack": "^6.2.1",

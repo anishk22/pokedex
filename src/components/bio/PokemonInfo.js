@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
-import HorizontalBarGraph from '@chartiful/react-native-horizontal-bar-graph'
-
 const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
   const [activeTab, setActiveTab] = useState("About");
 
@@ -80,50 +78,52 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
       </View>
     );
   };
-
+    
   const renderStats = () => {
     return (
-      <View style={{ marginLeft: 30, marginTop: 30, }}>
-        <HorizontalBarGraph
-          data={[pokemon.speed, pokemon.sp_defense, pokemon.sp_attack, pokemon.defense, pokemon.attack, pokemon.hp]}
-          labels={['Speed', 'Sp. Def', 'Sp. Atk', 'Defense', 'Attack', 'HP']}
-          width={305}
-          height={350}
-          barRadius={15}
-          barColor={type1Color}
-          baseConfig={{
-            hasYAxisBackgroundLines: false,
-            xAxisLabelStyle: {
-              rotation: 0,
-              fontSize: 12,
-              width: 70,
-              yOffset: 4,
-              xOffset: -15,
-              color: 'white',
-            },
-            yAxisLabelStyle: {
-              fontSize: 13,
-              position: 'bottom',
-              xOffset: 15,
-              yOffset: 15,
-              height: 100,
-              color: 'white',
-            }
-          }}
-        />
+      <View style={styles.statsContainer}>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>HP: </Text>
+          <Text style={styles.content}>{pokemon.hp}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Attack: </Text>
+          <Text style={styles.content}>{pokemon.attack}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Defense: </Text>
+          <Text style={styles.content}>{pokemon.defense}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Sp. Attack: </Text>
+          <Text style={styles.content}>{pokemon.sp_attack}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Sp. Defense: </Text>
+          <Text style={styles.content}>{pokemon.sp_defense}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Speed: </Text>
+          <Text style={styles.content}>{pokemon.speed}</Text>
+        </View>
+        <View style={styles.statWrapper}>
+          <Text style={styles.header}>Base Stat Total: </Text>
+          <Text style={styles.content}>{pokemon.bst}</Text>
+        </View>
       </View>
     );
-  };
+  }
+  
 
   return (
-    <View style={styles.dividerContainer}>
+    <>
       <View style={styles.iconContainer}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
         ))}
       </View>
       {renderSection()}
-    </View>
+    </>
   );
 };
 
@@ -172,6 +172,16 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
     marginLeft: 10,
     borderRadius: 10,
+  },
+
+  statsContainer: {
+    marginTop: "5%",
+    alignItems: "center",
+  },
+
+  statWrapper: {
+    flexDirection: "row",
+    marginBottom: "7%",
   }
 });
 
