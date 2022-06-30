@@ -5,6 +5,7 @@ const PokemonTabs = ({ pokemon, navigation }) => {
   const [typingColor, setTypingColor] = useState("");
   const [typingText, setTypingText] = useState("");
   const [typingBorder, setTypingBorder] = useState("");
+  const [typingBackground, setTypingBackground] = useState("");
 
   useEffect(() => {
     var typingHex;
@@ -27,6 +28,27 @@ const PokemonTabs = ({ pokemon, navigation }) => {
     pokemon.type1 === "Steel" ? (typingHex = "#B7B7CE") : null;
     pokemon.type1 === "Fairy" ? (typingHex = "#D685AD") : null;
     setTypingColor(typingHex);
+
+    var typingBack;
+    pokemon.type1 === "Normal" ? (typingBack = "#8F8E61") : null;
+    pokemon.type1 === "Fire" ? (typingBack = "#BB4E00") : null;
+    pokemon.type1 === "Water" ? (typingBack = "#305DBD") : null;
+    pokemon.type1 === "Electric" ? (typingBack = "#C49D00") : null;
+    pokemon.type1 === "Grass" ? (typingBack = "#479419") : null;
+    pokemon.type1 === "Ice" ? (typingBack = "#63A6A3") : null;
+    pokemon.type1 === "Fighting" ? (typingBack = "#8F0000") : null;
+    pokemon.type1 === "Poison" ? (typingBack = "#700B6E") : null;
+    pokemon.type1 === "Ground" ? (typingBack = "##AF8C32") : null;
+    pokemon.type1 === "Flying" ? (typingBack = "#765CC0") : null;
+    pokemon.type1 === "Psychic" ? (typingBack = "#C62254") : null;
+    pokemon.type1 === "Bug" ? (typingBack = "#738600") : null;
+    pokemon.type1 === "Rock" ? (typingBack = "#836E03") : null;
+    pokemon.type1 === "Ghost" ? (typingBack = "#402464") : null;
+    pokemon.type1 === "Dragon" ? (typingBack = "#3C02C9") : null;
+    pokemon.type1 === "Dark" ? (typingBack = "#3D2413") : null;
+    pokemon.type1 === "Steel" ? (typingBack = "#84849B") : null;
+    pokemon.type1 === "Fairy" ? (typingBack = "#A3527A") : null;
+    setTypingBackground(typingBack);
 
     pokemon.type2 === ""
       ? setTypingText(pokemon.type1)
@@ -66,6 +88,7 @@ const PokemonTabs = ({ pokemon, navigation }) => {
           pokemon: pokemon,
           type1Color: typingColor,
           type2Color: typingBorder,
+          background: typingBackground,
         })
       }
     >

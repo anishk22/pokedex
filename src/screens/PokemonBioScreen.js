@@ -4,10 +4,10 @@ import PokemonBio from "../components/bio/PokemonBio";
 import PokemonInfo, { bioIcons } from "../components/bio/PokemonInfo";
 
 const PokemonBioScreen = ({ route }) => {
-  const { pokemon, type1Color, type2Color } = route.params;
+  const { pokemon, type1Color, type2Color, background } = route.params;
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: type1Color, borderColor: type2Color, borderWidth: 5, borderRadius: 45, }]}>
+    <SafeAreaView style={[styles.container, { backgroundColor: background, borderColor: type2Color, borderWidth: 5, borderRadius: 45, }]}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <PokemonBio pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} />
         <PokemonInfo pokemon={pokemon} type1Color={type1Color} type2Color={type2Color} icons={bioIcons} />
