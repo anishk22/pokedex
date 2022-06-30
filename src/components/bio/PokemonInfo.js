@@ -77,7 +77,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.hp) / 255) * 175,
                 },
               ]}
@@ -97,7 +97,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.attack) / 255) * 175,
                 },
               ]}
@@ -119,7 +119,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.defense) / 255) * 175,
                 },
               ]}
@@ -143,7 +143,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.sp_attack) / 255) * 175,
                 },
               ]}
@@ -168,7 +168,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.sp_defense) / 255) * 175,
                 },
               ]}
@@ -190,7 +190,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.speed) / 255) * 175,
                 },
               ]}
@@ -212,7 +212,7 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
               style={[
                 styles.barInside,
                 {
-                  backgroundColor: type1Color,
+                  backgroundColor: type2Color,
                   paddingRight: (parseInt(pokemon.bst) / 780) * 175,
                 },
               ]}
