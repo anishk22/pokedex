@@ -6,7 +6,7 @@ The app opens in the home page, which allows the user to scroll through all 905 
 
 ### Additional Info 
 
-The user can then click on any Pokemon tab, which leads them to a scree displaying more information about the Pokemon, including the official in-game model and base stat totals.
+The user can then click on any Pokemon tab, which leads them to a screen displaying more information about the Pokemon, including the official in-game model and base stat totals.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/92560993/176733393-45d9279e-c4b8-45bb-8c0b-697f1c4ae394.PNG" width=30% height=30%>
@@ -15,7 +15,7 @@ The user can then click on any Pokemon tab, which leads them to a scree displayi
 </p>
 
 ### Even More Additional Info 
-The user can also tap the additional info icon to see more information physical attributes and abilities. 
+The user can also tap the additional info icon to see more information such as physical attributes and abilities. 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/92560993/176733387-370fc40a-7d63-4ae2-ab48-4b073129e658.PNG" width=30% height=30%>
