@@ -50,12 +50,12 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
             <Text style={styles.header}>Ability: </Text>
             <Text style={styles.content}>{pokemon.ability2}</Text>
           </View>
-        ) : 
+        ) : pokemon.ability2 ? (
           <View style={styles.attributeContainer}>
             <Text style={styles.header}>Hidden Ability: </Text>
             <Text style={styles.content}>{pokemon.ability2}</Text>
           </View>
-        }
+        ) : null}
 
         {pokemon.ability3 ? (
           <View style={styles.attributeContainer}>
