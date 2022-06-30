@@ -1,6 +1,8 @@
 # Pokédex
 
-The data is collected through a Python application that scrapes Serebii.net.
+The data is collected through a Python application that scrapes Serebii.net. 
+
+*Note to self: Separate Kanto Forms
 
 ## Sample CSV output
 

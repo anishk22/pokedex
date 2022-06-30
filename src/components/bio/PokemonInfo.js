@@ -30,6 +30,13 @@ const BioTabs = ({ pokemon, icons }) => {
         </View>
 
         <View style = {styles.attributeContainer}>
+          <Text style={styles.header}>Typing:  </Text>
+          <View>
+            <Text style={styles.content}>{pokemon.type1 + '  ' + pokemon.type2}</Text>
+          </View>  
+        </View>
+
+        <View style = {styles.attributeContainer}>
           <Text style={styles.header}>Height:  </Text>
           <Text style={styles.content}>{pokemon.height}</Text>
         </View>
@@ -37,6 +44,15 @@ const BioTabs = ({ pokemon, icons }) => {
         <View style = {styles.attributeContainer}>
           <Text style={styles.header}>Weight:  </Text>
           <Text style={styles.content}>{pokemon.weight}</Text>
+        </View>
+
+        <View style = {styles.attributeContainer}>
+          <Text style={styles.header}>Abilities:  </Text>
+          <View>
+            <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability1}</Text>
+            {pokemon.ability2 ? <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability2}</Text> : null}  
+            {pokemon.ability3 ? <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability3}</Text> : null}  
+          </View>  
         </View>
       </View>
     );
@@ -74,13 +90,15 @@ const styles = StyleSheet.create({
   },
 
   infoContainer: {
-    marginTop: "4%",
-    alignItems: 'center',
+    marginTop: "8%",
+    alignItems: 'flex-start',
   },
 
   attributeContainer: {
     flexDirection: "row",
-    marginBottom: '3%',
+    marginVertical: '3%',
+    marginLeft: '10%',
+    marginRight: "25%",
   },
 
   header: {
