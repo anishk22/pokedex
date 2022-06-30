@@ -61,52 +61,180 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
       </View>
     );
   };
-    
+
   const renderStats = () => {
     return (
       <View style={styles.statsContainer}>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>HP: </Text>
-          <Text style={styles.content}>{pokemon.hp}</Text>
+          <Text style={styles.statHeader}>HP:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              { paddingRight: ((255 - parseInt(pokemon.hp)) / 255) * 175 },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.hp) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>{pokemon.hp}</Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Attack: </Text>
-          <Text style={styles.content}>{pokemon.attack}</Text>
+          <Text style={styles.statHeader}>Attack:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              { paddingRight: ((255 - parseInt(pokemon.attack)) / 255) * 175 },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.attack) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.attack}
+          </Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Defense: </Text>
-          <Text style={styles.content}>{pokemon.defense}</Text>
+          <Text style={styles.statHeader}>Defense:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              { paddingRight: ((255 - parseInt(pokemon.defense)) / 255) * 175 },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.defense) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.defense}
+          </Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Sp. Attack: </Text>
-          <Text style={styles.content}>{pokemon.sp_attack}</Text>
+          <Text style={styles.statHeader}>Sp. Atk:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              {
+                paddingRight: ((255 - parseInt(pokemon.sp_attack)) / 255) * 175,
+              },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.sp_attack) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.sp_attack}
+          </Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Sp. Defense: </Text>
-          <Text style={styles.content}>{pokemon.sp_defense}</Text>
+          <Text style={styles.statHeader}>Sp. Def:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              {
+                paddingRight:
+                  ((255 - parseInt(pokemon.sp_defense)) / 255) * 175,
+              },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.sp_defense) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.sp_defense}
+          </Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Speed: </Text>
-          <Text style={styles.content}>{pokemon.speed}</Text>
+          <Text style={styles.statHeader}>Speed:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              { paddingRight: ((255 - parseInt(pokemon.speed)) / 255) * 175 },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.speed) / 255) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.speed}
+          </Text>
         </View>
         <View style={styles.statWrapper}>
-          <Text style={styles.header}>Base Stat Total: </Text>
-          <Text style={styles.content}>{pokemon.bst}</Text>
+          <Text style={styles.statHeader}>BST:</Text>
+          <View
+            style={[
+              styles.barOutside,
+              { paddingRight: ((780 - parseInt(pokemon.bst)) / 780) * 175 },
+            ]}
+          >
+            <View
+              style={[
+                styles.barInside,
+                {
+                  backgroundColor: type1Color,
+                  paddingRight: (parseInt(pokemon.bst) / 780) * 175,
+                },
+              ]}
+            />
+          </View>
+          <Text style={[styles.content, styles.statContent]}>
+            {pokemon.bst}
+          </Text>
         </View>
       </View>
     );
-  }
-  
+  };
 
   return (
     <>
-      <Divider width={2}/>
+      <Divider width={2} />
       <View style={styles.iconContainer}>
         {icons.map((icon, index) => (
           <Icon key={index} icon={icon} />
         ))}
       </View>
-      <Divider width={2}/>
+      <Divider width={2} />
       {renderSection()}
     </>
   );
@@ -134,7 +262,7 @@ const styles = StyleSheet.create({
 
   attributeContainer: {
     flexDirection: "row",
-    alignItems: 'center',
+    alignItems: "center",
     marginVertical: "3%",
     marginLeft: "10%",
     marginRight: "25%",
@@ -143,7 +271,7 @@ const styles = StyleSheet.create({
   header: {
     color: "#ffffff",
     fontFamily: "Ubuntu_500Medium",
-    fontSize: "20",
+    fontSize: "22",
   },
 
   content: {
@@ -160,14 +288,38 @@ const styles = StyleSheet.create({
   },
 
   statsContainer: {
-    marginTop: "10%",
-    alignItems: "center",
+    marginTop: "7%",
   },
 
   statWrapper: {
     flexDirection: "row",
     marginBottom: "7%",
-  }
+    alignItems: "center",
+  },
+
+  statHeader: {
+    color: "#ffffff",
+    fontFamily: "Ubuntu_500Medium",
+    fontSize: "22",
+    position: "absolute",
+    left: "7%",
+  },
+
+  statContent: {
+    position: "absolute",
+    right: "7%",
+  },
+
+  barOutside: {
+    backgroundColor: "#ffffff",
+    borderRadius: 70,
+    marginLeft: "35%",
+  },
+
+  barInside: {
+    paddingVertical: 10,
+    borderRadius: 70,
+  },
 });
 
 export const bioIcons = [
