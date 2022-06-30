@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
-const BioTabs = ({ pokemon, icons }) => {
+const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
   const [activeTab, setActiveTab] = useState("About");
 
   const Icon = ({ icon }) => (
@@ -24,36 +24,57 @@ const BioTabs = ({ pokemon, icons }) => {
   const renderAbout = () => {
     return (
       <View style={styles.infoContainer}>
-        <View style = {styles.attributeContainer}>
-          <Text style={styles.header}>Class:  </Text>
+        <View style={styles.attributeContainer}>
+          <Text style={styles.header}>Typing:</Text>
+
+          <View style={{ flexDirection: 'row' }}>
+            <View style={[styles.typing, { backgroundColor: type1Color }]}>
+              <Text style={[styles.content]}>{pokemon.type1}</Text>
+            </View>
+
+            {pokemon.type2 ? (
+            <View style={[styles.typing, { backgroundColor: type2Color }]}>
+              <Text style={[styles.content]}>{pokemon.type2}</Text>
+            </View>
+            ) : null}
+          
+          </View>
+
+        </View>
+
+        <View style={styles.attributeContainer}>
+          <Text style={styles.header}>Class: </Text>
           <Text style={styles.content}>{pokemon.class}</Text>
         </View>
 
-        <View style = {styles.attributeContainer}>
-          <Text style={styles.header}>Typing:  </Text>
-          <View>
-            <Text style={styles.content}>{pokemon.type1 + '  ' + pokemon.type2}</Text>
-          </View>  
-        </View>
-
-        <View style = {styles.attributeContainer}>
-          <Text style={styles.header}>Height:  </Text>
+        <View style={styles.attributeContainer}>
+          <Text style={styles.header}>Height: </Text>
           <Text style={styles.content}>{pokemon.height}</Text>
         </View>
 
-        <View style = {styles.attributeContainer}>
-          <Text style={styles.header}>Weight:  </Text>
+        <View style={styles.attributeContainer}>
+          <Text style={styles.header}>Weight: </Text>
           <Text style={styles.content}>{pokemon.weight}</Text>
         </View>
 
-        <View style = {styles.attributeContainer}>
-          <Text style={styles.header}>Abilities:  </Text>
-          <View>
-            <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability1}</Text>
-            {pokemon.ability2 ? <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability2}</Text> : null}  
-            {pokemon.ability3 ? <Text style={[styles.content, { marginBottom: '5%' }]}>{pokemon.ability3}</Text> : null}  
-          </View>  
+        <View style={styles.attributeContainer}>
+          <Text style={styles.header}>Ability 1: </Text>
+          <Text style={styles.content}>{pokemon.ability1}</Text>
         </View>
+
+        {pokemon.ability2 ? (
+          <View style={styles.attributeContainer}>
+            <Text style={styles.header}>Ability 2: </Text>
+            <Text style={styles.content}>{pokemon.ability2}</Text>
+          </View>
+        ) : null}
+
+        {pokemon.ability3 ? (
+          <View style={styles.attributeContainer}>
+            <Text style={styles.header}>Ability 3: </Text>
+            <Text style={styles.content}>{pokemon.ability3}</Text>
+          </View>
+        ) : null}
       </View>
     );
   };
@@ -90,14 +111,15 @@ const styles = StyleSheet.create({
   },
 
   infoContainer: {
-    marginTop: "8%",
-    alignItems: 'flex-start',
+    marginTop: "5%",
+    alignItems: "flex-start",
   },
 
   attributeContainer: {
     flexDirection: "row",
-    marginVertical: '3%',
-    marginLeft: '10%',
+    alignItems: 'center',
+    marginVertical: "3%",
+    marginLeft: "10%",
     marginRight: "25%",
   },
 
@@ -111,6 +133,13 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontFamily: "Ubuntu_400Regular",
     fontSize: "20",
+  },
+
+  typing: {
+    paddingHorizontal: 20,
+    paddingVertical: 5,
+    marginLeft: 10,
+    borderRadius: 10,
   }
 });
 
