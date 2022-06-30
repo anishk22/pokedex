@@ -1,9 +1,15 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
-const PokemonBio = ({ pokemon, type1Color, type2Color }) => {
+const PokemonBio = ({ navigation, pokemon }) => {
   return (
-    <View style={[styles.titleContainer]}>
+    <View style={styles.titleContainer}>
+    <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Image
+            source={{ uri: "https://img.icons8.com/ios-glyphs/90/ffffff/back.png" }}
+            style={styles.backButton}
+          />
+    </TouchableOpacity>
       <Text style={styles.titleNumber}>{pokemon.number}</Text>
       <Text style={styles.titleText}>{pokemon.name}</Text>
 
@@ -15,15 +21,17 @@ const PokemonBio = ({ pokemon, type1Color, type2Color }) => {
 };
 
 const styles = StyleSheet.create({
+  backButton: {
+    width: 30,
+    height: 30,
+    marginRight: '95%',
+  },
+
   titleContainer: {
     justifyContent: "center",
     alignItems: "center",
     paddingTop: "5%",
     paddingBottom: "12%",
-    // borderWidth: 5,
-    // borderBottomWidth: 0,
-    // borderTopLeftRadius: 50,
-    // borderTopRightRadius: 50,
     padding: 20,
   },
 
@@ -31,7 +39,7 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontFamily: "Ubuntu_400Regular",
     fontSize: "20",
-    marginTop: "2%",
+    marginTop: "-8%",
   },
 
   titleText: {
