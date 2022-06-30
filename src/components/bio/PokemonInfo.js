@@ -3,7 +3,7 @@ import { Divider } from "react-native-elements";
 import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
 
 const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
-  const [activeTab, setActiveTab] = useState("About");
+  const [activeTab, setActiveTab] = useState("Stats");
 
   const Icon = ({ icon }) => (
     <TouchableOpacity onPress={() => setActiveTab(icon.name)}>
@@ -15,10 +15,10 @@ const BioTabs = ({ pokemon, type1Color, type2Color, icons }) => {
   );
 
   const renderSection = () => {
-    if (activeTab == "About") {
-      return <View>{renderAbout()}</View>;
-    } else {
+    if (activeTab == "Stats") {
       return <View>{renderStats()}</View>;
+    } else {
+      return <View>{renderAbout()}</View>;
     }
   };
 
@@ -261,7 +261,7 @@ const styles = StyleSheet.create({
   },
 
   infoContainer: {
-    marginTop: "5%",
+    marginVertical: "5%",
     alignItems: "flex-start",
   },
 
@@ -329,16 +329,16 @@ const styles = StyleSheet.create({
 
 export const bioIcons = [
   {
-    name: "About",
-    active: "https://img.icons8.com/ios-filled/72/ffffff/info.png",
-    inactive: "https://img.icons8.com/ios/72/ffffff/info.png",
-  },
-  {
     name: "Stats",
     active:
       "https://img.icons8.com/external-prettycons-solid-prettycons/344/ffffff/external-stats-business-and-finance-prettycons-solid-prettycons.png",
     inactive:
       "https://img.icons8.com/external-prettycons-lineal-prettycons/344/ffffff/external-stats-business-and-finance-prettycons-lineal-prettycons.png",
+  },
+  {
+    name: "About",
+    active: "https://img.icons8.com/ios-filled/72/ffffff/info.png",
+    inactive: "https://img.icons8.com/ios/72/ffffff/info.png",
   },
 ];
 
