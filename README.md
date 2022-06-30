@@ -1,10 +1,10 @@
 # Pokédex
 
-## The Interface 
+## Home Screen
 
 The app opens in the home page, which allows the user to scroll through all 905 Pokemon and view their respective typings and sprites. 
 
-### Additional Info 
+## Additional Info 
 
 The user can then click on any Pokemon tab, which leads them to a screen displaying more information about the Pokemon, including the official in-game model and base stat totals.
 
@@ -14,7 +14,7 @@ The user can then click on any Pokemon tab, which leads them to a screen display
   <img src="https://user-images.githubusercontent.com/92560993/176733388-5ebea340-e34e-418c-9671-d8368f0f272c.PNG" width=30% height=30%>
 </p>
 
-### Even More Additional Info 
+## Even More Additional Info 
 The user can also tap the additional info icon to see more information such as physical attributes and abilities. 
 
 <p float="left">
