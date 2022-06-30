@@ -7,17 +7,12 @@ const Header = () => {
     <View style={styles.header}>
       <View style={styles.container}>
         <Image
-          style={styles.pokeball}
-          source={require("../../assets/pokeball.png")}
-        />
-        <Text style={styles.headerText}>POKEDEX</Text>
-        <Image
-          style={styles.pokeball}
-          source={require("../../assets/pokeball.png")}
+          style={styles.pokedex}
+          source={require("../../assets/pokedex.png")}
         />
       </View>
 
-      <Divider width={1} style={styles.divider} />
+      <Divider width={1} />
     </View>
   );
 };
@@ -31,24 +26,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "row",
-    marginVertical: 15,
+    marginVertical: 10,
   },
 
-  divider: {
-    marginTop: "2%",
-    marginHorizontal: "12%",
-  },
-
-  headerText: {
-    color: "#ffffff",
-    fontFamily: "Ubuntu_700Bold",
-    fontSize: "30",
-  },
-
-  pokeball: {
-    width: 35,
-    height: 35,
-    marginHorizontal: 15,
+  pokedex: {
+    width: 250,
+    height: 85,
   },
 });
 
