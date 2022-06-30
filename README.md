@@ -4,16 +4,23 @@
 
 The app opens in the home page, which allows the user to scroll through all 905 Pokemon and view their respective typings and sprites. 
 
+### Additional Info 
+
 The user can then click on any Pokemon tab, which leads them to a scree displaying more information about the Pokemon, including the official in-game model and base stat totals.
 
-<img src="https://user-images.githubusercontent.com/92560993/176733393-45d9279e-c4b8-45bb-8c0b-697f1c4ae394.PNG" width=30% height=30%>
-<img src="https://user-images.githubusercontent.com/92560993/176733391-d2148150-0f47-4882-9ccf-0e933e22c276.PNG" width=30% height=30%>
-<img src="https://user-images.githubusercontent.com/92560993/176733388-5ebea340-e34e-418c-9671-d8368f0f272c.PNG" width=30% height=30%>
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/92560993/176733393-45d9279e-c4b8-45bb-8c0b-697f1c4ae394.PNG" width=30% height=30%>
+  <img src="https://user-images.githubusercontent.com/92560993/176733391-d2148150-0f47-4882-9ccf-0e933e22c276.PNG" width=30% height=30%>
+  <img src="https://user-images.githubusercontent.com/92560993/176733388-5ebea340-e34e-418c-9671-d8368f0f272c.PNG" width=30% height=30%>
+</p>
 
+### Even More Additional Info 
 The user can also tap the additional info icon to see more information physical attributes and abilities. 
 
-<img src="https://user-images.githubusercontent.com/92560993/176733387-370fc40a-7d63-4ae2-ab48-4b073129e658.PNG" width=30% height=30%>
-<img src="https://user-images.githubusercontent.com/92560993/176733381-f057640b-a88d-4a00-8038-17a5a3c78fae.PNG" width=30% height=30%>
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/92560993/176733387-370fc40a-7d63-4ae2-ab48-4b073129e658.PNG" width=30% height=30%>
+  <img src="https://user-images.githubusercontent.com/92560993/176733381-f057640b-a88d-4a00-8038-17a5a3c78fae.PNG" width=30% height=30%>
+</p>
 
 ## Data
 
