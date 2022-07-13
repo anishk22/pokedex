@@ -20,7 +20,7 @@ const HomeScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Header />
-        <Filter sendSortOrder={getSortOrder} setSearchQuery={setSearchQuery} />
+        <Filter sendSortOrder={getSortOrder} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
         {DATA.filter((item) => {
           if (searchQuery == "") {

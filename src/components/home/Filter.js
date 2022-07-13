@@ -8,6 +8,8 @@ import {
 } from "react-native";
 import cloneDeep from "lodash/cloneDeep";
 
+import { SearchBar } from "react-native-elements";
+
 import { POKEMON } from "../../data/pokemonInfo";
 
 // different sorting orders
@@ -34,21 +36,21 @@ const TYPING_ORDER_NUM = cloneDeep(POKEMON).sort(function (a, b) {
   return a.number - b.number;
 });
 
-const Filter = ({ sendSortOrder, setSearchQuery }) => {
+const Filter = ({ sendSortOrder, searchQuery, setSearchQuery }) => {
   const [sortOrderNum, setSortOrderNum] = useState("descending");
   const [sortOrderName, setSortOrderName] = useState("descending");
 
   return (
     <>
-      <View style={styles.inputField}>
-        <TextInput
-          placeholderTextColor="#444"
-          placeholder="Search..."
-          autoCapitalize="none"
-          autoCorrect={false}
-          onChangeText={(newText) => setSearchQuery(newText)}
-        />
-      </View>
+      <SearchBar
+        placeholder="Search..."
+        onChangeText={(newText) => setSearchQuery(newText.toLowerCase())}
+        value={searchQuery}
+        autoCorrect={false}
+        lightTheme={true}
+        round={true}
+        containerStyle={styles.inputField}
+      />
       <View style={styles.container}>
         <TouchableOpacity
           style={styles.button}
@@ -107,12 +109,10 @@ const Filter = ({ sendSortOrder, setSearchQuery }) => {
 
 const styles = StyleSheet.create({
   inputField: {
-    padding: 14,
     backgroundColor: "#FAFAFA",
     marginHorizontal: 10,
     marginVertical: 20,
-    borderWidth: 1,
-    borderRadius: 10,
+    borderRadius: 20,
   },
 
   container: {
