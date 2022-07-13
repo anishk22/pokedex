@@ -75,7 +75,11 @@ const Filter = ({ sendSortOrder }) => {
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
-          sendSortOrder(TYPING_ORDER_NUM);
+          [
+            sendSortOrder(TYPING_ORDER_NUM),
+            setSortOrderNum("descending"),
+            setSortOrderName("descending"),
+          ];
         }}
       >
         <Text style={styles.label}>By Type</Text>
