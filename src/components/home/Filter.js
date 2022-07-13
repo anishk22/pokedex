@@ -104,11 +104,13 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 10,
     borderColor: "white",
-    borderWidth: 1,
+    borderWidth: 2,
   },
 
   label: {
     color: "black",
+    fontFamily: "Ubuntu_500Medium",
+    fontSize: 14,
   },
 });
 
