@@ -4,9 +4,9 @@ This mobile application serves as a reference for all Pokémon statistical infor
 
 ## Home Screen
 
-The app opens in the home page, which allows the user to scroll through all 905 Pokémon and view their respective typings and sprites. 
+The app opens in the home page, which allows the user to scroll through all 905 Pokémon and view their respective typings and sprites. Each of the small blue buttons at the top sort the Pokémon in both ascending and descending order based on the number of user clicks.
 
-<img src="https://user-images.githubusercontent.com/92560993/176736591-91a9dd2f-af51-4e92-aa48-49f775ab7ba8.PNG" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/92560993/178636189-fb0a9485-23da-4455-b6c6-9352c5717f64.PNG" width=30% height=30%>
 
 ## Additional Info 
 
