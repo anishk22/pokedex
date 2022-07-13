@@ -10,6 +10,7 @@ import { POKEMON } from "../data/pokemonInfo";
 
 const HomeScreen = ({ navigation }) => {
   const [DATA, setData] = useState(POKEMON);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const getSortOrder = useCallback((data) => {
     setData(data);
@@ -19,9 +20,17 @@ const HomeScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Header />
-        <Filter sendSortOrder={getSortOrder} />
+        <Filter sendSortOrder={getSortOrder} setSearchQuery={setSearchQuery} />
 
-        {DATA.map((pokemon, index) => (
+        {DATA.filter((item) => {
+          if (searchQuery == "") {
+            return item;
+          } else if (
+            item.name.toLowerCase().includes(searchQuery.toLowerCase())
+          ) {
+            return item;
+          }
+        }).map((pokemon, index) => (
           <PokemonTabs pokemon={pokemon} key={index} navigation={navigation} />
         ))}
       </ScrollView>

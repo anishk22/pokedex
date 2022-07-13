@@ -1,5 +1,11 @@
 import { React, useState } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  StyleSheet,
+  TouchableOpacity,
+} from "react-native";
 import cloneDeep from "lodash/cloneDeep";
 
 import { POKEMON } from "../../data/pokemonInfo";
@@ -28,70 +34,90 @@ const TYPING_ORDER_NUM = cloneDeep(POKEMON).sort(function (a, b) {
   return a.number - b.number;
 });
 
-const Filter = ({ sendSortOrder }) => {
-  const [sortOrderNum, setSortOrderNum] = useState("ascending");
-  const [sortOrderName, setSortOrderName] = useState("ascending");
+const Filter = ({ sendSortOrder, setSearchQuery }) => {
+  const [sortOrderNum, setSortOrderNum] = useState("descending");
+  const [sortOrderName, setSortOrderName] = useState("descending");
 
   return (
-    <View style={styles.container}>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => {
-          sortOrderNum === "ascending"
-            ? [
-                sendSortOrder(DESCENDING_ORDER_NUMBER),
-                setSortOrderNum("descending"),
-                setSortOrderName("descending"),
-              ]
-            : [
-                sendSortOrder(ASCENDING_ORDER_NUMBER),
-                setSortOrderNum("ascending"),
-                setSortOrderName("descending"),
-              ];
-        }}
-      >
-        <Text style={styles.label}>By Number</Text>
-      </TouchableOpacity>
+    <>
+      <View style={styles.inputField}>
+        <TextInput
+          placeholderTextColor="#444"
+          placeholder="Search..."
+          autoCapitalize="none"
+          autoCorrect={false}
+          onChangeText={(newText) => setSearchQuery(newText)}
+        />
+      </View>
+      <View style={styles.container}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            sortOrderNum === "ascending"
+              ? [
+                  sendSortOrder(DESCENDING_ORDER_NUMBER),
+                  setSortOrderNum("descending"),
+                  setSortOrderName("descending"),
+                ]
+              : [
+                  sendSortOrder(ASCENDING_ORDER_NUMBER),
+                  setSortOrderNum("ascending"),
+                  setSortOrderName("descending"),
+                ];
+          }}
+        >
+          <Text style={styles.label}>By Number</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => {
-          sortOrderName === "ascending"
-            ? [
-                sendSortOrder(DESCENDING_ORDER_NAME),
-                setSortOrderName("descending"),
-                setSortOrderNum("descending"),
-              ]
-            : [
-                sendSortOrder(ASCENDING_ORDER_NAME),
-                setSortOrderName("ascending"),
-                setSortOrderNum("descending"),
-              ];
-        }}
-      >
-        <Text style={styles.label}>By Name</Text>
-      </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            sortOrderName === "ascending"
+              ? [
+                  sendSortOrder(DESCENDING_ORDER_NAME),
+                  setSortOrderName("descending"),
+                  setSortOrderNum("descending"),
+                ]
+              : [
+                  sendSortOrder(ASCENDING_ORDER_NAME),
+                  setSortOrderName("ascending"),
+                  setSortOrderNum("descending"),
+                ];
+          }}
+        >
+          <Text style={styles.label}>By Name</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => {
-          [
-            sendSortOrder(TYPING_ORDER_NUM),
-            setSortOrderNum("descending"),
-            setSortOrderName("descending"),
-          ];
-        }}
-      >
-        <Text style={styles.label}>By Type</Text>
-      </TouchableOpacity>
-    </View>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            [
+              sendSortOrder(TYPING_ORDER_NUM),
+              setSortOrderNum("descending"),
+              setSortOrderName("descending"),
+            ];
+          }}
+        >
+          <Text style={styles.label}>By Type</Text>
+        </TouchableOpacity>
+      </View>
+    </>
   );
 };
 
 const styles = StyleSheet.create({
+  inputField: {
+    padding: 14,
+    backgroundColor: "#FAFAFA",
+    marginHorizontal: 10,
+    marginVertical: 20,
+    borderWidth: 1,
+    borderRadius: 10,
+  },
+
   container: {
     backgroundColor: "black",
-    marginVertical: 20,
+    marginBottom: 20,
     flexDirection: "row",
     justifyContent: "space-around",
   },
