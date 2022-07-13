@@ -1,10 +1,10 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Image, StyleSheet } from "react-native";
 import { Divider } from "react-native-elements";
 
 const Header = () => {
   return (
-    <View style={styles.header}>
+    <View>
       <View style={styles.container}>
         <Image
           style={styles.pokedex}
@@ -18,10 +18,6 @@ const Header = () => {
 };
 
 const styles = StyleSheet.create({
-  header: {
-    marginBottom: 20,
-  },
-
   container: {
     alignItems: "center",
     justifyContent: "center",

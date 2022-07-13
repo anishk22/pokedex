@@ -1,43 +1,27 @@
-import React from "react";
-import cloneDeep from "lodash/cloneDeep";
+import { React, useCallback, useState } from "react";
 import { StyleSheet, ScrollView } from "react-native";
 import SafeAreaView from "react-native-safe-area-view";
+
 import Header from "../components/home/Header";
+import Filter from "../components/home/Filter";
 import PokemonTabs from "../components/home/PokemonTabs";
 
 import { POKEMON } from "../data/pokemonInfo";
 
-// different sorting orders
-const ASCENDING_ORDER_NUMBER = cloneDeep(POKEMON);
-
-const DESCENDING_ORDER_NUMBER = cloneDeep(POKEMON).sort(
-  (a, b) => b.number - a.number
-);
-
-const ASCENDING_ORDER_NAME = cloneDeep(POKEMON).sort((a, b) =>
-  a.name.localeCompare(b.name)
-);
-
-const DESCENDING_ORDER_NAME = cloneDeep(POKEMON).sort((a, b) =>
-  b.name.localeCompare(a.name)
-);
-
-const TYPING_ORDER_NUM = cloneDeep(POKEMON).sort(function (a, b) {
-  var n = a.type1.localeCompare(b.type1);
-  if (n !== 0) {
-    return n;
-  }
-
-  return a.number - b.number;
-});
-
 const HomeScreen = ({ navigation }) => {
+  const [DATA, setData] = useState(POKEMON);
+
+  const getSortOrder = useCallback((data) => {
+    setData(data);
+  }, []);
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <Header />
+        <Filter sendSortOrder={getSortOrder} />
 
-        {ASCENDING_ORDER_NUMBER.map((pokemon, index) => (
+        {DATA.map((pokemon, index) => (
           <PokemonTabs pokemon={pokemon} key={index} navigation={navigation} />
         ))}
       </ScrollView>
